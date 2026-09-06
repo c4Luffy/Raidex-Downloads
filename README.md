@@ -4,15 +4,17 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.7 for Windows x64:
+Raidex CoC Automation 2.4.8 for Windows x64:
 
 [Download the latest customer ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip)
 
 Extract the whole ZIP before opening the app. Keep the `Engine` folder beside `Raidex CoC Automation.exe`.
 
-Version 2.4.7 fixes the customer Engine path and missing-DLL repair. Confirmed hero slots no longer need a matching pet or portrait. The banner-only Clan Castle card is recognized too: Raidex tries the Clan Castle/Siege slot once, logs the attempt, and continues even if it is empty. Unclear cards are still blocked.
+Version 2.4.8 keeps the Engine startup/repair and hero/Clan Castle fixes from 2.4.7. Confirmed hero slots do not need a matching pet or portrait. Clan Castle/Siege slots get one placement attempt, a log message, and then the attack continues even if empty. Unclear cards are still blocked.
 
-Named heroes keep their saved ability delay. An unnamed but confirmed hero uses a 4-second delay. Live battles with every pet or skin have not been verified.
+All six Home Village heroes now default to a 4-second ability delay. Blank or missing timers no longer stop the attack. Saved custom timings stay unchanged.
+
+Profiles without saved loot limits now start with Gold 500,000, Elixir 500,000 and Dark Elixir 3,000, all enabled. Existing saved values and disabled choices stay unchanged. Live battles with every pet or skin have not been verified.
 
 Updating does not create a new license or restart its timer. The saved activation stays in the same Windows account. If Windows reports that the license belongs to another computer or account, open a private support ticket. Never post a license key in public.
 
