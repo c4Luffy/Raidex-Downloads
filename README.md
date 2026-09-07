@@ -4,13 +4,13 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.17 for Windows x64:
+Raidex CoC Automation 2.4.18 for Windows x64:
 
 [Download the latest customer ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip)
 
 Extract the whole ZIP before opening the app. Keep the `Engine` folder beside `Raidex CoC Automation.exe`.
 
-Version 2.4.17 checks for updates when Raidex starts. When a newer release is ready, the customer sees the new version and can install it immediately or choose Later. The manual check remains in Settings.
+Version 2.4.18 checks for updates when Raidex starts. When a newer release is ready, the customer sees the new version and can install it immediately or choose Later. The manual check remains in Settings. It also fixes clipped license help text above the Settings buttons.
 
 It also keeps the 2.4.16 upgrade scheduling improvements. Dark Elixir pressure can use the last free Builder for the first suggested building when Gold and Elixir are below the Wall trigger. Gold or Elixir pressure keeps Wall priority. If a full resource cannot be spent, Raidex farms for five attacks before repeating maintenance.
 
