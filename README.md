@@ -4,13 +4,15 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.24 for Windows x64:
+Raidex CoC Automation 2.4.25 for Windows x64:
 
-Version 2.4.24 runs enabled upgrades before stopping at full storage after an attack. It also tries Walls when building selection starts no upgrade and Gold or Elixir has reached the Wall trigger. The first suggested building rule stays unchanged.
+Version 2.4.25 improves the Instances page with live attack count, confirmed Wall count, current village, and recent activity lines. Builder Base normal buildings now start only from Suggested upgrades. Builder Base Wall scanning taps eligible rows directly, follows confirmed list movement, and no longer stops on the old 45-second Wall scan timer.
 
 [Download the latest customer ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip)
 
 Extract the whole ZIP before opening the app. Keep the `Engine` folder beside `Raidex CoC Automation.exe`.
+
+Version 2.4.24 runs enabled upgrades before stopping at full storage after an attack. It also tries Walls when building selection starts no upgrade and Gold or Elixir has reached the Wall trigger.
 
 Version 2.4.23 fixes donation scanning. Troop, Siege, and spell cards can have any quantity or price. Raidex follows every colored card across the full carousel, ignores the tab appearance, rechecks unclear cards, and only finishes when scanned cards are gray. If the panel closes, it checks for another visible Clan Chat request before returning Home.
 
