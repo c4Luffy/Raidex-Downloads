@@ -4,13 +4,15 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.21 for Windows x64:
+Raidex CoC Automation 2.4.22 for Windows x64:
 
 [Download the latest customer ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip)
 
 Extract the whole ZIP before opening the app. Keep the `Engine` folder beside `Raidex CoC Automation.exe`.
 
-Version 2.4.21 removes the retired desktop build path, centralizes the app version, keeps personal saved data out of source control, and adds stronger release and customer-package startup checks. It was verified with a real MuMu live-input cycle.
+Version 2.4.22 keeps the retired desktop build removed, centralizes the app version, and adds a focused GUI polish pass. Status messages are easier to read, invalid automation numbers are highlighted with a recovery hint, disabled controls have clearer contrast, and the current action has better accessibility text.
+
+Version 2.4.21 removed the retired desktop build path, kept personal saved data out of source control, and added stronger release and customer-package startup checks. It was verified with a real MuMu live-input cycle.
 
 It also keeps the 2.4.20 GUI clarity fixes. Home explains when Raidex will start the assigned MuMu device, Profiles no longer mentions removed Hero timer controls, small helper text is larger, and the Instances capacity wording is clearer.
 
