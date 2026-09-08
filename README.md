@@ -4,7 +4,9 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.23 for Windows x64:
+Raidex CoC Automation 2.4.24 for Windows x64:
+
+Version 2.4.24 runs enabled upgrades before stopping at full storage after an attack. It also tries Walls when building selection starts no upgrade and Gold or Elixir has reached the Wall trigger. The first suggested building rule stays unchanged.
 
 [Download the latest customer ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip)
 
