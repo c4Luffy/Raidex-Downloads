@@ -4,11 +4,13 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.22 for Windows x64:
+Raidex CoC Automation 2.4.23 for Windows x64:
 
 [Download the latest customer ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip)
 
 Extract the whole ZIP before opening the app. Keep the `Engine` folder beside `Raidex CoC Automation.exe`.
+
+Version 2.4.23 fixes donation scanning. Troop, Siege, and spell cards can have any quantity or price. Raidex follows every colored card across the full carousel, ignores the tab appearance, rechecks unclear cards, and only finishes when scanned cards are gray. If the panel closes, it checks for another visible Clan Chat request before returning Home.
 
 Version 2.4.22 keeps the retired desktop build removed, centralizes the app version, and adds a focused GUI polish pass. Status messages are easier to read, invalid automation numbers are highlighted with a recovery hint, disabled controls have clearer contrast, and the current action has better accessibility text.
 
