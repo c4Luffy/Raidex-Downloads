@@ -4,7 +4,9 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.32 for Windows x64:
+Raidex CoC Automation 2.4.33 for Windows x64:
+
+Version 2.4.33 keeps Night's Watch running through short, safe detection misses. It retries every five seconds for up to one minute, while a continuing problem still stops with a clear error.
 
 Version 2.4.32 fixes active automation stopping when the Home page unloads. Night's Watch and normal sessions now keep running while Raidex stays open. Closing Raidex still stops all sessions safely.
 
