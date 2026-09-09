@@ -4,11 +4,11 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.30 for Windows x64:
+Raidex CoC Automation 2.4.31 for Windows x64:
 
-Version 2.4.30 keeps window dragging on both the Raidex logo and the empty center header. The drag area now stops before the top action buttons, so it cannot block their clicks.
+Version 2.4.31 adds **Night's Watch • Auto Donate** on the Home page. One press opens Clan Chat and keeps it open for fast checks on a five-second schedule. It fills visible troop and spell requests first, then scans later pages only when needed.
 
-Live verification also passed two Builder Base attacks, Area 2 deployment and recovery, post-attack maintenance, Ranked-unavailable fallback to a normal Home attack, and a real update from official 2.4.29 to 2.4.30.
+Night's Watch works from Home Village or Builder Base without switching villages. It runs donation only: no attacks, upgrades, troop requests, collection, or Builder actions.
 
 [Download the latest customer ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip)
 
