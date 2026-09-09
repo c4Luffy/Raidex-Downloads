@@ -8,6 +8,8 @@ Raidex CoC Automation 2.4.30 for Windows x64:
 
 Version 2.4.30 keeps window dragging on both the Raidex logo and the empty center header. The drag area now stops before the top action buttons, so it cannot block their clicks.
 
+Live verification also passed two Builder Base attacks, Area 2 deployment and recovery, post-attack maintenance, Ranked-unavailable fallback to a normal Home attack, and a real update from official 2.4.29 to 2.4.30.
+
 [Download the latest customer ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip)
 
 Extract the whole ZIP before opening the app. Keep the `Engine` folder beside `Raidex CoC Automation.exe`.
