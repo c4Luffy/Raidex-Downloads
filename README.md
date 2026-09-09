@@ -4,13 +4,15 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.28 for Windows x64:
+Raidex CoC Automation 2.4.29 for Windows x64:
 
-Version 2.4.28 fixes top-page buttons being covered by the invisible Windows drag area. Instances now has larger command buttons below the caption controls, a compact license summary, and a larger Live Activity panel with clearer recent logs.
+Version 2.4.29 restores window dragging across the large empty top strip while keeping page actions and Windows caption buttons clickable. It also removes the clipped cyan profile-selection bar in Instances.
 
 [Download the latest customer ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip)
 
 Extract the whole ZIP before opening the app. Keep the `Engine` folder beside `Raidex CoC Automation.exe`.
+
+Version 2.4.28 fixes top-page buttons being covered by the invisible Windows drag area. Instances now has larger command buttons below the caption controls, a compact license summary, and a larger Live Activity panel with clearer recent logs.
 
 Version 2.4.27 fixes MuMu inactivity recovery. If **Reload Game** leaves Clash of Clans in the background, Raidex brings it to the front and waits for the normal loading screen before checking the village. The fix applies to Home Village and Builder Base.
 
