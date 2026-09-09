@@ -4,13 +4,15 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.29 for Windows x64:
+Raidex CoC Automation 2.4.30 for Windows x64:
 
-Version 2.4.29 restores window dragging across the large empty top strip while keeping page actions and Windows caption buttons clickable. It also removes the clipped cyan profile-selection bar in Instances.
+Version 2.4.30 keeps window dragging on both the Raidex logo and the empty center header. The drag area now stops before the top action buttons, so it cannot block their clicks.
 
 [Download the latest customer ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip)
 
 Extract the whole ZIP before opening the app. Keep the `Engine` folder beside `Raidex CoC Automation.exe`.
+
+Version 2.4.29 restores window dragging across the large empty top strip and removes the clipped cyan profile-selection bar in Instances.
 
 Version 2.4.28 fixes top-page buttons being covered by the invisible Windows drag area. Instances now has larger command buttons below the caption controls, a compact license summary, and a larger Live Activity panel with clearer recent logs.
 
