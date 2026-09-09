@@ -4,7 +4,9 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.34 for Windows x64:
+Raidex CoC Automation 2.4.35 for Windows x64:
+
+Version 2.4.35 improves Night's Watch donation flow. It finishes every colored troop and spell card on the visible page before swiping, waits through brief panel animations instead of reopening too early, and counts one donation request instead of every card tap. The Home and Instances pages now show current donations, lifetime donations, and the last donation time. A reset button clears the saved counters.
 
 Version 2.4.34 adds Night's Watch donation and check counters. It fills visible troops and spells before swiping, removes redundant per-tap work, and refreshes the Donate button immediately before tapping so rapid new chat requests cannot leave a stale position.
 
