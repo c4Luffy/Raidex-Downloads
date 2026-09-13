@@ -4,7 +4,9 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.63 for Windows x64:
+Raidex CoC Automation 2.4.64 for Windows x64:
+
+Version 2.4.64 reduces the manual support-report cooldown to 5 minutes and restores the Send button when it ends. It also fixes Gold-only Walls being detected as duplicate Gold upgrade options.
 
 Version 2.4.63 fixes low-level Walls that show only a Gold upgrade button. Raidex now confirms the real resource icon and still supports higher-level Walls that show both Gold and Elixir.
 
