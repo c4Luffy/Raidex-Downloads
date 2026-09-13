@@ -4,7 +4,9 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.61 for Windows x64:
+Raidex CoC Automation 2.4.62 for Windows x64:
+
+Version 2.4.62 adds Clan Capital attacks, reward handling, Capital Gold upgrades, and saved Capital counters. It also adds all three village choices across Raidex, improves safe troop deployment retries, and fixes Wall automation missing an affordable Gold upgrade when Elixir is too low.
 
 Version 2.4.61 gives Raidex a cleaner interface with refined panels, borders, shadows, colors, buttons, and spacing. The familiar checkbox style stays unchanged, and every Home maintenance countdown now fits fully inside its card.
 
