@@ -4,7 +4,9 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.62 for Windows x64:
+Raidex CoC Automation 2.4.63 for Windows x64:
+
+Version 2.4.63 fixes low-level Walls that show only a Gold upgrade button. Raidex now confirms the real resource icon and still supports higher-level Walls that show both Gold and Elixir.
 
 Version 2.4.62 adds Clan Capital attacks, reward handling, Capital Gold upgrades, and saved Capital counters. It also adds all three village choices across Raidex, improves safe troop deployment retries, and fixes Wall automation missing an affordable Gold upgrade when Elixir is too low.
 
