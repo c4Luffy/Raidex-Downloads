@@ -4,7 +4,9 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.60 for Windows x64:
+Raidex CoC Automation 2.4.61 for Windows x64:
+
+Version 2.4.61 gives Raidex a cleaner interface with refined panels, borders, shadows, colors, buttons, and spacing. The familiar checkbox style stays unchanged, and every Home maintenance countdown now fits fully inside its card.
 
 Version 2.4.60 fixes Battle Options completion after the third reward. Support reports are now manual, include the verified Discord customer, and keep the existing anti-spam cooldown. Profiles now show a clearer account summary, maintenance text fits correctly, and attack deployment remains fast and safe.
 
