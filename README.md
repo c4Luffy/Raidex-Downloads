@@ -4,7 +4,9 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.64 for Windows x64:
+Raidex CoC Automation 2.4.65 for Windows x64:
+
+Version 2.4.65 fixes Wall maintenance closing the Wall panel after an unconfirmed tap. It adds local failure review with a screenshot and exact reason, plus safe export/import for one profile without replacing another profile or copying its old MuMu device link.
 
 Version 2.4.64 reduces the manual support-report cooldown to 5 minutes and restores the Send button when it ends. It also fixes Gold-only Walls being detected as duplicate Gold upgrade options.
 
