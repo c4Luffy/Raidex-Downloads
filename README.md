@@ -4,7 +4,9 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.65 for Windows x64:
+Raidex CoC Automation 2.4.72 for Windows x64:
+
+Version 2.4.72 adds clear, exact recovery steps to Failure Review, removes old Army-slot wording, and clearly separates **This Run** loot from saved lifetime totals. It also fixes cold-start controller hangs, makes child-process exit handling reliable, prevents MuMu from locking the Raidex update folder, and safely returns to Home Village before automation starts.
 
 Version 2.4.65 fixes Wall maintenance closing the Wall panel after an unconfirmed tap. It adds local failure review with a screenshot and exact reason, plus safe export/import for one profile without replacing another profile or copying its old MuMu device link.
 
