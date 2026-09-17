@@ -4,7 +4,9 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.74 for Windows x64:
+Raidex CoC Automation 2.4.75 for Windows x64:
+
+Version 2.4.75 restores the compact Home Village and Builder Base resource number fields, keeps their Gold, Elixir, and Dark Elixir colors, and gives the Home Start button enough room to show `Start Raidex` without clipping.
 
 Version 2.4.74 fixes Builder Base appearing to start when no work is enabled. Raidex now blocks an empty Builder Base run before touching MuMu or Clash of Clans, tells the user to enable at least one action, keeps Night's Watch available, and shows a clear enabled-action count with cleaner Builder Base setting groups.
 
