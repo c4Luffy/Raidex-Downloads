@@ -4,7 +4,9 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.73 for Windows x64:
+Raidex CoC Automation 2.4.74 for Windows x64:
+
+Version 2.4.74 fixes Builder Base appearing to start when no work is enabled. Raidex now blocks an empty Builder Base run before touching MuMu or Clash of Clans, tells the user to enable at least one action, keeps Night's Watch available, and shows a clear enabled-action count with cleaner Builder Base setting groups.
 
 Version 2.4.73 improves the Raidex interface and everyday controls. Start, stop, profile, instance, automation, report, and failure-review actions now show clearer names, exact blocked reasons, and better help. Storage settings explain how full-storage stops and 90% upgrade triggers work. Failure Review can copy the reason, open its screenshot, or open the logs folder. Profile lifetime totals are easier to read, and number fields are larger.
 
