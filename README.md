@@ -4,7 +4,9 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.75 for Windows x64:
+Raidex CoC Automation 2.4.76 for Windows x64:
+
+Version 2.4.76 fixes Builder Base Clock Tower maintenance switching areas when the Clock Tower is already confirmed on the current screen. Raidex now uses the visible Clock Tower in place and changes areas only as a fallback.
 
 Version 2.4.75 restores the compact Home Village and Builder Base resource number fields, keeps their Gold, Elixir, and Dark Elixir colors, and gives the Home Start button enough room to show `Start Raidex` without clipping.
 
