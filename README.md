@@ -4,7 +4,11 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.76 for Windows x64:
+Raidex CoC Automation 2.4.78 for Windows x64:
+
+Version 2.4.78 fixes guarded recovery after a cold launch. Raidex now closes the confirmed **Welcome Back Chief** screen before checking for an active battle, instead of mistaking the overlay for a battle confirmation.
+
+Version 2.4.77 improves Home Village Wall upgrades by waiting for the real confirmation screen before deciding a resource tap failed. It also records raid loot during battle when available, while keeping the verified storage-change fallback. The normal Wall path continues to ignore **Select Row** and every whole-row batch control.
 
 Version 2.4.76 fixes Builder Base Clock Tower maintenance switching areas when the Clock Tower is already confirmed on the current screen. Raidex now uses the visible Clock Tower in place and changes areas only as a fallback.
 
