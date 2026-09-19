@@ -4,7 +4,9 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.81 for Windows x64:
+Raidex CoC Automation 2.4.82 for Windows x64:
+
+Version 2.4.82 fixes stopped-attack recovery getting stuck on the confirmed **My Army** screen. Raidex now presses Back only when that screen is positively detected, then requires Home Village confirmation. Unknown screens still receive no blind input.
 
 Version 2.4.81 hardens Home Village Wall recovery. Raidex waits for delayed startup overlays, ignores every grouped **Wall ×N** Builder-list entry, and closes a normal Wall panel through the Builder button instead of sending Escape. This prevents **Select Row**, **Rotate Row**, and accidental game-exit dialogs. It also includes the 2.4.79 fix for **Start all ready**, which starts every eligible saved profile up to the purchased instance limit.
 
