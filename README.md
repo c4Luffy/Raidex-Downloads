@@ -4,9 +4,9 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.80 for Windows x64:
+Raidex CoC Automation 2.4.81 for Windows x64:
 
-Version 2.4.80 fixes Home Village Wall selection. Normal automation now rejects every grouped **Wall ×N** Builder-list entry, so it cannot open **Select Row** or leave the game showing **Rotate Row**. It also includes the 2.4.79 fix for **Start all ready**, which now starts every eligible saved profile up to the purchased instance limit.
+Version 2.4.81 hardens Home Village Wall recovery. Raidex waits for delayed startup overlays, ignores every grouped **Wall ×N** Builder-list entry, and closes a normal Wall panel through the Builder button instead of sending Escape. This prevents **Select Row**, **Rotate Row**, and accidental game-exit dialogs. It also includes the 2.4.79 fix for **Start all ready**, which starts every eligible saved profile up to the purchased instance limit.
 
 Version 2.4.78 fixes guarded recovery after a cold launch. Raidex now closes the confirmed **Welcome Back Chief** screen before checking for an active battle, instead of mistaking the overlay for a battle confirmation.
 
