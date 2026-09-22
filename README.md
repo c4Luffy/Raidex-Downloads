@@ -8,7 +8,7 @@ Raidex CoC Automation 2.4.83 for Windows x64:
 
 Version 2.4.83 finds both Gold and Elixir Wall Upgrade cards when their action-panel positions move. It requires the real green Okay confirmation, never accepts Select Row as an upgrade card, skips an optional Battle Options reward only after safe retries, and improves profile-summary colors.
 
-> **2.4.84 is not published for download yet.** It has passed local safety checks for Wall, Clan Capital, and MuMu/ADB changes, but it still needs a controlled live MuMu validation before it becomes the customer download.
+> **2.4.84 is not published for download yet.** Its source now accepts every Wall list row, including `Wall xN`, while still rejecting Select Row and Upgrade More. Wall, Clan Capital, and MuMu/ADB changes still need a controlled live MuMu validation before this becomes the customer download.
 
 Version 2.4.82 fixes stopped-attack recovery getting stuck on the confirmed **My Army** screen. Raidex now presses Back only when that screen is positively detected, then requires Home Village confirmation. Unknown screens still receive no blind input.
 
