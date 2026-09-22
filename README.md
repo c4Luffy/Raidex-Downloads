@@ -12,6 +12,8 @@ Version 2.4.83 finds both Gold and Elixir Wall Upgrade cards when their action-p
 
 The pending 2.4.84 app also shows why Start is blocked and opens the correct repair page, makes Pause and safe Stop progress clear, moves reset actions under More, sends the exact selected saved failure from Failure Review, and tests the selected MuMu and ADB connection from Profiles.
 
+The latest 2.4.84 source also checks Builder Base Walls before using the last free Builder on an affordable Building. For Builder Base attacks, it uses a confirmed legal troop-drop point when the saved line lands on cliffs or water. These fixes passed local build and self-checks; a full live run is still needed before publishing the customer ZIP.
+
 Version 2.4.82 fixes stopped-attack recovery getting stuck on the confirmed **My Army** screen. Raidex now presses Back only when that screen is positively detected, then requires Home Village confirmation. Unknown screens still receive no blind input.
 
 Version 2.4.81 hardens Home Village Wall recovery. Raidex waits for delayed startup overlays, ignores every grouped **Wall ×N** Builder-list entry, and closes a normal Wall panel through the Builder button instead of sending Escape. This prevents **Select Row**, **Rotate Row**, and accidental game-exit dialogs. It also includes the 2.4.79 fix for **Start all ready**, which starts every eligible saved profile up to the purchased instance limit.
