@@ -4,13 +4,15 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.85 for Windows x64:
+Raidex CoC Automation 2.4.86 for Windows x64:
 
 [Download the latest ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256)
 
-This release refreshes the original dark interface, adds clearer support reports and Builder Base automation choices, and keeps saved Builder attack lines together when a drop point is blocked. Wall upgrades and other earlier fixes are included. The Clan Castle/Siege log now says the slot was tapped, without claiming troops inside were verified.
+This release makes Automation, Profiles, and Settings easier to use on screen. Enemy Search sits beside Home Village settings, Builder storage limits stay compact, and the emulator connection test shows green when ready or red when it needs attention. The familiar Settings update text and text sizing remain unchanged.
 
-The protected package passed build, safety checks, a real Home Village cycle, and ZIP install and recovery tests. The Home Village cycle confirmed seven Wall upgrades and one attack returning Home. Builder Base donation and Top/Bottom Area 2 still need more live coverage.
+The protected package passed build, safety checks, saved-data compatibility, a real Home Village cycle, and ZIP install and recovery tests. The cycle confirmed two Wall upgrades and one saved-side attack returning Home. Builder Base donation and Top/Bottom Area 2 still need more live coverage.
+
+Version 2.4.85 refreshed the original dark interface, added clearer support reports and Builder Base automation choices, and kept saved Builder attack lines together when a drop point was blocked. Its Clan Castle/Siege log says the slot was tapped without claiming troops inside were verified.
 
 Version 2.4.82 fixes stopped-attack recovery getting stuck on the confirmed **My Army** screen. Raidex now presses Back only when that screen is positively detected, then requires Home Village confirmation. Unknown screens still receive no blind input.
 
