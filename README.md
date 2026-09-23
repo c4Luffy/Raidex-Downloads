@@ -22,7 +22,7 @@ A newer Builder Base Wall-only test found that a previous selected Wall could st
 
 The pending Builder Base Wall scan now returns to the top after confirmed upgrades, because a Wall changing level can split or move `Wall xN` rows. A live Wall-only test confirmed three upgrades and a second full pass; a follow-up pass with no affordable Walls finished without buying anything. The customer download remains unchanged.
 
-Builder Base troop taps now probe only the selected saved side line and keep every remaining troop tap on its original saved point. If no point on that line is legal, the attack stops safely instead of moving the plan elsewhere. The old shifted-line behavior was seen in a live log; the corrected path passed a local self-check, but Areas 1 and 2 still need live confirmation before customer release.
+Builder Base troop taps now try the selected saved side line first. If every saved point is blocked on an enemy map, the pending source checks nearby points on the same side and moves the whole line without stacking troops or changing their spacing. A controlled Top-side live attack confirmed the blocked-line fallback spread all six Area 1 units, the saved Area 2 line deployed its six living units, and Raidex returned to Builder Base. The final nearest-first ordering passed a self-check; this is still pending source, not the customer download.
 
 Version 2.4.82 fixes stopped-attack recovery getting stuck on the confirmed **My Army** screen. Raidex now presses Back only when that screen is positively detected, then requires Home Village confirmation. Unknown screens still receive no blind input.
 
