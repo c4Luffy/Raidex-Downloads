@@ -20,6 +20,8 @@ The pending source now checks that a Builder Base Wall row has stopped moving be
 
 A newer Builder Base Wall-only test found that a previous selected Wall could stay active after a different list row was tapped. The pending source now clears that old selection before checking the next row and keeps the last Builder free when a row cannot be verified. A live Wall-only run confirmed 18 Wall upgrades and checked the remaining `Wall xN` rows without starting a Building. This is still pending source, not a customer download.
 
+The pending Builder Base Wall scan now returns to the top after confirmed upgrades, because a Wall changing level can split or move `Wall xN` rows. A live Wall-only test confirmed three upgrades and a second full pass; a follow-up pass with no affordable Walls finished without buying anything. The customer download remains unchanged.
+
 Builder Base troop taps now follow the saved spread line around a verified legal starting point instead of stacking at that point. One live Area 1 attack showed troops spread across the edge and returned safely to Builder Base. Area 2 still needs a live spread check before customer release.
 
 Version 2.4.82 fixes stopped-attack recovery getting stuck on the confirmed **My Army** screen. Raidex now presses Back only when that screen is positively detected, then requires Home Village confirmation. Unknown screens still receive no blind input.
