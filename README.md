@@ -16,6 +16,8 @@ The latest 2.4.84 source also checks Builder Base Walls before using the last fr
 
 The pending source now checks that a Builder Base Wall row has stopped moving before selecting it and skips a non-Wall panel without spending resources. It also taps the 1x speed button again in Area 2 when the battle speed resets. A focused live Wall test found an affordable Elixir card that the older detector missed; the new detector confirmed further Wall upgrades and a later Wall-only run finished cleanly after no affordable Walls remained. The Area 2 speed change and the full app still need live validation before publishing a new customer ZIP.
 
+Builder Base troop taps now follow the saved spread line around a verified legal starting point instead of stacking at that point. One live Area 1 attack showed troops spread across the edge and returned safely to Builder Base. Area 2 still needs a live spread check before customer release.
+
 Version 2.4.82 fixes stopped-attack recovery getting stuck on the confirmed **My Army** screen. Raidex now presses Back only when that screen is positively detected, then requires Home Village confirmation. Unknown screens still receive no blind input.
 
 Version 2.4.81 hardens Home Village Wall recovery. Raidex waits for delayed startup overlays, ignores every grouped **Wall ×N** Builder-list entry, and closes a normal Wall panel through the Builder button instead of sending Escape. This prevents **Select Row**, **Rotate Row**, and accidental game-exit dialogs. It also includes the 2.4.79 fix for **Start all ready**, which starts every eligible saved profile up to the purchased instance limit.
