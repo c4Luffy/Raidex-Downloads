@@ -28,6 +28,8 @@ The pending source also waits for the full Area 2 troop bar before moving the ca
 
 The pending source adds a separate **Donate troops** choice under Builder Base Automation. It is off by default, uses the existing shared Clan Chat donation flow without requesting troops, and checks that Raidex returns to Builder Base afterward. With Builder attacks enabled, it runs at the existing maintenance interval of five attacks. The code build and self-checks passed and the option was checked in the test app, but a live Builder donation has not yet been confirmed. The customer ZIP is unchanged.
 
+Automation choices in the pending source are now grouped by task within Home Village, Builder Base, and Clan Capital. The change only moves headings and checkboxes on screen; saved options and bot behavior are unchanged. All three tabs passed a live app layout check, but this is not in the customer ZIP yet.
+
 Version 2.4.82 fixes stopped-attack recovery getting stuck on the confirmed **My Army** screen. Raidex now presses Back only when that screen is positively detected, then requires Home Village confirmation. Unknown screens still receive no blind input.
 
 Version 2.4.81 hardens Home Village Wall recovery. Raidex waits for delayed startup overlays, ignores every grouped **Wall ×N** Builder-list entry, and closes a normal Wall panel through the Builder button instead of sending Escape. This prevents **Select Row**, **Rotate Row**, and accidental game-exit dialogs. It also includes the 2.4.79 fix for **Start all ready**, which starts every eligible saved profile up to the purchased instance limit.
