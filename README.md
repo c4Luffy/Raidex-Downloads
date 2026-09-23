@@ -14,6 +14,8 @@ The pending 2.4.84 app also shows why Start is blocked and opens the correct rep
 
 The latest 2.4.84 source also checks Builder Base Walls before using the last free Builder on an affordable Building. For Builder Base attacks, it uses a confirmed legal troop-drop point when the saved line lands on cliffs or water. A live run confirmed 18 Wall upgrades but exposed a false `Remove Wall` or `Add Wall` target when resources ran low; both controls are now excluded. The fix passed local build and the saved-screen check, but still needs a live retest before publishing the customer ZIP.
 
+The pending source now checks that a Builder Base Wall row has stopped moving before selecting it and skips a non-Wall panel without spending resources. It also taps the 1x speed button again in Area 2 when the battle speed resets. Both changes passed the local self-check; the updated app still needs a live run before publishing a new customer ZIP.
+
 Version 2.4.82 fixes stopped-attack recovery getting stuck on the confirmed **My Army** screen. Raidex now presses Back only when that screen is positively detected, then requires Home Village confirmation. Unknown screens still receive no blind input.
 
 Version 2.4.81 hardens Home Village Wall recovery. Raidex waits for delayed startup overlays, ignores every grouped **Wall ×N** Builder-list entry, and closes a normal Wall panel through the Builder button instead of sending Escape. This prevents **Select Row**, **Rotate Row**, and accidental game-exit dialogs. It also includes the 2.4.79 fix for **Start all ready**, which starts every eligible saved profile up to the purchased instance limit.
