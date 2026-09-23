@@ -4,33 +4,13 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Latest version
 
-Raidex CoC Automation 2.4.83 for Windows x64:
+Raidex CoC Automation 2.4.85 for Windows x64:
 
-Version 2.4.83 finds both Gold and Elixir Wall Upgrade cards when their action-panel positions move. It requires the real green Okay confirmation, never accepts Select Row as an upgrade card, skips an optional Battle Options reward only after safe retries, and improves profile-summary colors.
+[Download the latest ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256)
 
-> **2.4.85 is not published for download yet.** The test app shows 2.4.85, but the latest customer ZIP is still 2.4.83. The pending source accepts every Wall list row, including `Wall xN`, while still rejecting Select Row and Upgrade More. After Wall spending ends, it retries closing the selected Wall and can continue from a confirmed Home Village if only WallSelection remains; BuilderList and unknown screens still stop. The live run confirmed 13 Wall upgrades, but the post-spending continuation, Clan Capital, and MuMu/ADB changes still need controlled live validation before this becomes the customer download.
+This release refreshes the original dark interface, adds clearer support reports and Builder Base automation choices, and keeps saved Builder attack lines together when a drop point is blocked. Wall upgrades and other earlier fixes are included. The Clan Castle/Siege log now says the slot was tapped, without claiming troops inside were verified.
 
-The 2.4.85 test build also asks for an explanation before sending a manual support report, groups Builder Base automation choices, adds its optional troop-donation choice, and keeps the saved attack-side line together when a drop point is blocked. The Clan Castle/Siege log now says the slot was tapped; it does not claim troops inside were verified. These changes passed the local build and checks, but this is not a customer release.
-
-The pending source also refreshes the original dark interface: a simpler sidebar without the stray rounded outline, clearer menu and device controls, better fitting Profiles and Settings pages, a timed-license countdown, and separate colored Builder Base Wall and Building totals. The extra Nova theme was removed. These interface changes passed a local build and a live visual check at the app's minimum window size. This is not a published customer update yet.
-
-The pending 2.4.84 app also shows why Start is blocked and opens the correct repair page, makes Pause and safe Stop progress clear, moves reset actions under More, sends the exact selected saved failure from Failure Review, and tests the selected MuMu and ADB connection from Profiles.
-
-The latest 2.4.84 source also checks Builder Base Walls before using the last free Builder on an affordable Building. For Builder Base attacks, it uses a confirmed legal troop-drop point when the saved line lands on cliffs or water. A live run confirmed 18 Wall upgrades but exposed a false `Remove Wall` or `Add Wall` target when resources ran low; both controls are now excluded. The fix passed local build and the saved-screen check, but still needs a live retest before publishing the customer ZIP.
-
-The pending source now checks that a Builder Base Wall row has stopped moving before selecting it and skips a non-Wall panel without spending resources. It also taps the 1x speed button again in Area 2 when the battle speed resets. A focused live Wall test found an affordable Elixir card that the older detector missed; the new detector confirmed further Wall upgrades and a later Wall-only run finished cleanly after no affordable Walls remained. The Area 2 speed change and the full app still need live validation before publishing a new customer ZIP.
-
-A newer Builder Base Wall-only test found that a previous selected Wall could stay active after a different list row was tapped. The pending source now clears that old selection before checking the next row and keeps the last Builder free when a row cannot be verified. A live Wall-only run confirmed 18 Wall upgrades and checked the remaining `Wall xN` rows without starting a Building. This is still pending source, not a customer download.
-
-The pending Builder Base Wall scan now returns to the top after confirmed upgrades, because a Wall changing level can split or move `Wall xN` rows. A live Wall-only test confirmed three upgrades and a second full pass; a follow-up pass with no affordable Walls finished without buying anything. The customer download remains unchanged.
-
-Builder Base troop taps now try the selected saved side line first. If every saved point is blocked on an enemy map, the pending source checks nearby points on the same side and moves the whole line without stacking troops or changing their spacing. A controlled Top-side live attack confirmed the blocked-line fallback spread all six Area 1 units, the saved Area 2 line deployed its six living units, and Raidex returned to Builder Base. The final nearest-first ordering passed a self-check; this is still pending source, not the customer download.
-
-The pending source also waits for the full Area 2 troop bar before moving the camera to the saved side. Previously it could pan during the area transition, then deploy at saved screen coordinates without a matching camera position. Controlled Right- and Left-side live attacks showed Area 2 troops spread outside the base and a clean return to Builder Base. Top and Bottom were also tested live in Area 1, but those battles ended before Area 2; their Area 2 camera timing still needs live confirmation. The customer download has not been updated yet.
-
-The pending source adds a separate **Donate troops** choice under Builder Base Automation. It is off by default, uses the existing shared Clan Chat donation flow without requesting troops, and checks that Raidex returns to Builder Base afterward. With Builder attacks enabled, it runs at the existing maintenance interval of five attacks. The code build and self-checks passed and the option was checked in the test app, but a live Builder donation has not yet been confirmed. The customer ZIP is unchanged.
-
-Automation choices in the pending source are now grouped by task within Home Village, Builder Base, and Clan Capital. The change only moves headings and checkboxes on screen; saved options and bot behavior are unchanged. All three tabs passed a live app layout check, but this is not in the customer ZIP yet.
+The protected package passed build, safety checks, a real Home Village cycle, and ZIP install and recovery tests. The Home Village cycle confirmed seven Wall upgrades and one attack returning Home. Builder Base donation and Top/Bottom Area 2 still need more live coverage.
 
 Version 2.4.82 fixes stopped-attack recovery getting stuck on the confirmed **My Army** screen. Raidex now presses Back only when that screen is positively detected, then requires Home Village confirmation. Unknown screens still receive no blind input.
 
