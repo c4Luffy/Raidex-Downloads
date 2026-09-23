@@ -14,7 +14,7 @@ The pending 2.4.84 app also shows why Start is blocked and opens the correct rep
 
 The latest 2.4.84 source also checks Builder Base Walls before using the last free Builder on an affordable Building. For Builder Base attacks, it uses a confirmed legal troop-drop point when the saved line lands on cliffs or water. A live run confirmed 18 Wall upgrades but exposed a false `Remove Wall` or `Add Wall` target when resources ran low; both controls are now excluded. The fix passed local build and the saved-screen check, but still needs a live retest before publishing the customer ZIP.
 
-The pending source now checks that a Builder Base Wall row has stopped moving before selecting it and skips a non-Wall panel without spending resources. It also taps the 1x speed button again in Area 2 when the battle speed resets. Both changes passed the local self-check; the updated app still needs a live run before publishing a new customer ZIP.
+The pending source now checks that a Builder Base Wall row has stopped moving before selecting it and skips a non-Wall panel without spending resources. It also taps the 1x speed button again in Area 2 when the battle speed resets. A focused live Wall test found an affordable Elixir card that the older detector missed; the new detector confirmed further Wall upgrades and a later Wall-only run finished cleanly after no affordable Walls remained. The Area 2 speed change and the full app still need live validation before publishing a new customer ZIP.
 
 Version 2.4.82 fixes stopped-attack recovery getting stuck on the confirmed **My Army** screen. Raidex now presses Back only when that screen is positively detected, then requires Home Village confirmation. Unknown screens still receive no blind input.
 
