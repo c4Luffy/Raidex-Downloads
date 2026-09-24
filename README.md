@@ -10,7 +10,7 @@ Raidex CoC Automation 2.4.92 Development for Windows x64:
 
 This development build keeps the 2.4.88 fix for report `RX-D52F2C` and the permanent 2.4.91 Builder-reservation rule. Version 2.4.92 replaces every fixed-width resource line with a responsive two-line row: the complete Gold, Elixir, Dark Elixir, Builder Gold, or Builder Elixir value uses an automatic-width header, and its native WinUI progress bar renders separately underneath. The bar can no longer cover or clip the number at any fill percentage. If a Wall is not affordable, Raidex keeps farming; Buildings require at least two free Builders. Unknown screens and unverified spending still stop safely.
 
-The protected development package was built from source commit `51ff54c` and passed its Release build, engine self-check, 36 no-input instance guards, structural resource-layout regression check, ZIP checksum, clean install, full-size and compact WinUI checks, recovery, and archive checks. Exact scanned-value visual confirmation remains pending. Use the stable release below for normal customer installation.
+The protected development package was built from source commit `51ff54c` and passed its Release build, engine self-check, 36 no-input instance guards, structural resource-layout regression check, ZIP checksum, clean install, full-size and compact WinUI checks, recovery, and archive checks. The complete scanned values were also confirmed in the installed app. Use the stable release below for normal customer installation.
 
 ## Latest version
 
