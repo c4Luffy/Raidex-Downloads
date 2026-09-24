@@ -4,13 +4,13 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Development preview
 
-Raidex CoC Automation 2.4.91 Development for Windows x64:
+Raidex CoC Automation 2.4.92 Development for Windows x64:
 
-[Download the 2.4.91 development ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.91-dev/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.91-dev/Raidex.CoC.Automation-win-x64.zip.sha256)
+[Download the 2.4.92 development ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.92-dev/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.92-dev/Raidex.CoC.Automation-win-x64.zip.sha256)
 
-This development build keeps the 2.4.88 fix for report `RX-D52F2C` and the color-tinted resource tracks from 2.4.89. Version 2.4.91 caps the filled progress line inside a shorter track and keeps a fixed 20-pixel blank column before every Home Village and Builder Base resource number, including at 100%. It also permanently reserves the final normal Home Village Builder for Walls whenever Walls and Buildings are both enabled. If a Wall is not affordable, Raidex keeps farming; Buildings require at least two free Builders. Unknown screens and unverified spending still stop safely.
+This development build keeps the 2.4.88 fix for report `RX-D52F2C` and the permanent 2.4.91 Builder-reservation rule. Version 2.4.92 replaces every fixed-width resource line with a responsive two-line row: the complete Gold, Elixir, Dark Elixir, Builder Gold, or Builder Elixir value uses an automatic-width header, and its native WinUI progress bar renders separately underneath. The bar can no longer cover or clip the number at any fill percentage. If a Wall is not affordable, Raidex keeps farming; Buildings require at least two free Builders. Unknown screens and unverified spending still stop safely.
 
-The protected development package was built from source commit `aa2f0b9` and passed its Release build, engine self-check, 36 no-input instance guards, ZIP checksum, clean install, visual WinUI check, recovery, and archive checks. The Builder-reservation cause was confirmed in the live 2.4.90 log; exact 2.4.91 live reservation confirmation remains pending. Use the stable release below for normal customer installation.
+The protected development package was built from source commit `51ff54c` and passed its Release build, engine self-check, 36 no-input instance guards, structural resource-layout regression check, ZIP checksum, clean install, full-size and compact WinUI checks, recovery, and archive checks. Exact scanned-value visual confirmation remains pending. Use the stable release below for normal customer installation.
 
 ## Latest version
 
