@@ -2,6 +2,16 @@
 
 Official customer downloads for Raidex CoC Automation.
 
+## Development preview
+
+Raidex CoC Automation 2.4.93 Development for Windows x64:
+
+[Download the 2.4.93 development ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.93-dev/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.93-dev/Raidex.CoC.Automation-win-x64.zip.sha256)
+
+Version 2.4.93 refreshes all six main pages with separate Raidex night backgrounds, softly translucent panels, immediate tab switching, gentle background movement, Running-status motion, and smooth resource progress. It adds separate opt-in Treasure Hunt chest and Equipment Blast Medal Event controls, both off by default. It also prevents one unresolved troop card from tapping until Clash disconnects: Raidex saves a diagnostic frame, skips only that card, and continues the remaining army and battle.
+
+This protected development package was built from source commit `20f0054`. It passed the Release build with zero warnings or errors, engine self-check, all 36 no-input instance guards, normal/protected saved-data compatibility, obfuscation proof, archive validation, and updater success, rollback, and unsafe-folder smoke tests. The development preview is not the normal Latest customer release; 2.4.92 remains Latest until the required 2.4.93 live cycle is approved and completed.
+
 ## Latest version
 
 Raidex CoC Automation 2.4.92 for Windows x64:
