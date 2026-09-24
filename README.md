@@ -2,7 +2,17 @@
 
 Official customer downloads for Raidex CoC Automation.
 
-## Development preview
+## Latest version — 2.4.97
+
+[Download the latest customer ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256)
+
+Version 2.4.97 fixes bounded event waits, card confirmation, profile import protection, exact profile logs, queued automatic reports, local reports without activation, and release-build cleanup. Farming rules, the last-builder-for-Walls rule, and saved event switches are unchanged.
+
+Built from source commit `cef8e8f`. Verified: zero-warning Release build, normal and protected engine self-checks, 39 instance guards, unchanged saved-data compatibility, one approved Home Village attack and confirmed Home return, archive checksums, packaged engine startup, and updater success/rollback/unsafe-folder tests.
+
+[Development/source repository release](https://github.com/c4Luffy/Raidex-CoC-Automation/releases/tag/v2.4.97) includes the same tested app ZIP and source downloads.
+
+## Previous development preview
 
 Raidex CoC Automation 2.4.96 Development for Windows x64:
 
@@ -10,9 +20,9 @@ Raidex CoC Automation 2.4.96 Development for Windows x64:
 
 Version 2.4.96 keeps normal result navigation separate from Equipment Blast participation. Event off means normal attack, confirmed Continue or Return Home, and repeat. Raidex does not choose event cards unless the Equipment Blast switch is on and the real three-card event screen is confirmed. It also includes the 2.4.94 trial-expiry and license-state fixes.
 
-This protected development package was built from source commit `490ba52`. It passed the Release build with zero warnings or errors, engine self-check, all 39 no-input instance guards, obfuscation proof, archive validation, exact checksum verification, packaged-app startup, and updater success, rollback, and unsafe-folder smoke tests. The development preview is not the normal Latest customer release; 2.4.92 remains Latest until the required 2.4.96 live cycle is explicitly approved and completed.
+This older preview was built from source commit `490ba52` and is superseded by the tested 2.4.97 release above.
 
-## Latest version
+## Previous stable version
 
 Raidex CoC Automation 2.4.92 for Windows x64:
 
