@@ -2,25 +2,17 @@
 
 Official customer downloads for Raidex CoC Automation.
 
-## Development preview
-
-Raidex CoC Automation 2.4.92 Development for Windows x64:
-
-[Download the 2.4.92 development ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.92-dev/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.92-dev/Raidex.CoC.Automation-win-x64.zip.sha256)
-
-This development build keeps the 2.4.88 fix for report `RX-D52F2C` and the permanent 2.4.91 Builder-reservation rule. Version 2.4.92 replaces every fixed-width resource line with a responsive two-line row: the complete Gold, Elixir, Dark Elixir, Builder Gold, or Builder Elixir value uses an automatic-width header, and its native WinUI progress bar renders separately underneath. The bar can no longer cover or clip the number at any fill percentage. If a Wall is not affordable, Raidex keeps farming; Buildings require at least two free Builders. Unknown screens and unverified spending still stop safely.
-
-The protected development package was built from source commit `51ff54c` and passed its Release build, engine self-check, 36 no-input instance guards, structural resource-layout regression check, ZIP checksum, clean install, full-size and compact WinUI checks, recovery, and archive checks. The complete scanned values were also confirmed in the installed app. Use the stable release below for normal customer installation.
-
 ## Latest version
 
-Raidex CoC Automation 2.4.86 for Windows x64:
+Raidex CoC Automation 2.4.92 for Windows x64:
 
 [Download the latest ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256)
 
-This release makes Automation, Profiles, and Settings easier to use on screen. Enemy Search sits beside Home Village settings, Builder storage limits stay compact, and the emulator connection test shows green when ready or red when it needs attention. The familiar Settings update text and text sizing remain unchanged.
+This release keeps the 2.4.88 fix for report `RX-D52F2C` and the permanent 2.4.91 Builder-reservation rule. Version 2.4.92 replaces every fixed-width resource line with a responsive two-line row: the complete Gold, Elixir, Dark Elixir, Builder Gold, or Builder Elixir value uses an automatic-width header, and its native WinUI progress bar renders separately underneath. The bar can no longer cover or clip the number at any fill percentage. If a Wall is not affordable, Raidex keeps farming; Buildings require at least two free Builders. Unknown screens and unverified spending still stop safely.
 
-The protected package passed build, safety checks, saved-data compatibility, a real Home Village cycle, and ZIP install and recovery tests. The cycle confirmed two Wall upgrades and one saved-side attack returning Home. Builder Base donation and Top/Bottom Area 2 still need more live coverage.
+The protected package was built from source commit `51ff54c` and passed its Release build, engine self-check, 36 no-input instance guards, structural resource-layout regression check, ZIP checksum, clean install, full-size and compact WinUI checks, recovery, and archive checks. The complete scanned values were also confirmed in the installed app.
+
+Version 2.4.86 makes Automation, Profiles, and Settings easier to use on screen. Enemy Search sits beside Home Village settings, Builder storage limits stay compact, and the emulator connection test shows green when ready or red when it needs attention. The familiar Settings update text and text sizing remain unchanged. Its protected package passed build, safety checks, saved-data compatibility, a real Home Village cycle, and ZIP install and recovery tests. The cycle confirmed two Wall upgrades and one saved-side attack returning Home. Builder Base donation and Top/Bottom Area 2 still need more live coverage.
 
 Version 2.4.85 refreshed the original dark interface, added clearer support reports and Builder Base automation choices, and kept saved Builder attack lines together when a drop point was blocked. Its Clan Castle/Siege log says the slot was tapped without claiming troops inside were verified.
 
