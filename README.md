@@ -90,7 +90,7 @@ It also keeps the 2.4.20 GUI clarity fixes. Home explains when Raidex will start
 
 It also keeps the 2.4.19 Settings scaling fix and startup update check. When a newer release is ready, the customer sees the new version and can install it immediately or choose Later.
 
-It also keeps the 2.4.16 upgrade scheduling improvements. Dark Elixir pressure can use the last free Builder for the first suggested building when Gold and Elixir are below the Wall trigger. Gold or Elixir pressure keeps Wall priority. If a full resource cannot be spent, Raidex farms for five attacks before repeating maintenance.
+It also keeps the 2.4.16 upgrade scheduling improvements. If a full resource cannot be spent, Raidex farms for five attacks before repeating maintenance. The older last-Builder exception is superseded by 2.4.91: whenever Home Village Walls and Buildings are both enabled, the final normal Builder always stays reserved for Walls.
 
 It also keeps the 2.4.15 donation and profile fixes. One donation pass can check up to 12 requests, and the Home profile picker stays available while bots run so another profile and its live log can be viewed. Settings remain locked during automation.
 
