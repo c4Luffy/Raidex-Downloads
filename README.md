@@ -4,13 +4,13 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Development preview
 
-Raidex CoC Automation 2.4.94 Development for Windows x64:
+Raidex CoC Automation 2.4.95 Development for Windows x64:
 
-[Download the 2.4.94 development ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.94-dev/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.94-dev/Raidex.CoC.Automation-win-x64.zip.sha256)
+[Download the 2.4.95 development ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.95-dev/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.95-dev/Raidex.CoC.Automation-win-x64.zip.sha256)
 
-Version 2.4.94 keeps the approved 2.4.93 interface and fixes the repeated stopped-attack loop in reports `RX-C2A666`, `RX-A4E076`, and `RX-C00694`. If Treasure Hunt or Equipment Blast Medal Event handling is off, Raidex sends no event input and waits safely for the customer to clear the blocking event screen. It also recognizes an authoritative expired-license response and requests one safe stop, while a temporary server or network outage does not stop a running session.
+Version 2.4.95 fixes a normal Victory result screen being mistaken for an Equipment Blast Medal Event transition when the event switch is off. Event off now means normal attack, Return Home, and repeat. Raidex does not choose event cards unless the Equipment Blast switch is on and the real three-card event screen is confirmed. It also includes the 2.4.94 trial-expiry and license-state fixes.
 
-This protected development package was built from source commit `a4a99b0`. It passed the Release build with zero warnings or errors, engine self-check, all 39 no-input instance guards, obfuscation proof, archive validation, and updater success, rollback, and unsafe-folder smoke tests. The development preview is not the normal Latest customer release; 2.4.92 remains Latest until the required 2.4.94 live cycle is explicitly approved and completed.
+This protected development package was built from source commit `96e0f7e`. It passed the Release build with zero warnings or errors, engine self-check, all 39 no-input instance guards, obfuscation proof, archive validation, exact checksum verification, packaged-app startup, and updater success, rollback, and unsafe-folder smoke tests. The development preview is not the normal Latest customer release; 2.4.92 remains Latest until the required 2.4.95 live cycle is explicitly approved and completed.
 
 ## Latest version
 
