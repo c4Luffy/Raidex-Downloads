@@ -4,13 +4,13 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Development preview
 
-Raidex CoC Automation 2.4.93 Development for Windows x64:
+Raidex CoC Automation 2.4.94 Development for Windows x64:
 
-[Download the 2.4.93 development ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.93-dev/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.93-dev/Raidex.CoC.Automation-win-x64.zip.sha256)
+[Download the 2.4.94 development ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.94-dev/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.94-dev/Raidex.CoC.Automation-win-x64.zip.sha256)
 
-Version 2.4.93 refreshes all six main pages with separate Raidex night backgrounds, softly translucent panels, immediate tab switching, gentle background movement, Running-status motion, and smooth resource progress. It adds separate opt-in Treasure Hunt chest and Equipment Blast Medal Event controls, both off by default. It also prevents one unresolved troop card from tapping until Clash disconnects: Raidex saves a diagnostic frame, skips only that card, and continues the remaining army and battle.
+Version 2.4.94 keeps the approved 2.4.93 interface and fixes the repeated stopped-attack loop in reports `RX-C2A666`, `RX-A4E076`, and `RX-C00694`. If Treasure Hunt or Equipment Blast Medal Event handling is off, Raidex sends no event input and waits safely for the customer to clear the blocking event screen. It also recognizes an authoritative expired-license response and requests one safe stop, while a temporary server or network outage does not stop a running session.
 
-This protected development package was built from source commit `20f0054`. It passed the Release build with zero warnings or errors, engine self-check, all 36 no-input instance guards, normal/protected saved-data compatibility, obfuscation proof, archive validation, and updater success, rollback, and unsafe-folder smoke tests. The development preview is not the normal Latest customer release; 2.4.92 remains Latest until the required 2.4.93 live cycle is approved and completed.
+This protected development package was built from source commit `a4a99b0`. It passed the Release build with zero warnings or errors, engine self-check, all 39 no-input instance guards, obfuscation proof, archive validation, and updater success, rollback, and unsafe-folder smoke tests. The development preview is not the normal Latest customer release; 2.4.92 remains Latest until the required 2.4.94 live cycle is explicitly approved and completed.
 
 ## Latest version
 
