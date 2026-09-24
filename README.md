@@ -2,6 +2,16 @@
 
 Official customer downloads for Raidex CoC Automation.
 
+## Development preview
+
+Raidex CoC Automation 2.4.87 Development for Windows x64:
+
+[Download the 2.4.87 development ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.87-dev/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.87-dev/Raidex.CoC.Automation-win-x64.zip.sha256)
+
+This development build fixes reports `RX-48988A` and `RX-73C80D`. When Clash leaves a confirmed grouped Suggested-upgrade row open after the first tap, Raidex retries only that same affordable row once and still requires the normal Upgrade button before continuing. It also allows safe updates from a dedicated Raidex folder with a different extracted folder name.
+
+The protected development package passed its Release build, engine self-check, 36 no-input instance guards, ZIP checksum, install, recovery, and updater rollback checks. Live Home Village confirmation is still pending. Use the stable release below for normal customer installation.
+
 ## Latest version
 
 Raidex CoC Automation 2.4.86 for Windows x64:
