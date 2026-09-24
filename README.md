@@ -4,13 +4,13 @@ Official customer downloads for Raidex CoC Automation.
 
 ## Development preview
 
-Raidex CoC Automation 2.4.89 Development for Windows x64:
+Raidex CoC Automation 2.4.90 Development for Windows x64:
 
-[Download the 2.4.89 development ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.89-dev/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.89-dev/Raidex.CoC.Automation-win-x64.zip.sha256)
+[Download the 2.4.90 development ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.90-dev/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.90-dev/Raidex.CoC.Automation-win-x64.zip.sha256)
 
-This development build keeps the 2.4.88 fix for report `RX-D52F2C`: Raidex waits for the selected building and Builder-list animation to settle, closes only a confirmed Builder list, and continues farming after a recoverable Home maintenance panel miss. Version 2.4.89 also fixes the resource tracks still looking black by keeping the empty Gold, Elixir, and Dark Elixir sections visibly color-tinted. Unknown screens and unverified spending still stop safely.
+This development build keeps the 2.4.88 fix for report `RX-D52F2C`: Raidex waits for the selected building and Builder-list animation to settle, closes only a confirmed Builder list, and continues farming after a recoverable Home maintenance panel miss. It also keeps the color-tinted resource tracks from 2.4.89. Version 2.4.90 adds a fixed gap between every resource track and its number so they no longer look connected at compact window sizes. Unknown screens and unverified spending still stop safely.
 
-The protected development package was built from source commit `c43a965` and passed its Release build, engine self-check, 36 no-input instance guards, ZIP checksum, clean install, visual WinUI check, recovery, and archive checks. Live Home Village confirmation of the building-selection fix is still pending. Use the stable release below for normal customer installation.
+The protected development package was built from source commit `3c4b0a9` and passed its Release build, engine self-check, 36 no-input instance guards, ZIP checksum, clean install, visual WinUI check, recovery, and archive checks. Live Home Village confirmation of the building-selection fix is still pending. Use the stable release below for normal customer installation.
 
 ## Latest version
 
