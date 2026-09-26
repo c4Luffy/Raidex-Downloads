@@ -1,18 +1,20 @@
 # Raidex Downloads
 
-Official customer downloads for Raidex CoC Automation.
+## Latest customer version — 3.0
 
-## Latest version — 2.4.97
+[Download Raidex 3.0](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.0)
 
-[Download the latest customer ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256)
+Raidex 3.0 adds a ready-to-use Standard Profile, keeps Profiles on one screen, groups saved reports by date, and makes MuMu connection and recovery messages easier to understand. The dark-and-gold design and original Raidex logo now appear throughout the app.
 
-Version 2.4.97 fixes bounded event waits, card confirmation, profile import protection, exact profile logs, queued automatic reports, local reports without activation, and release-build cleanup. Farming rules, the last-builder-for-Walls rule, and saved event switches are unchanged.
+Download and extract the full ZIP before opening Raidex. You can open the app without a license, but automation needs a valid Raidex license. Select **Use license key** on the account screen to activate one.
 
-Built from source commit `cef8e8f`. Verified: zero-warning Release build, normal and protected engine self-checks, 39 instance guards, unchanged saved-data compatibility, one approved Home Village attack and confirmed Home return, archive checksums, packaged engine startup, and updater success/rollback/unsafe-folder tests.
+## Development preview — 3.0
 
-[Development/source repository release](https://github.com/c4Luffy/Raidex-CoC-Automation/releases/tag/v2.4.97) includes the same tested app ZIP and source downloads.
+[Download the Raidex 3.0 development preview](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.0-dev/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.0-dev/Raidex.CoC.Automation-win-x64.zip.sha256)
 
-## Previous development preview
+For testing only. Most users should use the stable 3.0 download above.
+
+## Earlier development preview — 2.4.96
 
 Raidex CoC Automation 2.4.96 Development for Windows x64:
 
