@@ -1,18 +1,24 @@
 # Raidex Downloads
 
-## Latest customer version — 3.0
+## Latest customer version — 3.1
 
-[Download Raidex 3.0](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.0)
+[Download Raidex 3.1](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.1)
 
-Raidex 3.0 adds a ready-to-use Standard Profile, keeps Profiles on one screen, groups saved reports by date, and makes MuMu connection and recovery messages easier to understand. The dark-and-gold design and original Raidex logo now appear throughout the app.
+Raidex 3.1 adds gentle movement to the sign-in background and removes the extra line around the window, leaving the gold frame below the Windows title bar.
 
 Download and extract the full ZIP before opening Raidex. You can open the app without a license, but automation needs a valid Raidex license. Select **Use license key** on the account screen to activate one.
 
-## Previous stable version
+## Previous stable version — 3.0
+
+[Download Raidex 3.0](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.0/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.0/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.0)
+
+Raidex 3.0 added a ready-to-use Standard Profile, kept Profiles on one screen, grouped saved reports by date, and made MuMu connection and recovery messages easier to understand. The dark-and-gold design and original Raidex logo appear throughout the app.
+
+## Earlier 2.4 release notes
 
 Raidex CoC Automation 2.4.92 for Windows x64:
 
-[Download the latest ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256)
+[Download Raidex 2.4.92](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.92/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.92/Raidex.CoC.Automation-win-x64.zip.sha256)
 
 This release keeps the 2.4.88 fix for report `RX-D52F2C` and the permanent 2.4.91 Builder-reservation rule. Version 2.4.92 replaces every fixed-width resource line with a responsive two-line row: the complete Gold, Elixir, Dark Elixir, Builder Gold, or Builder Elixir value uses an automatic-width header, and its native WinUI progress bar renders separately underneath. The bar can no longer cover or clip the number at any fill percentage. If a Wall is not affordable, Raidex keeps farming; Buildings require at least two free Builders. Unknown screens and unverified spending still stop safely.
 
