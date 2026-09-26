@@ -8,12 +8,6 @@ Raidex 3.0 adds a ready-to-use Standard Profile, keeps Profiles on one screen, g
 
 Download and extract the full ZIP before opening Raidex. You can open the app without a license, but automation needs a valid Raidex license. Select **Use license key** on the account screen to activate one.
 
-## Development preview — 3.0
-
-[Download the Raidex 3.0 development preview](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.0-dev/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.0-dev/Raidex.CoC.Automation-win-x64.zip.sha256)
-
-For testing only. Most users should use the stable 3.0 download above.
-
 ## Earlier development preview — 2.4.96
 
 Raidex CoC Automation 2.4.96 Development for Windows x64:
