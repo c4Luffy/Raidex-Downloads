@@ -8,16 +8,6 @@ Raidex 3.0 adds a ready-to-use Standard Profile, keeps Profiles on one screen, g
 
 Download and extract the full ZIP before opening Raidex. You can open the app without a license, but automation needs a valid Raidex license. Select **Use license key** on the account screen to activate one.
 
-## Earlier development preview — 2.4.96
-
-Raidex CoC Automation 2.4.96 Development for Windows x64:
-
-[Download the 2.4.96 development ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.96-dev/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.96-dev/Raidex.CoC.Automation-win-x64.zip.sha256)
-
-Version 2.4.96 keeps normal result navigation separate from Equipment Blast participation. Event off means normal attack, confirmed Continue or Return Home, and repeat. Raidex does not choose event cards unless the Equipment Blast switch is on and the real three-card event screen is confirmed. It also includes the 2.4.94 trial-expiry and license-state fixes.
-
-This older preview was built from source commit `490ba52` and is superseded by the tested 2.4.97 release above.
-
 ## Previous stable version
 
 Raidex CoC Automation 2.4.92 for Windows x64:
