@@ -1,18 +1,18 @@
 # Raidex Downloads
 
-## Latest customer version — 3.1
+## Latest customer version — 3.2
 
-[Download Raidex 3.1](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.1)
+[Download Raidex 3.2](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.2)
 
-Raidex 3.1 adds gentle movement to the sign-in background and removes the extra line around the window, leaving the gold frame below the Windows title bar.
+Raidex 3.2 makes Saved Activity fit on Profiles without scrolling and opens the password reset form directly from Forgot password.
 
 Download and extract the full ZIP before opening Raidex. You can open the app without a license, but automation needs a valid Raidex license. Select **Use license key** on the account screen to activate one.
 
-## Previous stable version — 3.0
+## Previous stable version — 3.1
 
-[Download Raidex 3.0](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.0/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.0/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.0)
+[Download Raidex 3.1](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.1/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.1/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.1)
 
-Raidex 3.0 added a ready-to-use Standard Profile, kept Profiles on one screen, grouped saved reports by date, and made MuMu connection and recovery messages easier to understand. The dark-and-gold design and original Raidex logo appear throughout the app.
+Raidex 3.1 added gentle movement to the sign-in background and removed the extra line around the window, leaving the gold frame below the Windows title bar.
 
 ## Earlier 2.4 release notes
 
