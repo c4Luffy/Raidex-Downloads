@@ -25,3 +25,6 @@ The supplied Home Village screenshot also exposed a separate screen-classificati
 ## Download status
 
 The public release entry is [v3.3](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3). It currently has only GitHub's generated source archives; the customer ZIP and .sha256 file are not attached. The Windows package is ready locally, but the public customer download is not complete.
+## Public Latest package check
+
+On 2026-09-28, the current public Latest ZIP was downloaded and checked. Its size is 255,752,603 bytes. Its SHA-256 is 8D059C2C6B023DB7A9B2BB0700C1ACC452C287EE6099AACEB733CA07A4D75462, matching the published checksum. The EXE inside reports product version 3.2.3 and SHA-256 6CE6A39C559A1675CB69246E8E87FB2A5B2846A4953537AB192C84E16B465AAB. The downloaded older EXE was inspected but not run.
