@@ -2,7 +2,7 @@
 
 ## Status
 
-The 3.3 GitHub release is a pre-release while its Windows customer ZIP and checksum are being attached. Raidex 3.2.3 remains the latest customer download.
+The 3.3 GitHub release is a pre-release while its Windows customer ZIP and checksum upload is pending. Raidex 3.2.3 remains the latest customer download.
 
 ## Issue found
 
