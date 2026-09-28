@@ -9,7 +9,7 @@ Raidex 3.3.2 adds a real 1080p Night Village welcome video, a compact centered l
 ---
 ## Previous version — 3.3.1
 
-[Download Raidex 3.3.1](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.1/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3.1) · [Release report](https://github.com/c4Luffy/Raidex-Downloads/blob/main/RELEASE-REPORT-3.3.1.md)
+[Download Raidex 3.3.1](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.1/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.1/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3.1) · [Release report](https://github.com/c4Luffy/Raidex-Downloads/blob/main/RELEASE-REPORT-3.3.1.md)
 
 Raidex 3.3.1 adds new group artwork to the Windows login screen and a clearer, larger Raidex logo inside the compact black-and-gold login panel. The protected package passed offline startup, safety, saved-data compatibility, and update recovery checks. No new live game cycle was run for this visual update.
 
