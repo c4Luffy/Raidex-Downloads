@@ -1,5 +1,11 @@
 # Raidex Downloads
 
+## Preview version — 3.3
+
+[Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3) · [Release report](https://github.com/c4Luffy/Raidex-Downloads/blob/main/RELEASE-REPORT-3.3.md)
+
+Raidex 3.3 fixes Home Village state detection after selecting Hero Hall and waits for the normal **Find a Match** button after Multiplayer opens. The Windows customer ZIP and checksum are not attached yet. Raidex 3.2.3 remains the latest customer download below.
+
 ## Latest customer version — 3.2.3
 
 [Download Raidex 3.2.3](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.2.3)
