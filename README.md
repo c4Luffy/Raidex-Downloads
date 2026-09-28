@@ -1,10 +1,18 @@
 # Raidex Downloads
 
-## Latest customer version — 3.2.2
+## Latest customer version — 3.2.3
 
-[Download Raidex 3.2.2](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.2.2)
+[Download Raidex 3.2.3](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.2.3)
 
-Raidex 3.2.2 signs in through Discord in your browser. Email and password login and password reset are retired. You can still choose **Use license key**. The packaged app passed offline startup checks. A real Discord account sign-in and live game cycle were not run for this tagged package.
+Raidex 3.2.3 fixes Discord sign-in failing in the protected customer app. Sign in through Discord in your browser, or choose **Use license key**. Email and password login and password reset are retired. The packaged app passed offline startup checks. A real Discord sign-in and remembered-session restore passed in the protected development package containing the same fix. The live game test was skipped for this release at the owner's request.
+
+Download and extract the full ZIP before opening Raidex. You can open the app without a license, but automation needs a valid Raidex license. Select **Use license key** on the account screen to activate one.
+
+## Previous version — 3.2.2
+
+[Download Raidex 3.2.2](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.2.2/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.2.2/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.2.2)
+
+Raidex 3.2.2 signs in through Discord in your browser. Email and password login and password reset are retired. You can still choose **Use license key**. Its protected Discord sign-in problem is fixed in 3.2.3. Update to 3.2.3, or use the license-key option if you still have 3.2.2.
 
 Download and extract the full ZIP before opening Raidex. You can open the app without a license, but automation needs a valid Raidex license. Select **Use license key** on the account screen to activate one.
 
