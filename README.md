@@ -1,18 +1,18 @@
 # Raidex Downloads
 
-## Latest customer version — 3.3.5
+## Latest customer version — 3.3.6
 
-[Download Raidex 3.3.5](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3.5) · [Release report](https://github.com/c4Luffy/Raidex-Downloads/blob/main/RELEASE-REPORT-3.3.5.md)
+[Download Raidex 3.3.6](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3.6)
 
-Raidex 3.3.5 uses the Night Village photo on the Windows login screen. The video and Pause/Play button are removed. The public ZIP contains the app, photo, and Engine without the unused MP4. The protected package passed offline release checks and packaged startup. No new live game cycle was run for this visual update.
+Raidex 3.3.6 shows update download progress and identifies a missing required installation file when an update cannot safely continue. The protected package passed offline release checks and packaged startup. No new live game cycle was run for this update.
 
 ---
 
-## Previous version — 3.3.2
+## Previous version — 3.3.5
 
-[Download Raidex 3.3.2](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.2/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.2/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3.2) · [Release report](https://github.com/c4Luffy/Raidex-Downloads/blob/main/RELEASE-REPORT-3.3.2.md)
+[Download Raidex 3.3.5](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.5/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.5/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3.5) · [Release report](https://github.com/c4Luffy/Raidex-Downloads/blob/main/RELEASE-REPORT-3.3.5.md)
 
-Raidex 3.3.2 adds a real 1080p Night Village welcome video, a compact centered login panel, pause/play control, and branded Discord sign-in completion pages. The protected package and actual public download passed verification. No new live game cycle was run for this login update.
+Raidex 3.3.5 uses the Night Village photo on the Windows login screen. The video and Pause/Play button are removed. The protected package and actual public download passed verification. No new live game cycle was run for this visual update.
 
 ---
 ## Previous version — 3.3.1
