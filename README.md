@@ -1,10 +1,18 @@
 # Raidex Downloads
 
-## Latest customer version — 3.3.6
+## Latest customer version — 3.3.7
 
-[Download Raidex 3.3.6](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3.6)
+[Download Raidex 3.3.7](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3.7)
 
-Raidex 3.3.6 shows update download progress and identifies a missing required installation file when an update cannot safely continue. The protected package passed offline release checks and packaged startup. No new live game cycle was run for this update.
+Raidex 3.3.7 can safely update an existing install that is missing only the app checksum sidecar. The new package and runtime files still require checksum verification. No new live game cycle was run for this update.
+
+---
+
+## Previous version — 3.3.6
+
+[Download Raidex 3.3.6](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.6/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.6/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3.6)
+
+Raidex 3.3.6 shows update download progress and identifies a missing required installation file when an update cannot safely continue.
 
 ---
 
