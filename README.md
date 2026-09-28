@@ -10,7 +10,7 @@ Raidex 3.3.1 adds new group artwork to the Windows login screen and a clearer, l
 
 ## Previous version — 3.3
 
-[Download Raidex 3.3](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3) · [Release report](https://github.com/c4Luffy/Raidex-Downloads/blob/main/RELEASE-REPORT-3.3.md)
+[Download Raidex 3.3](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3) · [Release report](https://github.com/c4Luffy/Raidex-Downloads/blob/main/RELEASE-REPORT-3.3.md)
 
 Raidex 3.3 fixes Home Village state detection after selecting Hero Hall and waits for the normal **Find a Match** button after Multiplayer opens. The customer ZIP passed offline build, safety, saved-data compatibility, and package smoke checks. No live game cycle was run for this release.
 
