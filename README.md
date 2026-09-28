@@ -1,18 +1,24 @@
 # Raidex Downloads
 
-## Latest customer version — 3.2.1
+## Latest customer version — 3.2.2
 
-[Download Raidex 3.2.1](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.2.1)
+[Download Raidex 3.2.2](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.2.2)
 
-Raidex 3.2.1 sends completed farm runs to the shared results and keeps failed uploads queued for retry. It also keeps recognized Hero names in their army positions. The live game test was skipped for this release at the owner's request; offline package and startup checks passed.
+Raidex 3.2.2 signs in through Discord in your browser. Email and password login and password reset are retired. You can still choose **Use license key**. The packaged app passed offline startup checks. A real Discord account sign-in and live game cycle were not run for this tagged package.
 
 Download and extract the full ZIP before opening Raidex. You can open the app without a license, but automation needs a valid Raidex license. Select **Use license key** on the account screen to activate one.
 
-## Previous stable version — 3.2
+## Previous version — 3.2.1
+
+[Download Raidex 3.2.1](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.2.1/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.2.1/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.2.1)
+
+Raidex 3.2.1 sends completed farm runs to the shared results and keeps failed uploads queued for retry. It also keeps recognized Hero names in their army positions. The live game test was skipped for this release at the owner's request; offline package and startup checks passed. Use its license-key option if you still have this version; email and password sign-in is retired.
+
+## Earlier version — 3.2
 
 [Download Raidex 3.2](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.2/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.2/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.2)
 
-Raidex 3.2 makes Saved Activity fit on Profiles without scrolling and opens the password reset form directly from Forgot password.
+Raidex 3.2 makes Saved Activity fit on Profiles without scrolling. Its old password reset flow was retired in 3.2.2.
 
 ## Earlier 2.4 release notes
 
