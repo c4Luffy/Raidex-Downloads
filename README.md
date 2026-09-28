@@ -1,14 +1,16 @@
 # Raidex Downloads
 
-## Preview version — 3.3
+## Latest customer version — 3.3
 
-[Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3) · [Release report](https://github.com/c4Luffy/Raidex-Downloads/blob/main/RELEASE-REPORT-3.3.md)
+[Download Raidex 3.3](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3) · [Release report](https://github.com/c4Luffy/Raidex-Downloads/blob/main/RELEASE-REPORT-3.3.md)
 
-Raidex 3.3 fixes Home Village state detection after selecting Hero Hall and waits for the normal **Find a Match** button after Multiplayer opens. The Windows customer ZIP and checksum are not attached yet. Raidex 3.2.3 remains the latest customer download below.
+Raidex 3.3 fixes Home Village state detection after selecting Hero Hall and waits for the normal **Find a Match** button after Multiplayer opens. The customer ZIP passed offline build, safety, saved-data compatibility, and package smoke checks. No live game cycle was run for this release.
 
-## Latest customer version — 3.2.3
+Download and extract the full ZIP before opening Raidex. You can open the app without a license, but automation needs a valid Raidex license. Select **Use license key** on the account screen to activate one.
 
-[Download Raidex 3.2.3](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.2.3)
+## Previous version — 3.2.3
+
+[Download Raidex 3.2.3](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.2.3/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.2.3/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.2.3)
 
 Raidex 3.2.3 fixes Discord sign-in failing in the protected customer app. Sign in through Discord in your browser, or choose **Use license key**. Email and password login and password reset are retired. The packaged app passed offline startup checks. A real Discord sign-in and remembered-session restore passed in the protected development package containing the same fix. The live game test was skipped for this release at the owner's request.
 
