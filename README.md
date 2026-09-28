@@ -1,8 +1,16 @@
 # Raidex Downloads
 
-## Latest customer version — 3.3
+## Latest customer version — 3.3.1
 
-[Download Raidex 3.3](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3) · [Release report](https://github.com/c4Luffy/Raidex-Downloads/blob/main/RELEASE-REPORT-3.3.md)
+[Download Raidex 3.3.1](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3.1) · [Release report](https://github.com/c4Luffy/Raidex-Downloads/blob/main/RELEASE-REPORT-3.3.1.md)
+
+Raidex 3.3.1 adds new group artwork to the Windows login screen and a clearer, larger Raidex logo inside the compact black-and-gold login panel. The protected package passed offline startup, safety, saved-data compatibility, and update recovery checks. No new live game cycle was run for this visual update.
+
+---
+
+## Previous version — 3.3
+
+[Download Raidex 3.3](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3) · [Release report](https://github.com/c4Luffy/Raidex-Downloads/blob/main/RELEASE-REPORT-3.3.md)
 
 Raidex 3.3 fixes Home Village state detection after selecting Hero Hall and waits for the normal **Find a Match** button after Multiplayer opens. The customer ZIP passed offline build, safety, saved-data compatibility, and package smoke checks. No live game cycle was run for this release.
 
