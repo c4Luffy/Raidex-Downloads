@@ -1,8 +1,24 @@
 # Raidex Downloads
 
-## Latest customer version — 3.3.7
+## Latest customer version — 3.6
 
-[Download Raidex 3.3.7](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3.7)
+[Download Raidex 3.6](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.6)
+
+See the 3.6 release notes for changes and verification details.
+
+---
+
+## Previous version — 3.5
+
+[Download Raidex 3.5](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.5/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.5/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.5)
+
+Raidex 3.5 adds a separate option to share existing profile lifetime totals from this device. Sharing completed runs remains a separate choice.
+
+---
+
+## Earlier version — 3.3.7
+
+[Download Raidex 3.3.7](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.7/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.7/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3.7)
 
 Raidex 3.3.7 can safely update an existing install that is missing only the app checksum sidecar. The new package and runtime files still require checksum verification. No new live game cycle was run for this update.
 
