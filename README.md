@@ -1,186 +1,35 @@
 # Raidex Downloads
 
-## Latest customer version — 3.6
+## Latest version — 3.7
 
-[Download Raidex 3.6](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.6)
+[Download Raidex 3.7 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Changelog](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.7)
 
-See the 3.6 release notes for changes and verification details.
+Raidex 3.7 restores the six-hero welcome photo and organizes Automation into clearer Battles and Progression cards. It keeps the familiar top section and dark background. Clan interval boxes sit beside their labels, and all Automation tabs fit at the normal window size without scrolling. Saved schedule and storage-rule validation are also improved.
 
----
+## Install or update
 
-## Previous version — 3.5
+1. Download and extract the full ZIP.
+2. Keep the `Engine` and `Assets` folders beside `Raidex CoC Automation.exe`.
+3. Open `Raidex CoC Automation.exe` and sign in through Discord or use your license key. Automation requires a valid Raidex license.
+4. Existing users can check for updates in **Settings**. Updating preserves saved profiles and activation for the same Windows account.
 
-[Download Raidex 3.5](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.5/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.5/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.5)
+## Verification
 
-Raidex 3.5 adds a separate option to share existing profile lifetime totals from this device. Sharing completed runs remains a separate choice.
+The release build, all 45 instance guard checks, protected engine self-check, packaged app startup, saved-data compatibility, update, rollback, and visual checks passed. No live game input was run for this UI update, at the release owner's request.
 
----
+The actual public latest-download ZIP and checksum were downloaded and compared with the verified package.
 
-## Earlier version — 3.3.7
+- ZIP size: 261,713,065 bytes.
+- [Verification report](RELEASE-REPORT-3.7.md)
 
-[Download Raidex 3.3.7](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.7/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.7/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3.7)
+SHA-256:
 
-Raidex 3.3.7 can safely update an existing install that is missing only the app checksum sidecar. The new package and runtime files still require checksum verification. No new live game cycle was run for this update.
+```text
+921A020D9879514736C1B539D33985F07B2A375EC30F58450959CB9EEF7C9B4F
+```
 
----
+## Links
 
-## Previous version — 3.3.6
-
-[Download Raidex 3.3.6](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.6/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.6/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3.6)
-
-Raidex 3.3.6 shows update download progress and identifies a missing required installation file when an update cannot safely continue.
-
----
-
-## Previous version — 3.3.5
-
-[Download Raidex 3.3.5](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.5/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.5/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3.5) · [Release report](https://github.com/c4Luffy/Raidex-Downloads/blob/main/RELEASE-REPORT-3.3.5.md)
-
-Raidex 3.3.5 uses the Night Village photo on the Windows login screen. The video and Pause/Play button are removed. The protected package and actual public download passed verification. No new live game cycle was run for this visual update.
-
----
-## Previous version — 3.3.1
-
-[Download Raidex 3.3.1](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.1/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3.1/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3.1) · [Release report](https://github.com/c4Luffy/Raidex-Downloads/blob/main/RELEASE-REPORT-3.3.1.md)
-
-Raidex 3.3.1 adds new group artwork to the Windows login screen and a clearer, larger Raidex logo inside the compact black-and-gold login panel. The protected package passed offline startup, safety, saved-data compatibility, and update recovery checks. No new live game cycle was run for this visual update.
-
----
-
-## Previous version — 3.3
-
-[Download Raidex 3.3](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.3/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.3) · [Release report](https://github.com/c4Luffy/Raidex-Downloads/blob/main/RELEASE-REPORT-3.3.md)
-
-Raidex 3.3 fixes Home Village state detection after selecting Hero Hall and waits for the normal **Find a Match** button after Multiplayer opens. The customer ZIP passed offline build, safety, saved-data compatibility, and package smoke checks. No live game cycle was run for this release.
-
-Download and extract the full ZIP before opening Raidex. You can open the app without a license, but automation needs a valid Raidex license. Select **Use license key** on the account screen to activate one.
-
-## Previous version — 3.2.3
-
-[Download Raidex 3.2.3](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.2.3/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.2.3/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.2.3)
-
-Raidex 3.2.3 fixes Discord sign-in failing in the protected customer app. Sign in through Discord in your browser, or choose **Use license key**. Email and password login and password reset are retired. The packaged app passed offline startup checks. A real Discord sign-in and remembered-session restore passed in the protected development package containing the same fix. The live game test was skipped for this release at the owner's request.
-
-Download and extract the full ZIP before opening Raidex. You can open the app without a license, but automation needs a valid Raidex license. Select **Use license key** on the account screen to activate one.
-
-## Previous version — 3.2.2
-
-[Download Raidex 3.2.2](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.2.2/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.2.2/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.2.2)
-
-Raidex 3.2.2 signs in through Discord in your browser. Email and password login and password reset are retired. You can still choose **Use license key**. Its protected Discord sign-in problem is fixed in 3.2.3. Update to 3.2.3, or use the license-key option if you still have 3.2.2.
-
-Download and extract the full ZIP before opening Raidex. You can open the app without a license, but automation needs a valid Raidex license. Select **Use license key** on the account screen to activate one.
-
-## Previous version — 3.2.1
-
-[Download Raidex 3.2.1](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.2.1/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.2.1/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.2.1)
-
-Raidex 3.2.1 sends completed farm runs to the shared results and keeps failed uploads queued for retry. It also keeps recognized Hero names in their army positions. The live game test was skipped for this release at the owner's request; offline package and startup checks passed. Use its license-key option if you still have this version; email and password sign-in is retired.
-
-## Earlier version — 3.2
-
-[Download Raidex 3.2](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.2/Raidex.CoC.Automation-win-x64.zip) · [Checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.2/Raidex.CoC.Automation-win-x64.zip.sha256) · [What’s new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.2)
-
-Raidex 3.2 makes Saved Activity fit on Profiles without scrolling. Its old password reset flow was retired in 3.2.2.
-
-## Earlier 2.4 release notes
-
-Raidex CoC Automation 2.4.92 for Windows x64:
-
-[Download Raidex 2.4.92](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.92/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v2.4.92/Raidex.CoC.Automation-win-x64.zip.sha256)
-
-This release keeps the 2.4.88 fix for report `RX-D52F2C` and the permanent 2.4.91 Builder-reservation rule. Version 2.4.92 replaces every fixed-width resource line with a responsive two-line row: the complete Gold, Elixir, Dark Elixir, Builder Gold, or Builder Elixir value uses an automatic-width header, and its native WinUI progress bar renders separately underneath. The bar can no longer cover or clip the number at any fill percentage. If a Wall is not affordable, Raidex keeps farming; Buildings require at least two free Builders. Unknown screens and unverified spending still stop safely.
-
-The protected package was built from source commit `51ff54c` and passed its Release build, engine self-check, 36 no-input instance guards, structural resource-layout regression check, ZIP checksum, clean install, full-size and compact WinUI checks, recovery, and archive checks. The complete scanned values were also confirmed in the installed app.
-
-Version 2.4.86 makes Automation, Profiles, and Settings easier to use on screen. Enemy Search sits beside Home Village settings, Builder storage limits stay compact, and the emulator connection test shows green when ready or red when it needs attention. The familiar Settings update text and text sizing remain unchanged. Its protected package passed build, safety checks, saved-data compatibility, a real Home Village cycle, and ZIP install and recovery tests. The cycle confirmed two Wall upgrades and one saved-side attack returning Home. Builder Base donation and Top/Bottom Area 2 still need more live coverage.
-
-Version 2.4.85 refreshed the original dark interface, added clearer support reports and Builder Base automation choices, and kept saved Builder attack lines together when a drop point was blocked. Its Clan Castle/Siege log says the slot was tapped without claiming troops inside were verified.
-
-Version 2.4.82 fixes stopped-attack recovery getting stuck on the confirmed **My Army** screen. Raidex now presses Back only when that screen is positively detected, then requires Home Village confirmation. Unknown screens still receive no blind input.
-
-Version 2.4.81 hardens Home Village Wall recovery. Raidex waits for delayed startup overlays, ignores every grouped **Wall ×N** Builder-list entry, and closes a normal Wall panel through the Builder button instead of sending Escape. This prevents **Select Row**, **Rotate Row**, and accidental game-exit dialogs. It also includes the 2.4.79 fix for **Start all ready**, which starts every eligible saved profile up to the purchased instance limit.
-
-Version 2.4.78 fixes guarded recovery after a cold launch. Raidex now closes the confirmed **Welcome Back Chief** screen before checking for an active battle, instead of mistaking the overlay for a battle confirmation.
-
-Version 2.4.77 improves Home Village Wall upgrades by waiting for the real confirmation screen before deciding a resource tap failed. It also records raid loot during battle when available, while keeping the verified storage-change fallback. The normal Wall path continues to ignore **Select Row** and every whole-row batch control.
-
-Version 2.4.76 fixes Builder Base Clock Tower maintenance switching areas when the Clock Tower is already confirmed on the current screen. Raidex now uses the visible Clock Tower in place and changes areas only as a fallback.
-
-Version 2.4.75 restores the compact Home Village and Builder Base resource number fields, keeps their Gold, Elixir, and Dark Elixir colors, and gives the Home Start button enough room to show `Start Raidex` without clipping.
-
-Version 2.4.74 fixes Builder Base appearing to start when no work is enabled. Raidex now blocks an empty Builder Base run before touching MuMu or Clash of Clans, tells the user to enable at least one action, keeps Night's Watch available, and shows a clear enabled-action count with cleaner Builder Base setting groups.
-
-Version 2.4.73 improves the Raidex interface and everyday controls. Start, stop, profile, instance, automation, report, and failure-review actions now show clearer names, exact blocked reasons, and better help. Storage settings explain how full-storage stops and 90% upgrade triggers work. Failure Review can copy the reason, open its screenshot, or open the logs folder. Profile lifetime totals are easier to read, and number fields are larger.
-
-Version 2.4.72 adds clear, exact recovery steps to Failure Review, removes old Army-slot wording, and clearly separates **This Run** loot from saved lifetime totals. It also fixes cold-start controller hangs, makes child-process exit handling reliable, prevents MuMu from locking the Raidex update folder, and safely returns to Home Village before automation starts.
-
-Version 2.4.65 fixes Wall maintenance closing the Wall panel after an unconfirmed tap. It adds local failure review with a screenshot and exact reason, plus safe export/import for one profile without replacing another profile or copying its old MuMu device link.
-
-Version 2.4.64 reduces the manual support-report cooldown to 5 minutes and restores the Send button when it ends. It also fixes Gold-only Walls being detected as duplicate Gold upgrade options.
-
-Version 2.4.63 fixes low-level Walls that show only a Gold upgrade button. Raidex now confirms the real resource icon and still supports higher-level Walls that show both Gold and Elixir.
-
-Version 2.4.62 adds Clan Capital attacks, reward handling, Capital Gold upgrades, and saved Capital counters. It also adds all three village choices across Raidex, improves safe troop deployment retries, and fixes Wall automation missing an affordable Gold upgrade when Elixir is too low.
-
-Version 2.4.61 gives Raidex a cleaner interface with refined panels, borders, shadows, colors, buttons, and spacing. The familiar checkbox style stays unchanged, and every Home maintenance countdown now fits fully inside its card.
-
-Version 2.4.60 fixes Battle Options completion after the third reward. Support reports are now manual, include the verified Discord customer, and keep the existing anti-spam cooldown. Profiles now show a clearer account summary, maintenance text fits correctly, and attack deployment remains fast and safe.
-
-Version 2.4.35 improves Night's Watch donation flow. It finishes every colored troop and spell card on the visible page before swiping, waits through brief panel animations instead of reopening too early, and counts one donation request instead of every card tap. The Home and Instances pages now show current donations, lifetime donations, and the last donation time. A reset button clears the saved counters.
-
-Version 2.4.34 adds Night's Watch donation and check counters. It fills visible troops and spells before swiping, removes redundant per-tap work, and refreshes the Donate button immediately before tapping so rapid new chat requests cannot leave a stale position.
-
-Version 2.4.33 keeps Night's Watch running through short, safe detection misses. It retries every five seconds for up to one minute, while a continuing problem still stops with a clear error.
-
-Version 2.4.32 fixes active automation stopping when the Home page unloads. Night's Watch and normal sessions now keep running while Raidex stays open. Closing Raidex still stops all sessions safely.
-
-Version 2.4.31 adds **Night's Watch • Auto Donate** on the Home page. One press opens Clan Chat and keeps it open for fast checks on a five-second schedule. It fills visible troop and spell requests first, then scans later pages only when needed.
-
-Night's Watch works from Home Village or Builder Base without switching villages. It runs donation only: no attacks, upgrades, troop requests, collection, or Builder actions.
-
-[Download the latest customer ZIP](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip)
-
-Extract the whole ZIP before opening the app. Keep the `Engine` folder beside `Raidex CoC Automation.exe`.
-
-Version 2.4.29 restores window dragging across the large empty top strip and removes the clipped cyan profile-selection bar in Instances.
-
-Version 2.4.28 fixes top-page buttons being covered by the invisible Windows drag area. Instances now has larger command buttons below the caption controls, a compact license summary, and a larger Live Activity panel with clearer recent logs.
-
-Version 2.4.27 fixes MuMu inactivity recovery. If **Reload Game** leaves Clash of Clans in the background, Raidex brings it to the front and waits for the normal loading screen before checking the village. The fix applies to Home Village and Builder Base.
-
-Version 2.4.25 improves the Instances page with live attack count, confirmed Wall count, current village, and recent activity lines. Builder Base normal buildings now start only from Suggested upgrades. Builder Base Wall scanning taps eligible rows directly, follows confirmed list movement, and no longer stops on the old 45-second Wall scan timer.
-
-Version 2.4.24 runs enabled upgrades before stopping at full storage after an attack. It also tries Walls when building selection starts no upgrade and Gold or Elixir has reached the Wall trigger.
-
-Version 2.4.23 fixes donation scanning. Troop, Siege, and spell cards can have any quantity or price. Raidex follows every colored card across the full carousel, ignores the tab appearance, rechecks unclear cards, and only finishes when scanned cards are gray. If the panel closes, it checks for another visible Clan Chat request before returning Home.
-
-Version 2.4.22 keeps the retired desktop build removed, centralizes the app version, and adds a focused GUI polish pass. Status messages are easier to read, invalid automation numbers are highlighted with a recovery hint, disabled controls have clearer contrast, and the current action has better accessibility text.
-
-Version 2.4.21 removed the retired desktop build path, kept personal saved data out of source control, and added stronger release and customer-package startup checks. It was verified with a real MuMu live-input cycle.
-
-It also keeps the 2.4.20 GUI clarity fixes. Home explains when Raidex will start the assigned MuMu device, Profiles no longer mentions removed Hero timer controls, small helper text is larger, and the Instances capacity wording is clearer.
-
-It also keeps the 2.4.19 Settings scaling fix and startup update check. When a newer release is ready, the customer sees the new version and can install it immediately or choose Later.
-
-It also keeps the 2.4.16 upgrade scheduling improvements. If a full resource cannot be spent, Raidex farms for five attacks before repeating maintenance. The older last-Builder exception is superseded by 2.4.91: whenever Home Village Walls and Buildings are both enabled, the final normal Builder always stays reserved for Walls.
-
-It also keeps the 2.4.15 donation and profile fixes. One donation pass can check up to 12 requests, and the Home profile picker stays available while bots run so another profile and its live log can be viewed. Settings remain locked during automation.
-
-It also keeps the 2.4.14 automatic building fix. Raidex selects only the first row below `Suggested upgrades`, never an active upgrade above it. The final screen safely confirms the real resource before spending. Wall upgrades still search for Walls anywhere in the Builder list.
-
-It also keeps the Engine startup/repair and hero/Clan Castle fixes. Confirmed hero slots do not need a matching pet or portrait. Clan Castle/Siege slots get one placement attempt, a log message, and then the attack continues even if empty.
-
-After scanning the deployment bar, Raidex confirms the real left boundary instead of requiring an exact match with an older frame. Small card-animation changes no longer cause false settle or first-card restore errors.
-
-An unclear card whose best category is Spell or Siege is reported and skipped instead of stopping the whole attack. Unknown Troops and other unsafe categories still stop safely.
-
-If another clan member fills a request while Raidex is donating, Raidex now waits for the screen transition and continues when Home Village is safely restored. An unconfirmed screen still stops safely.
-
-All Home Village hero abilities are clicked automatically after a fixed 4-second delay. The Hero timer controls are removed. Old saved timer values are ignored and cannot stop the attack.
-
-Profiles without saved loot limits now start with Gold 500,000, Elixir 500,000 and Dark Elixir 3,000, all enabled. Existing saved values and disabled choices stay unchanged. Live battles with every pet or skin have not been verified.
-
-Updating does not create a new license or restart its timer. The saved activation stays in the same Windows account. If Windows reports that the license belongs to another computer or account, open a private support ticket. Never post a license key in public.
-
-See the [latest release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/latest) for changes and the SHA-256 checksum.
+- [Latest release](https://github.com/c4Luffy/Raidex-Downloads/releases/latest)
+- [Setup guide](https://raidexbot.com/setup/)
+- [Raidex community](https://discord.gg/hNvTTWFv4b)
