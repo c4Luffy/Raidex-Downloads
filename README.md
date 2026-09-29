@@ -17,7 +17,7 @@ Raidex 3.8 supports up to eight **purchased** concurrent instance slots. Plan in
 
 The release build, all 49 instance guard checks, protected engine self-check, packaged app startup, saved-data compatibility, updater success and rollback checks passed. Eight mixed device identities were checked in software; eight real emulator windows and live game input were not run. The existing local Raidex session remained active during packaging, so two real AppData snapshot comparisons were skipped while the other package smoke checks ran.
 
-The actual public latest-download ZIP and checksum will be downloaded and compared with the verified package when 3.8 is published.
+The actual public latest-download ZIP and checksum were downloaded and compared with the verified package. Both hashes match.
 
 - ZIP size: 265,627,369 bytes.
 - [Verification report](RELEASE-REPORT-3.8.md)

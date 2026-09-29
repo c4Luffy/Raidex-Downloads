@@ -9,7 +9,7 @@
 - Release smoke checks: package contents, runtime assets, healthy install, missing-checksum update, automatic rollback, and unsafe-package rejection passed.
 - Real AppData comparisons: skipped because an installed Raidex automation session was actively writing its log and profile data during packaging. The running session was not stopped.
 - Live game input: skipped at the release owner's request.
-- Public latest-download ZIP and checksum: **pending publication and independent download verification**.
+- Public latest-download ZIP and checksum: downloaded independently after publication; both match the local and draft ZIP SHA-256 and size.
 
 Local ZIP size: **265,627,369 bytes**.
 
