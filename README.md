@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.7
+## Latest version — 3.8
 
-[Download Raidex 3.7 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Changelog](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.7)
+[Download Raidex 3.8 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Changelog](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.8)
 
-Raidex 3.7 restores the six-hero welcome photo and organizes Automation into clearer Battles and Progression cards. It keeps the familiar top section and dark background. Clan interval boxes sit beside their labels, and all Automation tabs fit at the normal window size without scrolling. Saved schedule and storage-rule validation are also improved.
+Raidex 3.8 supports up to eight **purchased** concurrent instance slots. Plan inclusions are unchanged: Weekly, Monthly, and 3 Months include one slot, and Lifetime includes two. Extra slots are bought separately. Each running account needs its own saved profile and connected emulator device. The Instances list fits eight profiles at the normal app size, and Start all ready respects the license's available slots.
 
 ## Install or update
 
@@ -15,17 +15,17 @@ Raidex 3.7 restores the six-hero welcome photo and organizes Automation into cle
 
 ## Verification
 
-The release build, all 45 instance guard checks, protected engine self-check, packaged app startup, saved-data compatibility, update, rollback, and visual checks passed. No live game input was run for this UI update, at the release owner's request.
+The release build, all 49 instance guard checks, protected engine self-check, packaged app startup, saved-data compatibility, updater success and rollback checks passed. Eight mixed device identities were checked in software; eight real emulator windows and live game input were not run. The existing local Raidex session remained active during packaging, so two real AppData snapshot comparisons were skipped while the other package smoke checks ran.
 
-The actual public latest-download ZIP and checksum were downloaded and compared with the verified package.
+The actual public latest-download ZIP and checksum will be downloaded and compared with the verified package when 3.8 is published.
 
-- ZIP size: 261,713,065 bytes.
-- [Verification report](RELEASE-REPORT-3.7.md)
+- ZIP size: 265,627,369 bytes.
+- [Verification report](RELEASE-REPORT-3.8.md)
 
 SHA-256:
 
 ```text
-921A020D9879514736C1B539D33985F07B2A375EC30F58450959CB9EEF7C9B4F
+AB304232C75CAEC588AF5857E44DDF8A4507AB9E808197864008CB2F029DD6DB
 ```
 
 ## Links
