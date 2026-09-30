@@ -1,12 +1,14 @@
 # Raidex Downloads
 
-## Latest version — 3.9
+## Latest version — 3.10
 
-[Download Raidex 3.9 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Changelog](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.9)
+[Download Raidex 3.10 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Changelog](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.10)
 
-Raidex 3.9 improves Builder Base deployment detection and allows up to two new attack attempts after an unconfirmed deployment safely recovers to the village. Repeated failures still stop safely, and stop or pause requests prevent another attempt. Support reports now save the failed battle frame before recovery to help diagnose any remaining visual detection issue.
+Raidex 3.10 adds per-profile **Run targets** under **Automation > Humanization**: stop after a chosen number of confirmed attacks, at a local time, or whichever comes first. Raidex finishes the current action before stopping. Target progress continues through scheduled work and rest, and reaching a target pauses automatic restarts until you press Start again.
 
-Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Monthly, and 3 Months include one slot, and Lifetime includes two. Extra slots are bought separately. Each running account needs its own saved profile and connected emulator device. The Instances list fits eight profiles at the normal app size, and Start all ready respects the license's available slots.
+The redesigned **Instances** page shows every profile's status, village, action, run target, and activity. **Failures & recovery** now has Overview, Screenshot, and Technical details tabs, with report actions kept visible while the report list and technical log scroll independently. The extra battle-options helper sentence has been removed from Automation.
+
+Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Monthly, and 3 Months include one slot, and Lifetime includes two. Extra slots are bought separately. Each running account needs its own saved profile and connected emulator device. The Instances overview scrolls through all profiles, and Start all ready respects the license's available slots.
 
 ## Install or update
 
@@ -17,17 +19,19 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-The release build, all 49 instance guard checks, protected engine self-check, packaged app startup, saved-data compatibility and preservation, runtime assets, and updater success, missing-checksum, rollback, and unsafe-folder checks passed. No live game input was performed. A retest on the affected customer machine is still needed to confirm the original visual issue is resolved.
+The release build, all 51 instance guard checks, all 37 run-target checks, protected engine self-check, packaged app startup, saved-data compatibility and preservation, runtime assets, and updater success, missing-checksum compatibility, rollback, and unsafe-folder checks passed.
+
+One approved Home Village attack confirmed that the attack target stops at 1/1 after returning to the village. The profile settings were restored afterward. Time-based targets and work/rest behavior have automated coverage; no simultaneous multi-profile live test was performed. See the report for the live-check and customer-package scope.
 
 The actual public latest-download ZIP and checksum were downloaded and compared with the verified package. Both hashes match.
 
-- ZIP size: 265,633,752 bytes.
-- [Verification report](RELEASE-REPORT-3.9.md)
+- ZIP size: 265,648,269 bytes.
+- [Verification report](RELEASE-REPORT-3.10.md)
 
 SHA-256:
 
 ```text
-2A88C38F5B28490D6575AB07CAFA41C6774F8EC85118B94DE2BF7F3B8DA366CA
+1EBEB2053AB89CEA95409353D12525F279235E20488F8EDA9C4AD59B64190901
 ```
 
 ## Links
