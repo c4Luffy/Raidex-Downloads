@@ -13,6 +13,9 @@
 - Draft assets: GitHub's uploaded ZIP and checksum asset digests matched both verified local files before publication.
 - Publication: `v3.11` was published as Latest on 30 September 2026 at 11:58:04 UTC.
 - Public latest-download verification: the actual public ZIP and checksum were downloaded at 11:59:16 UTC. Both match the verified package. The public archive contains the app executable, Engine host, and 3.11 release notes in the expected folders.
+- Public labels: the Downloads README and live setup page show 3.11. Setup source commit `4081fb8` was deployed as `98294630-ed91-40d3-b283-1e0bba572090`.
+- Customer portal: source commit `3e79542` was deployed as `e3137ddc-ec1d-4bf1-8e24-4ed19e147cd0`. The live dashboard HTML matches the updated source after normalizing CSP nonces, includes the 3.11 version and correct rounded size of 253 MiB, and the health endpoint returned `ok`. This verifies served HTML; no additional authenticated customer download was performed.
+- Portal update checks: 41 unit checks, 9 local Worker/D1 integration checks, and the production deployment dry run passed. Website route, asset, script, and deployment dry-run checks also passed.
 
 ZIP size: **265,648,340 bytes** (253 MiB rounded).
 
