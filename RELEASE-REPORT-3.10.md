@@ -14,6 +14,8 @@
 - Draft assets: GitHub's uploaded ZIP digest matched the verified local package before publication.
 - Publication: the Downloads release was published as `v3.10` and set to Latest on 30 September 2026.
 - Public latest-download verification: the actual public ZIP and checksum were downloaded after publication. Both match the verified local package hash.
+- Public labels: the Downloads README and setup guide show 3.10. The deployed customer portal serves the 3.10 version label and the correct rounded size of 253 MiB; its dashboard HTML matches the updated source after normalizing CSP nonces. No additional authenticated customer download was performed.
+- Portal update checks: 41 unit checks, 9 local Worker/D1 integration checks, and a production deployment dry run passed. The deployed health endpoint returned `ok`.
 
 ZIP size: **265,648,269 bytes**.
 
