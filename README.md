@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.16
+## Latest version — 3.17
 
-[Download Raidex 3.16 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.16)
+[Download Raidex 3.17 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.17)
 
-Raidex 3.16 lets you choose which heroes to upgrade first. It also fixes Builder Base switching and battles that stayed open after the second area reached 100%.
+Raidex 3.17 fixes Builder Base attacks that stopped before deploying troops in Area 2, targets the correct Builder upgrade button, and makes the Home Running and Stop safely controls clearer. Hero upgrade priority from 3.16 is included.
 
 ## Set up hero priority
 
@@ -20,7 +20,7 @@ Raidex tries them when their Elixir or Dark Elixir reaches 90% of your saved sto
 
 ## Builder Base fix
 
-Raidex now recognizes the boat on the live Home Village screen. In a Builder Base battle, Area 1 can reach 100% before the army moves to Area 2. Raidex waits for the real Area 2 troop screen, then ends the battle when Area 2 reaches its own 100% and **End Battle** appears.
+Raidex recognizes the boat on the live Home Village screen. In a Builder Base battle, Area 1 can reach 100% before the army moves to Area 2. Raidex now waits for the Area 2 troop-planning screen before checking the returned cards. It also presses the green resource button on two-choice upgrade confirmations, including Battle Machine.
 
 ## Set up account rotation
 
@@ -56,9 +56,9 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 Windows build, offline screenshot checks, saved-profile compatibility, packaged startup, and installer smoke tests passed. A live two-area battle was not run for this release.
 
-The verified ZIP is 261,935,493 bytes. Its SHA-256 is:
+The verified ZIP is 261,936,808 bytes. Its SHA-256 is:
 ```text
-758EA6011FE6852F23037B37DA7BC3B67FE42C8F2C772C1A97AF4FF1A302035F
+B8C3BFC8C495273BF6529BFD3EB4BC73DFE647654C728BBE52F280F23E14743B
 ```
 
 ## Links
