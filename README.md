@@ -1,12 +1,22 @@
 # Raidex Downloads
 
-## Latest version — 3.14
+## Latest version — 3.16
 
-[Download Raidex 3.14 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.14)
+[Download Raidex 3.16 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.16)
 
-Raidex 3.14 can move between your saved Clash accounts when all three Home Village storages are full. It tries enabled upgrades and walls first. If an upgrade makes room, it keeps farming on the same account; otherwise it moves to the next prepared account on the same emulator. You still press **Start Raidex** to begin.
+Raidex 3.16 lets you choose which heroes to upgrade first. It also fixes Builder Base switching and battles that stayed open after the second area reached 100%.
 
-The update also adds a separate **Events** tab, a **Copy profile** button, and a clearer Home screen. On fresh installs, community sharing starts on; existing users keep their saved choices in Settings.
+## Set up hero priority
+
+1. Open **Automation → Home Village** for the profile you want to change.
+2. Turn on **Hero upgrades** and choose **Set order**.
+3. Add the heroes you want, with your most important hero first. You can choose several heroes and give each profile a different order.
+
+Raidex tries them when their Elixir or Dark Elixir reaches 90% of your saved storage limit. If none can be upgraded, it keeps the builder free for heroes instead of starting another building or wall upgrade.
+
+## Builder Base fix
+
+Raidex now recognizes the boat on the live Home Village screen. In a Builder Base battle, Area 1 can reach 100% before the army moves to Area 2. Raidex waits for the real Area 2 troop screen, then ends the battle when Area 2 reaches its own 100% and **End Battle** appears.
 
 ## Set up account rotation
 
@@ -21,7 +31,7 @@ If Raidex cannot find or confirm the next account, it stops safely.
 
 ![Set storage limits and Account rotation in Automation](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.14/account-rotation.jpg)
 
-## Events and Home
+## Other features
 
 The **Automation → Events** tab now has the Treasure Hunt chest and Equipment Blast Medal Event switches. More options can be added as Raidex supports new events.
 
@@ -40,11 +50,11 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-Windows build, offline checks, saved-profile compatibility, packaged startup, and installer smoke tests passed. A live game account-switch test was not performed for this release.
+Windows build, offline screenshot checks, saved-profile compatibility, packaged startup, and installer smoke tests passed. A live two-area battle was not run for this release.
 
-The public Latest ZIP and checksum were downloaded and matched against the verified package. The ZIP is 261,916,274 bytes. Its SHA-256 is:
+The verified ZIP is 261,935,493 bytes. Its SHA-256 is:
 ```text
-14EC328D829E0961A97F4A8CC624C5DF58E95E634BE2FC33F096001807C55CA3
+758EA6011FE6852F23037B37DA7BC3B67FE42C8F2C772C1A97AF4FF1A302035F
 ```
 
 ## Links
