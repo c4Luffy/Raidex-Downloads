@@ -14,6 +14,10 @@ Raidex 3.16 lets you choose which heroes to upgrade first. It also fixes Builder
 
 Raidex tries them when their Elixir or Dark Elixir reaches 90% of your saved storage limit. If none can be upgraded, it keeps the builder free for heroes instead of starting another building or wall upgrade.
 
+![Find Hero upgrades and Set order in Raidex 3.16](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.16/3.16-hero-settings.png)
+
+![Choose heroes in priority order in Raidex 3.16](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.16/3.16-hero-order.png)
+
 ## Builder Base fix
 
 Raidex now recognizes the boat on the live Home Village screen. In a Builder Base battle, Area 1 can reach 100% before the army moves to Area 2. Raidex waits for the real Area 2 troop screen, then ends the battle when Area 2 reaches its own 100% and **End Battle** appears.
