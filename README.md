@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.17
+## Latest version — 3.18
 
-[Download Raidex 3.17 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.17)
+[Download Raidex 3.18 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.18)
 
-Raidex 3.17 fixes Builder Base attacks that stopped before deploying troops in Area 2, targets the correct Builder upgrade button, and makes the Home Running and Stop safely controls clearer. Hero upgrade priority from 3.16 is included.
+Raidex 3.18 waits for the Area 2 troop cards to settle instead of giving up after 20 seconds. If the cards still cannot be read, the report includes a game image. The Home Stop safely button also has a clearer border when unavailable.
 
 ## Set up hero priority
 
@@ -20,7 +20,7 @@ Raidex tries them when their Elixir or Dark Elixir reaches 90% of your saved sto
 
 ## Builder Base fix
 
-Raidex recognizes the boat on the live Home Village screen. In a Builder Base battle, Area 1 can reach 100% before the army moves to Area 2. Raidex now waits for the Area 2 troop-planning screen before checking the returned cards. It also presses the green resource button on two-choice upgrade confirmations, including Battle Machine.
+Raidex recognizes the boat on the live Home Village screen. In a Builder Base battle, Area 1 can reach 100% before the army moves to Area 2. Raidex now waits for the Area 2 troop-planning screen and returned cards to become readable before deploying. It also presses the green resource button on two-choice upgrade confirmations, including Battle Machine.
 
 ## Set up account rotation
 
@@ -56,9 +56,9 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 Windows build, offline screenshot checks, saved-profile compatibility, packaged startup, and installer smoke tests passed. A live two-area battle was not run for this release.
 
-The verified ZIP is 261,936,808 bytes. Its SHA-256 is:
+The verified ZIP is 265,858,097 bytes. Its SHA-256 is:
 ```text
-B8C3BFC8C495273BF6529BFD3EB4BC73DFE647654C728BBE52F280F23E14743B
+34F64E59990235DEA9A6DED14BC9FBC1FA7BE7E22847A804FE0ECC1AA00300EB
 ```
 
 ## Links
