@@ -54,7 +54,7 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-Windows build, offline screenshot checks, saved-profile compatibility, packaged startup, and installer smoke tests passed. A live two-area battle was not run for this release.
+Release build, 60 instance checks, 37 run-target checks, engine self-test, packaged startup, and customer-package smoke tests passed. A live two-area battle was not run for this release.
 
 The verified ZIP is 265,858,097 bytes. Its SHA-256 is:
 ```text
