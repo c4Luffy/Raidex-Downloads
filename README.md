@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.19
+## Latest version — 3.20
 
-[Download Raidex 3.19 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.19)
+[Download Raidex 3.20 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.20)
 
-Raidex 3.19 recognizes when the first troop has been placed in either Builder Base battle area. This addresses runs that stopped with a probe-card warning after the battle had started.
+Raidex 3.20 starts a Builder Base attack with the first living troop card, then deploys the remaining cards from left to right. This also applies when troops return for Area 2.
 
 ## Set up hero priority
 
