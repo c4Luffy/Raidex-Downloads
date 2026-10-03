@@ -1,10 +1,14 @@
 # Raidex Downloads
 
-## Latest version — 3.20
+## Latest version — 3.21
 
-[Download Raidex 3.20 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.20)
+[Download Raidex 3.21 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.21)
 
-Raidex 3.20 starts a Builder Base attack with the first living troop card, then deploys the remaining cards from left to right. This also applies when troops return for Area 2.
+Raidex 3.21 adds a per-profile **Skip Town Hall** option for Home Village building upgrades.
+
+## Skip Town Hall upgrades
+
+Open **Automation → Home Village** for the profile you want to change, then turn on **Skip Town Hall**. Raidex will consider other suggested buildings while leaving Town Hall out. If it cannot confirm a building's name, it skips that upgrade.
 
 ## Set up hero priority
 
