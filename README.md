@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.21
+## Latest version — 3.22
 
-[Download Raidex 3.21 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.21)
+[Download Raidex 3.22 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.22)
 
-Raidex 3.21 adds a per-profile **Skip Town Hall** option for Home Village building upgrades.
+Raidex 3.22 removes Clan Capital from the app. Profiles that had it selected open on Home Village; Home and Builder settings and totals are kept.
 
 ## Skip Town Hall upgrades
 
@@ -58,11 +58,11 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-Release build, 60 instance checks, 37 run-target checks, engine self-test, packaged startup, and customer-package smoke tests passed. A live two-area battle was not run for this release.
+Release build, 60 instance checks, 36 run-target checks, 49 review checks, engine self-test, protected data compatibility, packaged startup, and customer-package smoke tests passed. No live game cycle was run for this removal.
 
-The verified ZIP is 265,858,660 bytes. Its SHA-256 is:
+The verified ZIP is 272,833,997 bytes. Its SHA-256 is:
 ```text
-B5AF7A57A322C21558F52E87D55416E0409916117C62F91B5021949BFD6484E2
+D5E6D46FEF557F78AC795331E644ACA765D338AF57AD51688593ED4B1589F4FB
 ```
 
 ## Links
