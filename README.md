@@ -1,10 +1,16 @@
 # Raidex Downloads
 
-## Latest version — 3.23
+## Latest version — 3.27
 
-[Download Raidex 3.23 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.23)
+[Download Raidex 3.27 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.27)
 
-Raidex 3.23 gives Start Raidex and Stop safely more space from the top and bottom of the Home action panel at the standard window size.
+Raidex 3.27 adds ordered building upgrades in Home Village and Builder Base, plus Builder Base hero order and Skip Builder Hall. The Set order buttons are fully visible and aligned on both Automation tabs.
+
+## Choose building upgrade order
+
+Open **Automation → Home Village** or **Automation → Builder Base** and use **Set order** beside Building upgrades. Enter only the English building name, without a level or count. Uppercase and lowercase both work. Raidex tries your names in order, then other suggested buildings when the chosen ones are unavailable. Turn on **Skip Town Hall** in Home Village or **Skip Builder Hall** in Builder Base to exclude that main building.
+
+In Builder Base, **Hero upgrades → Set order** lets you choose Battle Machine and Battle Copter. Raidex checks the selected name again before spending resources.
 
 ## Skip Town Hall upgrades
 
@@ -58,11 +64,11 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-Release build, 60 instance checks, 36 run-target checks, engine self-test, protected data compatibility, packaged startup, visual Home layout check, and customer-package smoke tests passed. No live game cycle was run for this layout fix.
+Release build, 60 instance checks, 36 run-target checks, saved-screen engine self-test, protected data compatibility, packaged startup, Automation layout check, and customer-package smoke tests passed. No live game cycle was run for these upgrade options.
 
-The verified ZIP is 268,602,520 bytes. Its SHA-256 is:
+The verified ZIP is 268,611,929 bytes. Its SHA-256 is:
 ```text
-8F83B26C62AD99BECC4869DEEB347F4EDA87C2AE84BE0C705C53E650C01D0A51
+E85FC61AE38508F11DC1B2C9CB071F81351215F39A815D963D7DF00B9F7C8936
 ```
 
 ## Links
