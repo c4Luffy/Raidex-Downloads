@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.28
+## Latest version — 3.29
 
-[Download Raidex 3.28 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.28)
+[Download Raidex 3.29 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.29)
 
-Raidex 3.28 lets eligible Hero and Building upgrades use every free Builder, including the last one. Progress charts show color-coded daily loot and activity on hover or click, with 7, 14, 30-day, and All time views. Set order lists stay the same size and scroll as you add names. The Builder Base schedule label now matches Home Village gold.
+Raidex 3.29 verifies that the Builder list closes after Wall scanning and retries its confirmed Builder portrait once when needed. Equipment Blast picks the rightmost reward on enabled profiles.
 
 ## Choose building upgrade order
 
