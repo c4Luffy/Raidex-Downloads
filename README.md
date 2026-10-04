@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.32
+## Latest version — 3.33
 
-[Download Raidex 3.32 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.32)
+[Download Raidex 3.33 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.33)
 
-Raidex 3.32 fixes a Home Village attack stopping when one card portrait is read differently between two long army-bar scans. Strongly matching overlaps continue with each card once; uncertain scans still stop safely.
+Raidex 3.33 fixes long troop-bar scans with one changed portrait and confirms a gray troop card on a fresh frame before treating it as exhausted. Uncertain scans still stop safely.
 
 ## Choose building upgrade order
 
