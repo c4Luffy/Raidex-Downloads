@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.29
+## Latest version — 3.30
 
-[Download Raidex 3.29 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.29)
+[Download Raidex 3.30 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.30)
 
-Raidex 3.29 verifies that the Builder list closes after Wall scanning and retries its confirmed Builder portrait once when needed. Equipment Blast picks the rightmost reward on enabled profiles.
+Raidex 3.30 improves Home Village enemy loot reading, long army-bar scanning, and stopped-attack recovery. Raidex still stops before troop deployment when it cannot confirm the scanned cards.
 
 ## Choose building upgrade order
 
@@ -64,11 +64,11 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-Release build, 60 instance checks, 36 run-target checks, saved-screen engine self-test, protected data compatibility, packaged startup, Progress and Automation layout checks, and customer-package smoke tests passed. No live game cycle was run for this release.
+Release build, 60 instance checks, 36 run-target checks, saved-screen engine self-test, protected data compatibility, packaged startup, and customer-package smoke tests passed. No live game cycle was run for this release.
 
-The verified ZIP is 268,613,698 bytes. Its SHA-256 is:
+The verified ZIP is 268,614,740 bytes. Its SHA-256 is:
 ```text
-38F02FED0E9A1262294417FC863E41A5FA22D00FFE60AB8945B8AE69473133E5
+F73FBCDE5DD75639C6E9A0348385B064DDFE1A8DCFBFBEF63C7CFC2ED6B10D4F
 ```
 
 ## Links
