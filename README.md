@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.30
+## Latest version — 3.31
 
-[Download Raidex 3.30 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.30)
+[Download Raidex 3.31 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.31)
 
-Raidex 3.30 improves Home Village enemy loot reading, long army-bar scanning, and stopped-attack recovery. Raidex still stops before troop deployment when it cannot confirm the scanned cards.
+Raidex 3.31 reconnects an offline MuMu ADB transport and keeps visible troops in long army-bar scans. It also stops tapping a troop card once the selected card shows a red `x0`.
 
 ## Choose building upgrade order
 
