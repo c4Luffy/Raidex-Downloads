@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.31
+## Latest version — 3.32
 
-[Download Raidex 3.31 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.31)
+[Download Raidex 3.32 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.32)
 
-Raidex 3.31 reconnects an offline MuMu ADB transport and keeps visible troops in long army-bar scans. It also stops tapping a troop card once the selected card shows a red `x0`.
+Raidex 3.32 fixes a Home Village attack stopping when one card portrait is read differently between two long army-bar scans. Strongly matching overlaps continue with each card once; uncertain scans still stop safely.
 
 ## Choose building upgrade order
 
@@ -66,9 +66,9 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 Release build, 60 instance checks, 36 run-target checks, saved-screen engine self-test, protected data compatibility, packaged startup, and customer-package smoke tests passed. No live game cycle was run for this release.
 
-The verified ZIP is 268,614,740 bytes. Its SHA-256 is:
+The verified ZIP is 272,851,915 bytes. Its SHA-256 is:
 ```text
-F73FBCDE5DD75639C6E9A0348385B064DDFE1A8DCFBFBEF63C7CFC2ED6B10D4F
+7966834080C759212983F935FA3B82706B66155CD3FA7421B39B742BB6F8F287
 ```
 
 ## Links
