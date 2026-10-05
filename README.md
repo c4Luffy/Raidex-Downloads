@@ -1,16 +1,16 @@
 # Raidex Downloads
 
-## Latest version — 3.36
+## Latest version — 3.37
 
-[Download Raidex 3.36 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.36)
+[Download Raidex 3.37 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.37)
 
-Raidex 3.36 prevents stuck MuMu launch/window commands and LDPlayer control commands from leaving Raidex waiting indefinitely. Commands have a 15-second deadline and show a recovery message when they fail. The timeout preserves any emulator the command has already launched.
+Raidex 3.37 improves Builder Base first-card recovery and Home Village troop deployment. A readable positive troop count keeps the card active, including Super Troops with unusual artwork. Enabled Builder Base building and Home/Builder hero upgrades can use any affordable eligible target when no priority names are set.
 
 ## Choose building upgrade order
 
-Open **Automation → Home Village** or **Automation → Builder Base** and use **Set order** beside Building upgrades. Enter only the English building name, without a level or count. Uppercase and lowercase both work. Raidex tries your names in order, then other suggested buildings when the chosen ones are unavailable. Turn on **Skip Town Hall** in Home Village or **Skip Builder Hall** in Builder Base to exclude that main building.
+Open **Automation → Home Village** or **Automation → Builder Base** and use **Set order** beside Building upgrades. Enter only the English building name, without a level or count. Uppercase and lowercase both work. In Builder Base, an empty list allows any affordable eligible building; a named list restricts upgrades to those names in order. Home Village still tries other suggested buildings when its chosen names are unavailable. Turn on **Skip Town Hall** in Home Village or **Skip Builder Hall** in Builder Base to exclude that main building.
 
-In Builder Base, **Hero upgrades → Set order** lets you choose Battle Machine and Battle Copter. Raidex checks the selected name again before spending resources.
+In Builder Base, **Hero upgrades → Set order** lets you choose Battle Machine and Battle Copter. An empty list allows either affordable hero; a named list limits upgrades to those heroes in order. Raidex checks the selected name again before spending resources.
 
 ## Skip Town Hall upgrades
 
@@ -22,7 +22,7 @@ Open **Automation → Home Village** for the profile you want to change, then tu
 2. Turn on **Hero upgrades** and choose **Set order**.
 3. Add the heroes you want, with your most important hero first. You can choose several heroes and give each profile a different order.
 
-Raidex tries them when their Elixir or Dark Elixir reaches 90% of your saved storage limit. If none can be upgraded, it keeps the builder free for heroes instead of starting another building or wall upgrade.
+With an empty hero list, Raidex may upgrade any affordable eligible hero. When you add names, it tries only those heroes in your saved order. Hero upgrades do not wait for 90% storage. If none can be upgraded, it keeps the builder free for heroes instead of starting another building or wall upgrade.
 
 ![Find Hero upgrades and Set order in Raidex 3.16](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.16/3.16-hero-settings.png)
 
