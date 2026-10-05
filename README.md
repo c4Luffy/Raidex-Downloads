@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.35
+## Latest version — 3.36
 
-[Download Raidex 3.35 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.35)
+[Download Raidex 3.36 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.36)
 
-Raidex 3.35 keeps support reports available when screenshot capture times out and makes manual reports follow the displayed five-minute cooldown. Automatic reports retain their existing duplicate protection. The setup guide now explains when activation is needed and where to find your license key.
+Raidex 3.36 prevents stuck MuMu launch/window commands and LDPlayer control commands from leaving Raidex waiting indefinitely. Commands have a 15-second deadline and show a recovery message when they fail. The timeout preserves any emulator the command has already launched.
 
 ## Choose building upgrade order
 
@@ -64,11 +64,11 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-Release build, 60 instance checks, 36 run-target checks, saved-screen engine self-test, protected data compatibility, packaged startup, and customer-package smoke tests passed. No live game cycle was run for this release.
+Release build, 54 review-improvement checks, 60 instance checks, 36 run-target checks, saved-screen engine self-test, protected data compatibility, packaged startup, and customer-package smoke tests passed. The release owner explicitly skipped the live game test. No live game cycle was run for this release.
 
-The public latest-download ZIP and the signed-in portal download both match the verified release package. The ZIP is 272,853,884 bytes. Its SHA-256 is:
+The public latest-download ZIP matches the verified release package. The ZIP is 272,853,019 bytes. Its SHA-256 is:
 ```text
-B67214DB8B5879EC68E812BBAAE87D31054D294C8E9661E90950234AAB304D5B
+9321D248589EF61145BB6B9DB2620E3AE36E3F84A0A6FFCA26FCED2034478B84
 ```
 
 ## Links
