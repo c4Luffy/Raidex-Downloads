@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.38
+## Latest version — 3.37
 
-[Download Raidex 3.38 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.38)
+[Download Raidex 3.37 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.37)
 
-Raidex 3.38 fixes The Night's Watch startup crash and improves reading building names, resource numbers, buttons, and troop pictures. The newer text reader works locally. Uncertain or conflicting resource readings are rejected before an action uses them. Selected troop cards remain active until their count confirms they are empty.
+Raidex 3.37 improves Builder Base first-card recovery and Home Village troop deployment. A readable positive troop count keeps the card active, including Super Troops with unusual artwork. Enabled Builder Base building and Home/Builder hero upgrades can use any affordable eligible target when no priority names are set.
 
 ## Choose building upgrade order
 
