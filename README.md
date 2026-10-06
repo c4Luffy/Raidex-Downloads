@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.40
+## Latest version — 3.41
 
-[Download Raidex 3.40 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.40)
+[Download Raidex 3.41 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.41)
 
-Raidex 3.40 fixes The Night's Watch startup crash and improves reading building names, resource numbers, buttons, and troop pictures. The newer text reader works locally. Uncertain or conflicting resource readings are rejected before an action uses them. Selected troop cards remain active until their count confirms they are empty. Older Raidex versions can install this update correctly from the app.
+Raidex 3.41 fixes available troop cards with rounded red frames being skipped during deployment, including the reported Super Yeti x8 card. The corrected engine deployed all eight troops in a controlled Home Village test. Empty cards still stay excluded. This update includes the OCR, picture recognition, The Night's Watch and updater fixes from 3.40.
 
 ## Choose building upgrade order
 
