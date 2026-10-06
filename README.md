@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.43
+## Latest version — 3.48
 
-[Download Raidex 3.43 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.43)
+[Download Raidex 3.48 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.48)
 
-Raidex 3.43 fixes available dark donation pictures being skipped, including the reported Balloon. After a recoverable game error, Raidex returns to a clean village, rests for one minute, checks the village again and resumes. Stop and run targets still prevent another action. This update includes the previous card deployment, OCR, The Night's Watch and updater fixes.
+Raidex 3.48 fixes normal battles being mistaken for Equipment Blast reward cards and a confirmed Home resource OCR error. Screenshot checks between troop taps are faster on supported emulators. Temporary screenshot timeouts and closed connections get fresh capture attempts without repeating the tap. Recoverable game errors can return to a confirmed village, rest for one minute, check again and resume. Rejected attacks with an uncertain army still stop safely. Raidex keeps 20 recent run logs and the specific stop error. This update includes the donation, card deployment, OCR and The Night's Watch fixes from 3.43.
 
 ## Choose building upgrade order
 
@@ -64,11 +64,13 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-Release build, 54 review-improvement checks, 60 instance checks, 36 run-target checks, saved-screen engine self-test, protected data compatibility, packaged startup, and customer-package smoke tests passed. The release owner explicitly skipped the live game test. No live game cycle was run for this release.
+The release build, 91 review-improvement checks, 96 instance checks, 36 run-target checks, engine self-tests, normal/protected data compatibility, packaged GUI startup, updater/rollback and full real saved-data preservation passed. The historical 3.37 updater also accepted this package. The saved battle from report RX-1F6D85 is rejected as reward cards.
 
-The public latest-download ZIP matches the verified release package. The ZIP is 272,853,019 bytes. Its SHA-256 is:
+One approved Home Village attack on Test Profile / MuMu #0 completed using the exact packaged runtime, with troop, siege, available hero and spell use, return Home and a fresh successful resource survey. This verifies that cycle; it does not claim every possible long-run stop is resolved. Existing stop-when-full settings remain effective.
+
+The freshly downloaded public latest-download ZIP matches the tested release package and public checksum. It is 317,274,552 bytes with 574 entries, includes all four OCR model/dictionary files, and contains no source, debug or private data files. Its SHA-256 is:
 ```text
-9321D248589EF61145BB6B9DB2620E3AE36E3F84A0A6FFCA26FCED2034478B84
+3529897E7EC6D58E22943E8492168D58301BD360DE406223CD8BBFDC5E266A68
 ```
 
 ## Links
