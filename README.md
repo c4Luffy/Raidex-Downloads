@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.50
+## Latest version — 3.51
 
-[Download Raidex 3.50 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.50)
+[Download Raidex 3.51 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.51)
 
-Raidex 3.50 fixes Walls being skipped when the Builder list shows a red Elixir price while Gold can pay. It checks both Gold and Elixir on the selected Wall, continues through remaining group members after an upgrade, and checks other groups when one Wall is too expensive or Town Hall-limited. The OCR, donation, card deployment, faster troop screenshot checks and safe recovery fixes from 3.48 are included.
+Raidex 3.51 restores the 90% Gold or Elixir start rule for automatic Home Village Walls. Full Dark Elixir cannot trigger Wall spending, and periodic farming maintenance skips Walls below that threshold. Once a pass starts at 90%, Raidex still checks both Gold and Elixir and continues until no affordable eligible Wall remains. The remaining-group fix from 3.50 and the earlier OCR, donation, card deployment, faster troop screenshot and safe recovery fixes are included.
 
 ## Choose building upgrade order
 
@@ -64,13 +64,13 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-The 3.50 release build, 91 review-improvement checks, 96 instance checks, 36 run-target checks, normal/protected engine self-tests and data compatibility, packaged GUI startup, updater/rollback and full real saved-data preservation passed. The historical 3.37 updater also accepted this package.
+The 3.51 release build, 91 review-improvement checks, 96 instance checks, 36 run-target checks, normal/protected engine self-tests and data compatibility, packaged GUI startup, updater/rollback and full real saved-data preservation passed. The historical 3.37 updater also accepted this package.
 
-One approved Wall spending test on Test Profile / MuMu #0 used the exact 3.50 customer runtime. Three Gold Wall upgrades reduced Gold from 15,500,000 to 500,000. Raidex continued after Town Hall limits, checked the remaining group, and refused both insufficient resource/Gem offers before finishing. Final Home and its resource readings were confirmed. Elixir was 126,303 and could not pay for a Wall. This was a Wall-only test; no new attack or other maintenance was performed. Existing stop-when-full settings remain effective.
+On the real Test Profile / MuMu #0 Home screen, the exact 3.51 customer runtime skipped Wall automation below 90% without opening the Builder list. Gold was 1,885,853, Elixir 1,369,581 and Dark Elixir 320,000; before/after resources were unchanged. The approved inactivity Reload/Home completed, followed by the Wall check with game input disabled. Home was confirmed afterward. No new attack or resource-spending test was performed. The both-resource spending loop is unchanged from 3.50, and existing stop-when-full settings remain effective.
 
-The freshly downloaded public latest-download ZIP matches the tested release package and public checksum. It is 317,275,337 bytes with 574 entries, includes all four OCR model/dictionary files, and contains no source, debug or private data files. Its SHA-256 is:
+The freshly downloaded public latest-download ZIP matches the tested release package and public checksum. It is 317,276,076 bytes with 574 entries, includes all four OCR model/dictionary files, and contains no source, debug or private data files. Its SHA-256 is:
 ```text
-0F3F900D5DE1C359A3BAC757F6CDF3E4E97DB3194FCE71D422E2FDEFF340C04B
+BDE42A78831EBB5BFDE1C775BFB5FFCA7C7332C6EDEEBBBE45E667B38B500641
 ```
 
 ## Links
