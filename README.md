@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.57
+## Latest version — 3.58
 
-[Download Raidex 3.57 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.57)
+[Download Raidex 3.58 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.58)
 
-Raidex 3.57 shows the latest action decision and screen-read troop progress on Home. Instances can pause all running profiles after their current safe actions and resume a selected profile. Saved failure reviews can show the exact enemy loot area and threshold values used for the decision. Enemy OCR decisions are unchanged. The Balloon, Wall, donation and recovery fixes from 3.55 remain included.
+Raidex 3.58 filters out battlefield scenery that looked like an extra army card. It keeps the real troop, Siege, Hero and Spell cards in their battle-bar order, including an unfamiliar Siege picture just before the first Hero. The action progress, pause controls and saved failure reviews from 3.57 remain included.
 
 ## Choose building upgrade order
 
