@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.54
+## Latest version — 3.55
 
-[Download Raidex 3.54 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.54)
+[Download Raidex 3.55 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.55)
 
-Raidex 3.54 updates the Wall counter as confirmed upgrades are reported and records completed passes without counting twice. Early pass exits no longer leave the panel or saved totals at zero. Instances loot uses the same Gold, Elixir and Dark Elixir colors as Home. The Gold OCR, 90% Wall trigger, both-resource Wall spending, donation, deployment and recovery fixes are included.
+Raidex 3.55 fixes early Balloon deployment stops, updates and saves lifetime Wall totals after each confirmed upgrade, and uses the original resource digit reader first. Neural OCR is a fallback when the old reader cannot read confidently. Current enemy loot labels and pale background pixels are handled more accurately. The 90% Wall trigger, both-resource spending, colored Instances loot, donation and recovery fixes are included.
 
 ## Choose building upgrade order
 
@@ -64,13 +64,13 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-The 3.54 release build, 91 review-improvement checks, 96 instance checks, 36 run-target checks, normal/protected engine self-tests and data compatibility, packaged GUI startup, updater/rollback and full real saved-data preservation passed. The historical 3.37 updater also accepted this package.
+The 3.55 release build, 121 vision checks, 93 review-improvement checks, 96 instance checks, 36 run-target checks, normal/protected engine self-tests and data compatibility, packaged GUI startup, updater/rollback and real saved-data preservation passed. The historical 3.37 updater also accepted this package.
 
-On the real Test Profile / MuMu #0 Home screen, the exact 3.54 customer runtime skipped Wall automation below 90% without opening the Builder list. Gold was 1,885,853, Elixir 1,369,581 and Dark Elixir 320,000; before/after resources were unchanged. The approved inactivity Reload/Home completed, followed by the Wall check with game input disabled. Home was confirmed afterward. No new attack or resource-spending test was performed. The both-resource spending loop is unchanged from 3.50, and existing stop-when-full settings remain effective.
+An approved Test Profile / MuMu #0 Home Village attack deployed all 12 Balloons and returned Home. The captured Balloon card was gray at x0, matching 12 placement taps in the log. This live test used the normal engine from source commit `530f2f6b16409371a4744f95c55c3f31c494b54f`; the protected customer runtime was checked separately. Wall-counter updates and saved totals were verified offline while a fake engine remained running, followed by final-summary reconciliation without double counting. No new live Wall spending test was performed. The 90% trigger, affordability and Town Hall checks remain active.
 
-The freshly downloaded public latest-download ZIP matches the tested release package and public checksum. It is 317,276,076 bytes with 574 entries, includes all four OCR model/dictionary files, and contains no source, debug or private data files. Its SHA-256 is:
+The freshly downloaded public latest-download ZIP matches the tested release package and public checksum. It is 317,451,004 bytes with 578 entries, includes all four OCR model/dictionary files, and contains no source, debug or private data files. Its SHA-256 is:
 ```text
-BDE42A78831EBB5BFDE1C775BFB5FFCA7C7332C6EDEEBBBE45E667B38B500641
+E88E072632E9C5F114C7251CBEDBFF383650A30AA372E103D6A59205BAF3F602
 ```
 
 ## Links
