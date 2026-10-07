@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.53
+## Latest version — 3.54
 
-[Download Raidex 3.53 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.53)
+[Download Raidex 3.54 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.54)
 
-Raidex 3.53 fixes a Gold reading that added an extra digit and caused repeated rests. Clear resource numbers use the existing digit reader to confirm both normal-size OCR views; small or dim numbers retain the enlarged OCR. Uncertain values remain rejected. The 90% Gold or Elixir Wall start rule, both-resource Wall spending, group selection, donation, deployment and recovery fixes are included.
+Raidex 3.54 updates the Wall counter as confirmed upgrades are reported and records completed passes without counting twice. Early pass exits no longer leave the panel or saved totals at zero. Instances loot uses the same Gold, Elixir and Dark Elixir colors as Home. The Gold OCR, 90% Wall trigger, both-resource Wall spending, donation, deployment and recovery fixes are included.
 
 ## Choose building upgrade order
 
@@ -64,9 +64,9 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-The 3.53 release build, 91 review-improvement checks, 96 instance checks, 36 run-target checks, normal/protected engine self-tests and data compatibility, packaged GUI startup, updater/rollback and full real saved-data preservation passed. The historical 3.37 updater also accepted this package.
+The 3.54 release build, 91 review-improvement checks, 96 instance checks, 36 run-target checks, normal/protected engine self-tests and data compatibility, packaged GUI startup, updater/rollback and full real saved-data preservation passed. The historical 3.37 updater also accepted this package.
 
-On the real Test Profile / MuMu #0 Home screen, the exact 3.53 customer runtime skipped Wall automation below 90% without opening the Builder list. Gold was 1,885,853, Elixir 1,369,581 and Dark Elixir 320,000; before/after resources were unchanged. The approved inactivity Reload/Home completed, followed by the Wall check with game input disabled. Home was confirmed afterward. No new attack or resource-spending test was performed. The both-resource spending loop is unchanged from 3.50, and existing stop-when-full settings remain effective.
+On the real Test Profile / MuMu #0 Home screen, the exact 3.54 customer runtime skipped Wall automation below 90% without opening the Builder list. Gold was 1,885,853, Elixir 1,369,581 and Dark Elixir 320,000; before/after resources were unchanged. The approved inactivity Reload/Home completed, followed by the Wall check with game input disabled. Home was confirmed afterward. No new attack or resource-spending test was performed. The both-resource spending loop is unchanged from 3.50, and existing stop-when-full settings remain effective.
 
 The freshly downloaded public latest-download ZIP matches the tested release package and public checksum. It is 317,276,076 bytes with 574 entries, includes all four OCR model/dictionary files, and contains no source, debug or private data files. Its SHA-256 is:
 ```text
