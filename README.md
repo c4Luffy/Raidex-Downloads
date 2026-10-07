@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.48
+## Latest version — 3.50
 
-[Download Raidex 3.48 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.48)
+[Download Raidex 3.50 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.50)
 
-Raidex 3.48 fixes normal battles being mistaken for Equipment Blast reward cards and a confirmed Home resource OCR error. Screenshot checks between troop taps are faster on supported emulators. Temporary screenshot timeouts and closed connections get fresh capture attempts without repeating the tap. Recoverable game errors can return to a confirmed village, rest for one minute, check again and resume. Rejected attacks with an uncertain army still stop safely. Raidex keeps 20 recent run logs and the specific stop error. This update includes the donation, card deployment, OCR and The Night's Watch fixes from 3.43.
+Raidex 3.50 fixes Walls being skipped when the Builder list shows a red Elixir price while Gold can pay. It checks both Gold and Elixir on the selected Wall, continues through remaining group members after an upgrade, and checks other groups when one Wall is too expensive or Town Hall-limited. The OCR, donation, card deployment, faster troop screenshot checks and safe recovery fixes from 3.48 are included.
 
 ## Choose building upgrade order
 
@@ -64,13 +64,13 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-The release build, 91 review-improvement checks, 96 instance checks, 36 run-target checks, engine self-tests, normal/protected data compatibility, packaged GUI startup, updater/rollback and full real saved-data preservation passed. The historical 3.37 updater also accepted this package. The saved battle from report RX-1F6D85 is rejected as reward cards.
+The 3.50 release build, 91 review-improvement checks, 96 instance checks, 36 run-target checks, normal/protected engine self-tests and data compatibility, packaged GUI startup, updater/rollback and full real saved-data preservation passed. The historical 3.37 updater also accepted this package.
 
-One approved Home Village attack on Test Profile / MuMu #0 completed using the exact packaged runtime, with troop, siege, available hero and spell use, return Home and a fresh successful resource survey. This verifies that cycle; it does not claim every possible long-run stop is resolved. Existing stop-when-full settings remain effective.
+One approved Wall spending test on Test Profile / MuMu #0 used the exact 3.50 customer runtime. Three Gold Wall upgrades reduced Gold from 15,500,000 to 500,000. Raidex continued after Town Hall limits, checked the remaining group, and refused both insufficient resource/Gem offers before finishing. Final Home and its resource readings were confirmed. Elixir was 126,303 and could not pay for a Wall. This was a Wall-only test; no new attack or other maintenance was performed. Existing stop-when-full settings remain effective.
 
-The freshly downloaded public latest-download ZIP matches the tested release package and public checksum. It is 317,274,552 bytes with 574 entries, includes all four OCR model/dictionary files, and contains no source, debug or private data files. Its SHA-256 is:
+The freshly downloaded public latest-download ZIP matches the tested release package and public checksum. It is 317,275,337 bytes with 574 entries, includes all four OCR model/dictionary files, and contains no source, debug or private data files. Its SHA-256 is:
 ```text
-3529897E7EC6D58E22943E8492168D58301BD360DE406223CD8BBFDC5E266A68
+0F3F900D5DE1C359A3BAC757F6CDF3E4E97DB3194FCE71D422E2FDEFF340C04B
 ```
 
 ## Links
