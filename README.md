@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.59
+## Latest version — 3.63
 
-[Download Raidex 3.59 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.59)
+[Download Raidex 3.63 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.63)
 
-Raidex 3.59 makes one Home Village attack after every 10 completed Night's Watch donation requests, then resumes watching. It returns to Builder Base after the attack if the watch started there. This update passed package checks; a new live Night's Watch cycle has not yet been run.
+Raidex 3.63 confirms Builder Base's End Battle popup, checks Night's Watch donations sooner, and resumes watching after the known Reload Game popup. Home battle monitoring now handles the End Battle button and avoids mistaking a red tutorial screen for a battle control. The package passed release checks. Live Test Profile checks completed a Home attack, a Builder attack, and one minute of Night's Watch; no donation request appeared during that minute.
 
 ## Choose building upgrade order
 
