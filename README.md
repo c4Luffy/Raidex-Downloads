@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.58
+## Latest version — 3.59
 
-[Download Raidex 3.58 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.58)
+[Download Raidex 3.59 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.59)
 
-Raidex 3.58 filters out battlefield scenery that looked like an extra army card. It keeps the real troop, Siege, Hero and Spell cards in their battle-bar order, including an unfamiliar Siege picture just before the first Hero. The action progress, pause controls and saved failure reviews from 3.57 remain included.
+Raidex 3.59 makes one Home Village attack after every 10 completed Night's Watch donation requests, then resumes watching. It returns to Builder Base after the attack if the watch started there. This update passed package checks; a new live Night's Watch cycle has not yet been run.
 
 ## Choose building upgrade order
 
