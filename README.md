@@ -64,13 +64,11 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-The 3.57 source passed 121 vision checks, 93 review-improvement checks, 101 instance checks, 36 run-target checks and the engine self-test. The protected customer package passed data compatibility, packaged GUI startup, updater/rollback and real saved-data preservation checks. The historical 3.37 updater also accepted this package.
+The 3.59 source tag points to `c045f9c7bc0a9c5acc4c7abd10d667e363c9f632`. The Engine self-check, 101 instance guard checks and 36 run-target checks passed. The protected customer package passed saved-data compatibility, packaged Windows startup, ZIP validation and the legacy 3.37 updater check. A new live Night's Watch 10-donation and attack cycle was not run.
 
-One approved Test Profile / MuMu #0 Home Village attack returned Home and paused before another attack. The Balloon card and other troop cards were gray at x0. Raidex recorded one attack and refreshed resources. The 90% Wall rule correctly skipped upgrades at 26% Gold and 30.8% Elixir. This live test used the first 3.57 source commit `2d312b7d4287876d9785da5452f81a6a059fecb6`; later pause and evidence fixes were checked offline. No second live attack or live Wall spending test was performed.
-
-The freshly downloaded public latest-download ZIP matches the tested 3.57 package and public checksum. It is 317,460,321 bytes with 578 entries, includes the OCR model/dictionary files, and contains no source, debug or private data files. Its SHA-256 is:
+The public Latest ZIP was downloaded and matched both its public checksum and the final local package. It is 317,463,526 bytes with 578 entries, including the Engine and OCR files. Its SHA-256 is:
 ```text
-1C86D83611F3F2ADE74753A23CD4D4C3A4A1DC6744F75C48DB358486CD235310
+4C34ACF0D1709DA3ED4F23AA58C8930F7971DEBFAE365A3576D9B102586756AB
 ```
 
 ## Links
