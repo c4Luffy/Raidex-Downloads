@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.63
+## Latest version — 3.64
 
-[Download Raidex 3.63 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.63)
+[Download Raidex 3.64 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.64)
 
-Raidex 3.63 confirms Builder Base's End Battle popup, checks Night's Watch donations sooner, and resumes watching after the known Reload Game popup. Home battle monitoring now handles the End Battle button and avoids mistaking a red tutorial screen for a battle control. The package passed release checks. Live Test Profile checks completed a Home attack, a Builder attack, and one minute of Night's Watch; no donation request appeared during that minute.
+Raidex 3.64 improves Builder Base Area 1/2 detection and collection. Buildings and Walls now wait until Builder Gold or Elixir reaches 90% capacity. When Walls are enabled, Raidex keeps the last free Builder for Walls; when Walls are off, that Builder may start a building. The package passed release checks and one live Builder Base maintenance pass. Balances stayed below 90% during that pass, so spending at the threshold has only offline verification.
 
 ## Choose building upgrade order
 
