@@ -1,14 +1,14 @@
 # Raidex Downloads
 
-## Latest version — 3.64
+## Latest version — 3.65
 
-[Download Raidex 3.64 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.64)
+[Download Raidex 3.65 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.65)
 
-Raidex 3.64 improves Builder Base Area 1/2 detection and collection. Buildings and Walls now wait until Builder Gold or Elixir reaches 90% capacity. When Walls are enabled, Raidex keeps the last free Builder for Walls; when Walls are off, that Builder may start a building. The package passed release checks and one live Builder Base maintenance pass. Balances stayed below 90% during that pass, so spending at the threshold has only offline verification.
+Raidex 3.65 restores the compact Home Village Automation layout. Building priorities offer a name list plus typed Crafted Defense names, with a **Skip Crafted Defenses** option. Builder Base keeps only Elixir Cart collection. The package passed offline release and startup checks; no new live game cycle was run for 3.65.
 
 ## Choose building upgrade order
 
-Open **Automation → Home Village** or **Automation → Builder Base** and use **Set order** beside Building upgrades. Enter only the English building name, without a level or count. Uppercase and lowercase both work. In Builder Base, an empty list allows any affordable eligible building; a named list restricts upgrades to those names in order. Home Village still tries other suggested buildings when its chosen names are unavailable. Turn on **Skip Town Hall** in Home Village or **Skip Builder Hall** in Builder Base to exclude that main building.
+Open **Automation → Home Village** or **Automation → Builder Base** and use **Set order** beside Building upgrades. Choose an ordinary building from the list. For a Crafted Defense, type the exact English name shown in Clash. In Builder Base, an empty list allows any affordable eligible building; a named list restricts upgrades to those names in order. Home Village still tries other suggested buildings when its chosen names are unavailable. Turn on **Skip Town Hall** or **Skip Crafted Defenses** in Home Village, or **Skip Builder Hall** in Builder Base, to exclude those upgrades.
 
 In Builder Base, **Hero upgrades → Set order** lets you choose Battle Machine and Battle Copter. An empty list allows either affordable hero; a named list limits upgrades to those heroes in order. Raidex checks the selected name again before spending resources.
 
