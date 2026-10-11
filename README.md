@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.65
+## Latest version — 3.67
 
-[Download Raidex 3.65 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.65)
+[Download Raidex 3.67 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.67)
 
-Raidex 3.65 restores the compact Home Village Automation layout. Building priorities offer a name list plus typed Crafted Defense names, with a **Skip Crafted Defenses** option. Builder Base keeps only Elixir Cart collection. The package passed offline release and startup checks; no new live game cycle was run for 3.65.
+Raidex 3.67 keeps Work & Rest choices saved after Stop or Pause and checks that COC stays closed after a full-storage close. It also includes the new Builder Base layout and Laboratory order lists. The package passed offline release and startup checks; no new live game cycle was run for 3.67.
 
 ## Choose building upgrade order
 
