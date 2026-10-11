@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.67
+## Latest version — 3.68
 
-[Download Raidex 3.67 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.67)
+[Download Raidex 3.68 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.68)
 
-Raidex 3.67 keeps Work & Rest choices saved after Stop or Pause and checks that COC stays closed after a full-storage close. It also includes the new Builder Base layout and Laboratory order lists. The package passed offline release and startup checks; no new live game cycle was run for 3.67.
+Raidex 3.68 makes Home Village and Instances easier to read, restores the original Walls total color, groups What's new and readiness information, and moves profile tools to Settings. The package passed offline release and startup checks; no new live game cycle was run for this UI update.
 
 ## Choose building upgrade order
 
@@ -64,11 +64,11 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-The 3.59 source tag points to `c045f9c7bc0a9c5acc4c7abd10d667e363c9f632`. The Engine self-check, 101 instance guard checks and 36 run-target checks passed. The protected customer package passed saved-data compatibility, packaged Windows startup, ZIP validation and the legacy 3.37 updater check. A new live Night's Watch 10-donation and attack cycle was not run.
+The 3.68 source tag points to `14b28ce607ca0398f8a7528dc5463d90a5bf56a6`. The protected Engine self-check, 101 instance guard checks, and 43 run-target checks passed. The customer package passed saved-data compatibility, packaged Windows startup, runtime-asset checks, updater rollback cases, and the legacy 3.37 updater check. No new live game cycle was run for this UI update.
 
-The public Latest ZIP was downloaded and matched both its public checksum and the final local package. It is 317,463,526 bytes with 578 entries, including the Engine and OCR files. Its SHA-256 is:
+The 3.68 customer ZIP is 282,158,508 bytes with 748 entries, including the Engine and OCR files. Its local SHA-256 is:
 ```text
-4C34ACF0D1709DA3ED4F23AA58C8930F7971DEBFAE365A3576D9B102586756AB
+2E09D0EBEA63F5DB801846614E7A476695AF858410E706E3B55F6BDBCED6DFE7
 ```
 
 ## Links
