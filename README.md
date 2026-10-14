@@ -1,14 +1,14 @@
 # Raidex Downloads
 
-## Latest version — 3.68
+## Latest version — 3.71
 
-[Download Raidex 3.68 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.68)
+[Download Raidex 3.71 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.71)
 
-Raidex 3.68 makes Home Village and Instances easier to read, restores the original Walls total color, groups What's new and readiness information, and moves profile tools to Settings. The package passed offline release and startup checks; no new live game cycle was run for this UI update.
+Raidex 3.71 reserves one regular builder for enabled Walls, continues verified affordable Wall spending, and adds resource, category and cost filters in both villages. Home battle resource bars refresh about once a second. Builder Base includes all four full-storage actions, updated upgrade and research routes, Cart collection, gate centering and account rotation. The known Defensive layout obstructed attack warning is verified before troop deployment. The Automation layout uses the available width and keeps clan interval fields readable.
 
 ## Choose building upgrade order
 
-Open **Automation → Home Village** or **Automation → Builder Base** and use **Set order** beside Building upgrades. Choose an ordinary building from the list. For a Crafted Defense, type the exact English name shown in Clash. In Builder Base, an empty list allows any affordable eligible building; a named list restricts upgrades to those names in order. Home Village still tries other suggested buildings when its chosen names are unavailable. Turn on **Skip Town Hall** or **Skip Crafted Defenses** in Home Village, or **Skip Builder Hall** in Builder Base, to exclude those upgrades.
+Open **Automation → Home Village** or **Automation → Builder Base** and use **Set rules** beside Building upgrades. Choose an ordinary building from the list. For a Crafted Defense, type the exact English name shown in Clash. In Builder Base, an empty list allows any affordable eligible building; a named list restricts upgrades to those names in order. Home Village still tries other suggested buildings when its chosen names are unavailable. Turn on **Skip Town Hall** or **Skip Crafted Defenses** in Home Village, or **Skip Builder Hall** in Builder Base, to exclude those upgrades.
 
 In Builder Base, **Hero upgrades → Set order** lets you choose Battle Machine and Battle Copter. An empty list allows either affordable hero; a named list limits upgrades to those heroes in order. Raidex checks the selected name again before spending resources.
 
@@ -22,7 +22,7 @@ Open **Automation → Home Village** for the profile you want to change, then tu
 2. Turn on **Hero upgrades** and choose **Set order**.
 3. Add the heroes you want, with your most important hero first. You can choose several heroes and give each profile a different order.
 
-With an empty hero list, Raidex may upgrade any affordable eligible hero. When you add names, it tries only those heroes in your saved order. Hero upgrades do not wait for 90% storage. If none can be upgraded, it keeps the builder free for heroes instead of starting another building or wall upgrade.
+With an empty hero list, Raidex may upgrade any affordable eligible hero. When you add names, it tries only those heroes in your saved order. Hero upgrades do not wait for 90% storage. When Walls is enabled, Raidex reserves one regular builder for Walls before starting a long building or hero upgrade. Eligible building work may continue when a selected hero cannot be upgraded.
 
 ![Find Hero upgrades and Set order in Raidex 3.16](https://github.com/c4Luffy/Raidex-Downloads/releases/download/v3.16/3.16-hero-settings.png)
 
@@ -36,8 +36,8 @@ Raidex recognizes the boat on the live Home Village screen. In a Builder Base ba
 
 1. Save each Clash account in Supercell ID on the same emulator, and make a Raidex profile for each account.
 2. Open **Profiles → Manage profile** and save that account's **Clash player tag**. Do this for every profile. Profile names can be anything.
-3. For every profile, assign the same emulator. In **Automation → Home Village**, set the Gold, Elixir, and Dark Elixir storage limits, and turn on **Home Village attacks** and **Wall upgrades**.
-4. Under **Full storage action**, choose **Account rotation** for each profile. On Home, choose the account you want to start with and press **Start Raidex**.
+3. For every profile, assign the same emulator. In **Automation → Home Village** or **Builder Base**, set the corresponding storage limits and enable the work you want for that village.
+4. Under that village's **Full storage action**, choose **Account rotation** for each profile. On Home, choose the account you want to start with and press **Start Raidex**.
 
 If Raidex cannot find or confirm the next account, it stops safely.
 
@@ -64,11 +64,14 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-The 3.68 source tag points to `14b28ce607ca0398f8a7528dc5463d90a5bf56a6`. The protected Engine self-check, 101 instance guard checks, and 43 run-target checks passed. The customer package passed saved-data compatibility, packaged Windows startup, runtime-asset checks, updater rollback cases, and the legacy 3.37 updater check. No new live game cycle was run for this UI update.
+The 3.71 source tag points to `4b36d79c29775ddf01199318b4912deb64d7eedd`. The Release build, protected Engine self-check, 106 instance guards, 43 run-target checks and 96 workflow checks passed. The customer package passed saved-data compatibility parity, fresh packaged Windows startup, runtime assets, updater rollback/refusal and the legacy 3.37 updater check.
 
-The 3.68 customer ZIP is 282,158,508 bytes with 748 entries, including the Engine and OCR files. Its local SHA-256 is:
+Live tests confirmed repeated affordable Walls and a reserved regular Builder, both village filters, clan work, account rotation, two-area Builder attacks and all four Builder full-storage actions. The final packaged Home cycle completed an attack and recorded 71 resource readings with a median one-second interval. Busy workers, helper cooldowns, exhausted Ranked allowance and completed upgrade lists limited some fresh starts; those limits are recorded separately.
+
+The 3.71 customer ZIP is 312,250,443 bytes with 844 entries, including the Engine and OCR files. Its SHA-256 is:
+
 ```text
-2E09D0EBEA63F5DB801846614E7A476695AF858410E706E3B55F6BDBCED6DFE7
+FB6F56DED499980FA26ABF4FC86B1D23E0D0B835172D144DC73630E141CBF87C
 ```
 
 ## Links
@@ -76,3 +79,8 @@ The 3.68 customer ZIP is 282,158,508 bytes with 748 entries, including the Engin
 - [Latest release](https://github.com/c4Luffy/Raidex-Downloads/releases/latest)
 - [Setup guide](https://raidexbot.com/setup/)
 - [Raidex community](https://discord.gg/hNvTTWFv4b)
+
+
+
+
+
