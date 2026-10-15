@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.71
+## Latest version — 3.72
 
-[Download Raidex 3.71 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.71)
+[Download Raidex 3.72 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.72)
 
-Raidex 3.71 reserves one regular builder for enabled Walls, continues verified affordable Wall spending, and adds resource, category and cost filters in both villages. Home battle resource bars refresh about once a second. Builder Base includes all four full-storage actions, updated upgrade and research routes, Cart collection, gate centering and account rotation. The known Defensive layout obstructed attack warning is verified before troop deployment. The Automation layout uses the available width and keeps clan interval fields readable.
+Raidex 3.72 makes the Home live log and Current Action easier to read. Gold, Elixir and Dark Elixir values use their own colors. Actions, successful results, waits, skips and errors stand out, while longer messages show in full. Copied logs remain plain text.
 
 ## Choose building upgrade order
 
