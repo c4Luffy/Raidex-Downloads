@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.73
+## Latest version — 3.74
 
-[Download Raidex 3.73 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.73)
+[Download Raidex 3.74 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.74)
 
-Raidex 3.73 makes community sharing controls more reliable. Both sharing switches start on if you have no saved choice, and your saved choices stay as they are. Turning sharing off waits for any active send; the app shows when public lifetime removal is still pending. Disabled game filter options no longer disturb the current upgrade filter. Hero checks back off after finding nothing to start, and update verification uses less memory.
+Raidex 3.74 fixes battle speed in Home Village. When the game shows End Battle, Raidex can use the visible 1x button to request 4x. It waits for an active battle and avoids tapping during the End Battle confirmation.
 
 ## Choose building upgrade order
 
