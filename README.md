@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.72
+## Latest version — 3.73
 
-[Download Raidex 3.72 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.72)
+[Download Raidex 3.73 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.73)
 
-Raidex 3.72 makes the Home live log and Current Action easier to read. Gold, Elixir and Dark Elixir values use their own colors. Actions, successful results, waits, skips and errors stand out, while longer messages show in full. Copied logs remain plain text.
+Raidex 3.73 makes community sharing controls more reliable. Both sharing switches start on if you have no saved choice, and your saved choices stay as they are. Turning sharing off waits for any active send; the app shows when public lifetime removal is still pending. Disabled game filter options no longer disturb the current upgrade filter. Hero checks back off after finding nothing to start, and update verification uses less memory.
 
 ## Choose building upgrade order
 
@@ -64,14 +64,14 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-The 3.71 source tag points to `4b36d79c29775ddf01199318b4912deb64d7eedd`. The Release build, protected Engine self-check, 106 instance guards, 43 run-target checks and 96 workflow checks passed. The customer package passed saved-data compatibility parity, fresh packaged Windows startup, runtime assets, updater rollback/refusal and the legacy 3.37 updater check.
+The 3.73 source tag points to `b85d19b078c61b7ad4d9b81fa76742fcfc00f93e`. The Release build, Engine self-check, 178 vision checks, 106 instance guards, 43 run-target checks and 96 workflow checks passed. The customer package passed saved-data compatibility, packaged Windows startup, runtime assets, updater rollback/refusal and the legacy 3.37 updater check.
 
-Live tests confirmed repeated affordable Walls and a reserved regular Builder, both village filters, clan work, account rotation, two-area Builder attacks and all four Builder full-storage actions. The final packaged Home cycle completed an attack and recorded 71 resource readings with a median one-second interval. Busy workers, helper cooldowns, exhausted Ranked allowance and completed upgrade lists limited some fresh starts; those limits are recorded separately.
+No new live game cycle was run for 3.73 because live checks were paused by the owner.
 
-The 3.71 customer ZIP is 312,250,443 bytes with 844 entries, including the Engine and OCR files. Its SHA-256 is:
+The 3.73 customer ZIP is 312,260,899 bytes with 844 entries, including the Engine and OCR files. Its SHA-256 is:
 
 ```text
-FB6F56DED499980FA26ABF4FC86B1D23E0D0B835172D144DC73630E141CBF87C
+23719879CFE0169B4E5541815207FE2BC58041C6F616A299A4BCAF30AF19087C
 ```
 
 ## Links
