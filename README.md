@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.77
+## Latest version — 3.78
 
-[Download Raidex 3.77 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.77)
+[Download Raidex 3.78 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.78)
 
-Raidex 3.77 adds an optional "At least one enabled minimum" switch for enemy loot. It also makes Dark Elixir text easier to read, lets you browse Progress chart dates with the keyboard, and corrects the Builder Base upgrade guide. This release includes the 3.75 completion messages and Builder Base donation fix.
+Raidex 3.78 lets Enemy Search check up to 100 verified bases within 20 minutes. It reconnects the selected emulator when an ADB screenshot loses the connection. The device picker shows usable, distinct emulators and keeps a profile's saved device visible if it goes offline.
 
 ## Choose building upgrade order
 
@@ -64,14 +64,14 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-The 3.73 source tag points to `b85d19b078c61b7ad4d9b81fa76742fcfc00f93e`. The Release build, Engine self-check, 178 vision checks, 106 instance guards, 43 run-target checks and 96 workflow checks passed. The customer package passed saved-data compatibility, packaged Windows startup, runtime assets, updater rollback/refusal and the legacy 3.37 updater check.
+The 3.78 source tag points to `34f350f4f5885da9ad47d9aa03fd0802a2882f05`. The Release build, Engine self-check, 107 instance guards and 43 run-target checks passed. The customer package passed saved-data compatibility, packaged Windows startup, runtime assets, updater rollback/refusal and the legacy 3.37 updater check.
 
-No new live game cycle was run for 3.73 because live checks were paused by the owner.
+A new live MuMu game cycle was skipped at the owner's request.
 
-The 3.73 customer ZIP is 312,260,899 bytes with 844 entries, including the Engine and OCR files. Its SHA-256 is:
+The public 3.78 customer ZIP is 312,273,453 bytes with 831 files. Its downloaded checksum matches the uploaded ZIP:
 
 ```text
-23719879CFE0169B4E5541815207FE2BC58041C6F616A299A4BCAF30AF19087C
+1B54DFB31E8641919212D1678B151F22280396E57B8ADF995D92465BA46E9CB8
 ```
 
 ## Links
