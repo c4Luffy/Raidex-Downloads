@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.74
+## Latest version — 3.77
 
-[Download Raidex 3.74 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.74)
+[Download Raidex 3.77 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.77)
 
-Raidex 3.74 fixes battle speed in Home Village. When the game shows End Battle, Raidex can use the visible 1x button to request 4x. It waits for an active battle and avoids tapping during the End Battle confirmation.
+Raidex 3.77 adds an optional "At least one enabled minimum" switch for enemy loot. It also makes Dark Elixir text easier to read, lets you browse Progress chart dates with the keyboard, and corrects the Builder Base upgrade guide. This release includes the 3.75 completion messages and Builder Base donation fix.
 
 ## Choose building upgrade order
 
