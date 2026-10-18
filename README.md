@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.80
+## Latest version — 3.81
 
-[Download Raidex 3.80 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.80)
+[Download Raidex 3.81 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.81)
 
-Raidex 3.80 brings cleaner layouts across the app, illustrated event cards, clearer automation settings and simple number examples. Upgrade rows and icons are slightly bigger. Instances has a cleaner Actions menu, and Profiles, Settings and failure screenshots fit better in smaller windows.
+Raidex 3.81 removes automatic Saved Army recipes. Home Village and Ranked attacks use the army you prepare and train in Clash. Raidex waits for the My Army Attack button and stops the attack safely if the army is not ready. Existing profiles continue to load.
 
 ## Upgrade timers and rotation help
 
@@ -70,14 +70,14 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-The 3.78 source tag points to `34f350f4f5885da9ad47d9aa03fd0802a2882f05`. The Release build, Engine self-check, 107 instance guards and 43 run-target checks passed. The customer package passed saved-data compatibility, packaged Windows startup, runtime assets, updater rollback/refusal and the legacy 3.37 updater check.
+The 3.81 source tag points to `920ec662a54cb45d376960a6f33a70777d16bc95`. The Release build, Engine self-check, 175 vision checks, 96 review checks, 107 instance guards and 43 run-target checks passed. The customer package passed saved-data compatibility, packaged Windows startup, runtime assets, updater rollback/refusal and the legacy 3.37 updater check.
 
 A new live MuMu game cycle was skipped at the owner's request.
 
-The public 3.78 customer ZIP is 312,273,453 bytes with 831 files. Its downloaded checksum matches the uploaded ZIP:
+The public 3.81 customer ZIP is 311,412,217 bytes with 843 files. The ZIP downloaded through `releases/latest/download` matches its public checksum and the uploaded package:
 
 ```text
-1B54DFB31E8641919212D1678B151F22280396E57B8ADF995D92465BA46E9CB8
+F2083E120C24301A13E86879B0898969CA87F86C6D95CACE3947D3C1C6A24D3F
 ```
 
 ## Links
