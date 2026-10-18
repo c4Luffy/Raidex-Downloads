@@ -1,10 +1,16 @@
 # Raidex Downloads
 
-## Latest version — 3.78
+## Latest version — 3.79
 
-[Download Raidex 3.78 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.78)
+[Download Raidex 3.79 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.79)
 
-Raidex 3.78 lets Enemy Search check up to 100 verified bases within 20 minutes. It reconnects the selected emulator when an ADB screenshot loses the connection. The device picker shows usable, distinct emulators and keeps a profile's saved device visible if it goes offline.
+Raidex 3.79 adds separate Buildings & Heroes, Laboratory and Pets sections with automatic timer scans, smooth resource-colored progress, icons, completion and availability status. It also fixes helper switches, donation limits and counting, duplicate/partial timer reads, speed confirmation, saved-army preparation, Pet activity totals and emulator alias selection.
+
+## Upgrade timers and rotation help
+
+Open **Profiles → Upgrades** to see locally saved timers from the bot's automatic scan. Each section shows its own last read. Availability between scans follows the saved timers; a later scan corrects changes made in Clash.
+
+Open **Automation → Home Village** or **Builder Base** and choose **How it works** beside Account rotation. The guide includes screenshots, player-tag setup, per-profile storage limits and Account A/B/C examples. Assign the same emulator to all participating profiles and use each account's actual caps.
 
 ## Choose building upgrade order
 
