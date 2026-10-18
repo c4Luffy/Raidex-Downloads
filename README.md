@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.79
+## Latest version — 3.80
 
-[Download Raidex 3.79 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.79)
+[Download Raidex 3.80 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.80)
 
-Raidex 3.79 adds separate Buildings & Heroes, Laboratory and Pets sections with automatic timer scans, smooth resource-colored progress, icons, completion and availability status. It also fixes helper switches, donation limits and counting, duplicate/partial timer reads, speed confirmation, saved-army preparation, Pet activity totals and emulator alias selection.
+Raidex 3.80 brings cleaner layouts across the app, illustrated event cards, clearer automation settings and simple number examples. Upgrade rows and icons are slightly bigger. Instances has a cleaner Actions menu, and Profiles, Settings and failure screenshots fit better in smaller windows.
 
 ## Upgrade timers and rotation help
 
