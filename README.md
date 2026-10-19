@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.81
+## Latest version — 3.82
 
-[Download Raidex 3.81 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.81)
+[Download Raidex 3.82 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.82)
 
-Raidex 3.81 removes automatic Saved Army recipes. Home Village and Ranked attacks use the army you prepare and train in Clash. Raidex waits for the My Army Attack button and stops the attack safely if the army is not ready. Existing profiles continue to load.
+Raidex 3.82 reads Home Village deployment bars without Hero cards when the Troop, Siege, and Spell frames clearly confirm their order. Unclear frames still stop deployment safely. Home Village and Ranked attacks continue to use the army prepared in Clash.
 
 ## Upgrade timers and rotation help
 
