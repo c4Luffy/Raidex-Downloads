@@ -1,10 +1,10 @@
 # Raidex Downloads
 
-## Latest version — 3.82
+## Latest version — 3.83
 
-[Download Raidex 3.82 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.82)
+[Download Raidex 3.83 for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [What's new](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.83)
 
-Raidex 3.82 reads Home Village deployment bars without Hero cards when the Troop, Siege, and Spell frames clearly confirm their order. Unclear frames still stop deployment safely. Home Village and Ranked attacks continue to use the army prepared in Clash.
+Raidex 3.83 restores a full zoom-out after Home Village Wall upgrades and keeps deploying spells until their cards are empty. The new **Rapid deployment** option beside Home Village attacks starts off by default. When enabled, it rapidly places troops, Siege, Heroes, and spells before activating Hero abilities.
 
 ## Upgrade timers and rotation help
 
@@ -70,14 +70,14 @@ Raidex supports up to eight **purchased** concurrent instance slots. Weekly, Mon
 
 ## Verification
 
-The 3.81 source tag points to `920ec662a54cb45d376960a6f33a70777d16bc95`. The Release build, Engine self-check, 175 vision checks, 96 review checks, 107 instance guards and 43 run-target checks passed. The customer package passed saved-data compatibility, packaged Windows startup, runtime assets, updater rollback/refusal and the legacy 3.37 updater check.
+The 3.83 source tag points to `e57e241aaf444120945e2835a5d91730d2067a87`. The Release build, Engine self-check, 107 instance guards and 43 run-target checks passed. The customer package passed saved-data compatibility, packaged Windows startup, release smoke checks and the legacy 3.37 updater check.
 
-A new live MuMu game cycle was skipped at the owner's request.
+A new agent-run live MuMu game cycle was skipped at the owner's request. The user's Test Profile attack showed rapid deployment of troops, Siege, Heroes, and four spell cards. That cycle had no available Wall upgrade.
 
-The public 3.81 customer ZIP is 311,412,217 bytes with 843 files. The ZIP downloaded through `releases/latest/download` matches its public checksum and the uploaded package:
+The public 3.83 customer ZIP is 311,744,276 bytes with 844 files. The ZIP downloaded through `releases/latest/download` matches its public checksum and the uploaded package:
 
 ```text
-F2083E120C24301A13E86879B0898969CA87F86C6D95CACE3947D3C1C6A24D3F
+3DCE9DB7147E2939122D9C6DE89154ED345526D016294F468AE5C5BB5FD9EF18
 ```
 
 ## Links
