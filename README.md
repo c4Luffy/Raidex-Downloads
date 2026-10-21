@@ -1,10 +1,13 @@
 # Raidex Downloads
 
-## Latest version — 3.87
+## Latest version — 3.88
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.87)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.88)
 
 ### What changed
+
+- Fixed the packaged app's **Raidex Engine is missing** error when enabling Home Village upgrade wake.
+- Settings refreshes update checks when opened, then every 15 minutes while open, and shows the last successful check time.
 
 - Private phone controls at raidexbot.com → My account → Remote: start profiles, Stop now, progress, logs and emulator screenshots.
 - Full phone Automation editing, including upgrade priorities, schedules and run targets.
