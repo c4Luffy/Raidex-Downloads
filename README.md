@@ -1,15 +1,15 @@
 # Raidex Downloads
 
-## Latest version — 3.91
+## Latest version — 3.92
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.91)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.92)
 
 ### What changed
 
-- Fixed Builder Base farming stopping after a completed battle when a delayed return-home check recovers successfully.
-- Kept Stop requests and uncertain battle outcomes as stops, with one bounded recovery attempt for a delayed return.
-- Added clearer failed-return diagnostics and a saved frame for the existing screenshot-enabled reports.
-- Includes the Remote Control crash fix from 3.90 and the interface improvements from 3.89.
+- Fixed upgrade wake stopping when the timer reader missed a visible building name.
+- Improved building-name recognition while keeping incomplete timer scans blocked.
+- Timer scan logs now show Complete or Partial.
+- Includes the Builder Base recovery fix from 3.91, Remote Control crash fix from 3.90 and interface improvements from 3.89.
 
 - Private phone controls at raidexbot.com → My account → Remote: start profiles, Stop now, progress, logs and emulator screenshots.
 - Full phone Automation editing, including upgrade priorities, schedules and run targets.
