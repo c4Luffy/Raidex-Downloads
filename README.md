@@ -1,10 +1,17 @@
 # Raidex Downloads
 
-## Latest version — 3.92
+## Latest version — 3.93
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.92)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.93)
 
 ### What changed
+
+- Added Arrange windows on Home and Instances for compact emulator windows side by side.
+- Handles available screen space and emulator minimum window sizes.
+- Skips an unnecessary startup device scan when saved profiles already exist.
+- Verified with two MuMu windows and offline checks. No new attack cycle was run.
+
+### Also included
 
 - Fixed upgrade wake stopping when the timer reader missed a visible building name.
 - Improved building-name recognition while keeping incomplete timer scans blocked.
