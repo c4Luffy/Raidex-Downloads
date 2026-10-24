@@ -1,17 +1,15 @@
 # Raidex Downloads
 
-## Latest version — 3.94
+## Latest version — 3.95
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.94)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.95)
 
 ### What changed
 
-- Added Clan Games mode on Home with a points target, confirmed progress, status and history.
-- Selects the first confirmed supported Home Village challenge and checks real progress after small groups of attacks.
-- Supports stars, wins, loot, building destruction, defending hero levels and required-hero star objectives with availability and deployment guards.
-- Skips Builder Base and specific troop, spell or siege challenges. No gems, automatic discards or event reward selection.
-- Fixed repeated inspection caused by active-popup text, small timers, panel transitions and pending point awards.
-- Live testing reached 4,900 points, including Clan Castle Charge, Queen Supreme and Hero Level Hunter completion. The final release cycle did not attack. Required-hero switching has limited live coverage; see the release notes.
+- Hardened minimize, restore and tray window transitions, with repeated UI stress checks.
+- Added Clan Games mode, points/status and saved settings to website Remote Access. Update the PC app to 3.95 for these controls.
+- Improved timer-list return handling and failure screenshots. Timer-scan errors check the screen instead of entering battle-surrender recovery.
+- The original native minimize crash did not reproduce in the harness. The customer's timer-return screenshot remains unavailable. No attack was run for final validation.
 
 ### Also included
 
