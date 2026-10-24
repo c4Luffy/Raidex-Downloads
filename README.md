@@ -1,17 +1,22 @@
 # Raidex Downloads
 
-## Latest version — 3.93
+## Latest version — 3.94
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.93)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.94)
 
 ### What changed
 
-- Added Arrange windows on Home and Instances for compact emulator windows side by side.
-- Handles available screen space and emulator minimum window sizes.
-- Skips an unnecessary startup device scan when saved profiles already exist.
-- Verified with two MuMu windows and offline checks. No new attack cycle was run.
+- Added Clan Games mode on Home with a points target, confirmed progress, status and history.
+- Selects the first confirmed supported Home Village challenge and checks real progress after small groups of attacks.
+- Supports stars, wins, loot, building destruction, defending hero levels and required-hero star objectives with availability and deployment guards.
+- Skips Builder Base and specific troop, spell or siege challenges. No gems, automatic discards or event reward selection.
+- Fixed repeated inspection caused by active-popup text, small timers, panel transitions and pending point awards.
+- Live testing reached 4,900 points, including Clan Castle Charge, Queen Supreme and Hero Level Hunter completion. The final release cycle did not attack. Required-hero switching has limited live coverage; see the release notes.
 
 ### Also included
+
+- Arrange windows on Home and Instances, compact emulator placement and the saved-profile startup optimization from 3.93.
+
 
 - Fixed upgrade wake stopping when the timer reader missed a visible building name.
 - Improved building-name recognition while keeping incomplete timer scans blocked.
