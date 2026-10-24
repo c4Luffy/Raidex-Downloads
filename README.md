@@ -1,10 +1,17 @@
 # Raidex Downloads
 
-## Latest version — 3.95
+## Latest version — 3.98
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.95)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.98)
 
 ### What changed
+
+- Fixed Home status-message spacing and aligned dropdown menus below their fields.
+- Keeps saved emulator choices visible while refreshing and when stopped, without duplicate connection checks.
+- Arrange windows is available when automation is idle. Pause after action and wait for completion before arranging.
+- Reduces rapid attack deployment round trips by combining tap batches with their follow-up screenshot. Existing timing and recognition guards remain in force.
+
+### Included from 3.95
 
 - Hardened minimize, restore and tray window transitions, with repeated UI stress checks.
 - Added Clan Games mode, points/status and saved settings to website Remote Access. Update the PC app to 3.95 for these controls.
