@@ -1,15 +1,19 @@
 # Raidex Downloads
 
-## Latest version — 3.98
+## Latest version — 4.0
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v3.98)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.0)
 
 ### What changed
 
-- Fixed Home status-message spacing and aligned dropdown menus below their fields.
-- Keeps saved emulator choices visible while refreshing and when stopped, without duplicate connection checks.
-- Arrange windows is available when automation is idle. Pause after action and wait for completion before arranging.
-- Reduces rapid attack deployment round trips by combining tap batches with their follow-up screenshot. Existing timing and recognition guards remain in force.
+- Runs Clan Games checks only in Clan Games mode, not during ordinary Home Village farming.
+- Supports the pictured 60% Building Boom Boom challenge when Builder Base attacks are enabled. Other Builder Base challenges remain manual.
+- Pauses Clan Games mode after two attacks confirm no progress and tells you to check the challenge.
+- Reads zero-progress active challenges and single-battle loot objectives from the supplied game screens.
+- Checks troop and spell quantities after each placement tap to avoid extra taps when a card reaches zero.
+- Drops troops, siege, heroes and spells before activating hero abilities.
+
+Live game testing was skipped at the owner's request.
 
 ### Included from 3.95
 
