@@ -1,19 +1,19 @@
 # Raidex Downloads
 
-## Latest version — 4.0
+## Latest version — 4.1
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.0)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.1)
 
 ### What changed
 
 - Runs Clan Games checks only in Clan Games mode, not during ordinary Home Village farming.
-- Supports the pictured 60% Building Boom Boom challenge when Builder Base attacks are enabled. Other Builder Base challenges remain manual.
+- Keeps Lord of Destruction eligible in Clan Games mode. Skips Building Boom Boom at every target, alongside Wall Whacker, Hog Rider Raid, Helping Hand, Riding and Gliding, Seeing Quadruple, Ride of the Valkyries, Cannon Cart Cruise, Donate Spells, and Giant Problem.
 - Pauses Clan Games mode after two attacks confirm no progress and tells you to check the challenge.
 - Reads zero-progress active challenges and single-battle loot objectives from the supplied game screens.
 - Checks troop and spell quantities after each placement tap to avoid extra taps when a card reaches zero.
 - Drops troops, siege, heroes and spells before activating hero abilities.
 
-Live game testing was skipped at the owner's request.
+No new live game test was performed for 4.1.
 
 ### Included from 3.95
 
