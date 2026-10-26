@@ -1,10 +1,22 @@
 # Raidex Downloads
 
-## Latest version — 4.1
+## Latest version — 4.2
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.1)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.2)
 
 ### What changed
+
+- Fixes updates blocked by the background Remote Control helper.
+- Keeps the previous installation intact when files are locked.
+- Restores the previous version if the replacement fails its startup check, including when it has started a helper.
+- Refuses updates while an automation engine is running and rechecks the downloaded ZIP checksum before installation.
+- Preserves recovery files and records their locations if automatic recovery cannot finish.
+
+If an older updater has already failed, download the latest ZIP and extract it into a fresh folder. Keep the old update backup. This installs the corrected updater for future updates; older running updater code cannot repair itself.
+
+No new live game test was performed for 4.2. Update installation and recovery are checked without game input.
+
+### Included from 4.1
 
 - Runs Clan Games checks only in Clan Games mode, not during ordinary Home Village farming.
 - Keeps Lord of Destruction eligible in Clan Games mode. Skips Building Boom Boom at every target, alongside Wall Whacker, Hog Rider Raid, Helping Hand, Riding and Gliding, Seeing Quadruple, Ride of the Valkyries, Cannon Cart Cruise, Donate Spells, and Giant Problem.
