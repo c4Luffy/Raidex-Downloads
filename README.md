@@ -1,18 +1,26 @@
 # Raidex Downloads
 
-## Latest version — 4.5
+## Latest version — 4.6
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.5)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.6)
 
 ### What changed
 
-- Faster Home Village Wall passes, with verified price, Builder, resource and purchase checks retained.
-- Hero ability timers are checked during deployment, including between spell batches.
-- Rapid deployment uses small batches only when consecutive screen counts agree with the taps sent.
-- Fixes Builder Base startup recognition for another laboratory HUD appearance.
-- Clearer status icons on Home and Instances. Profile charts support keyboard focus and date navigation.
+- Retries uncertain resource readings using up to two fresh screenshots. Reader agreement, screen confirmation, capacity and spending checks remain active.
+- Rechecks the selected Wall resource/control after a refreshed balance read.
+- Waits for stable startup village frames after known-popup recovery, within bounded limits and with Stop handling.
+- Saves the exact recognition failure image for its matching support report.
+- Reads raised troop-count headers correctly, keeping Rapid deployment batches active when consecutive counts agree.
 
-Live preview checks showed Hero ability taps about 5 seconds after placement, versus roughly 14–16 seconds previously. Three verified Wall purchases had 18-second intervals, versus a previous 40-second median. These small samples are not a guaranteed speedup. Troop deployment time was unchanged in the tested army, and unclear spell counts can still cause bounded empty placement attempts.
+Live preview: 10 troops deployed in 5.29 seconds versus earlier 6.11–6.57 seconds (13–20% less troop deployment time). Full army time remained about 21 seconds. Only one prepared army was measured in different battles; these are not universal timing guarantees. Five live resource reads and stable Home confirmation passed. The original intermittent OCR conflict was not reproduced from the later report screenshot; recovery limits and failure-image preservation were tested separately.
+
+### Included from 4.5
+
+- Faster Home Village Wall passes with verified price, Builder, resource and purchase checks.
+- Hero ability timers checked during deployment, including between spell batches.
+- Rapid batches require consistent consecutive screen counts.
+- Builder Base startup recognition for another laboratory HUD appearance.
+- Clearer status icons on Home and Instances, and keyboard focus/date navigation for profile charts.
 
 ### Included from 4.3
 
