@@ -1,10 +1,15 @@
 # Raidex Downloads
 
-## Latest version — 4.6
+## Latest version — 4.7
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.6)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7)
 
 ### What changed
+
+- Checks for updates at startup and every six hours while Raidex is open.
+- Opening Settings no longer triggers extra checks. Manual checks remain available.
+
+### Included from 4.6
 
 - Retries uncertain resource readings using up to two fresh screenshots. Reader agreement, screen confirmation, capacity and spending checks remain active.
 - Rechecks the selected Wall resource/control after a refreshed balance read.
