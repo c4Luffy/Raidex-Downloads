@@ -1,10 +1,19 @@
 # Raidex Downloads
 
-## Latest version — 4.2
+## Latest version — 4.3
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.2)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.3)
 
 ### What changed
+
+- Stops repeated donation taps when a colored card does not produce visible progress. Raidex waits for a changed donation count or a gray card, then skips an unresponsive card and checks the others. Applies to normal donation and The Night's Watch.
+- Removes scrolling from Profiles > Upgrades. Compact windows use two columns of builder cards, with Laboratory and Pets beside them.
+- Keeps the wake status visible and moves its full explanation into How it works.
+- Includes the updater recovery and Remote Control helper fixes from 4.2.
+
+Build, saved-data compatibility, donation-image replay and rendered layout checks passed. Live Night's Watch donation testing remains pending; the original cause of the reported Balloon failure is not confirmed.
+
+### Included from 4.2
 
 - Fixes updates blocked by the background Remote Control helper.
 - Keeps the previous installation intact when files are locked.
