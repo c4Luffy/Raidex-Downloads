@@ -1,17 +1,26 @@
 # Raidex Downloads
 
-## Latest version — 4.3
+## Latest version — 4.5
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.3)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.5)
 
 ### What changed
 
-- Stops repeated donation taps when a colored card does not produce visible progress. Raidex waits for a changed donation count or a gray card, then skips an unresponsive card and checks the others. Applies to normal donation and The Night's Watch.
-- Removes scrolling from Profiles > Upgrades. Compact windows use two columns of builder cards, with Laboratory and Pets beside them.
-- Keeps the wake status visible and moves its full explanation into How it works.
-- Includes the updater recovery and Remote Control helper fixes from 4.2.
+- Faster Home Village Wall passes, with verified price, Builder, resource and purchase checks retained.
+- Hero ability timers are checked during deployment, including between spell batches.
+- Rapid deployment uses small batches only when consecutive screen counts agree with the taps sent.
+- Fixes Builder Base startup recognition for another laboratory HUD appearance.
+- Clearer status icons on Home and Instances. Profile charts support keyboard focus and date navigation.
 
-Build, saved-data compatibility, donation-image replay and rendered layout checks passed. Live Night's Watch donation testing remains pending; the original cause of the reported Balloon failure is not confirmed.
+Live preview checks showed Hero ability taps about 5 seconds after placement, versus roughly 14–16 seconds previously. Three verified Wall purchases had 18-second intervals, versus a previous 40-second median. These small samples are not a guaranteed speedup. Troop deployment time was unchanged in the tested army, and unclear spell counts can still cause bounded empty placement attempts.
+
+### Included from 4.3
+
+- Donation taps wait for visible progress and skip unresponsive cards, in normal donation and The Night's Watch.
+- Profiles > Upgrades fits compact windows without scrolling, with Laboratory and Pets beside the builder cards.
+- Upgrade-wake details are under How it works, with status still visible.
+
+Live Night's Watch donation testing remains pending.
 
 ### Included from 4.2
 
