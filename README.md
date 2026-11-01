@@ -14,6 +14,8 @@
 
 Live preview: 10 troops deployed in 5.29 seconds versus earlier 6.11–6.57 seconds (13–20% less troop deployment time). Full army time remained about 21 seconds. Only one prepared army was measured in different battles; these are not universal timing guarantees. Five live resource reads and stable Home confirmation passed. The original intermittent OCR conflict was not reproduced from the later report screenshot; recovery limits and failure-image preservation were tested separately.
 
+Final protected-build smoke: ten troops deployed in 4.98 seconds and total army deployment was 19.74 seconds in that run. The controlled attack completed and returned Home.
+
 ### Included from 4.5
 
 - Faster Home Village Wall passes with verified price, Builder, resource and purchase checks.
