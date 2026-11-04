@@ -1,17 +1,25 @@
 # Raidex Downloads
 
-## Latest version — 4.7.1
+## Latest version — 4.7.2
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.1)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.2)
 
 ### What changed
+
+- Fixes Lab Assistant failing to find the Laboratory when it is absent from building-upgrade suggestions.
+- Opens the human helper directly from Army Upgrades, checks the active research and matching confirmation, and verifies Job in progress.
+- Recognizes an already-working assistant without assigning again. Gem upgrades and Goblin offers are excluded.
+
+Live testing confirmed assignment to Barbarian research, return Home, and correct handling of the already-working assistant. The gem balance stayed unchanged.
+
+### Included from 4.7.1
 
 - Recovers from the recognized English rating dialog using its verified Later button.
 - Avoids unnecessary Hero and Building checks when fresh information confirms they cannot proceed; reuses fresh recovery scans and confirmed busy Pet timers.
 - Shows **Maintenance complete — attacks disabled** instead of implying that storages are full.
 - Uses bundled vector icons for Home, Settings, and Failures, avoiding missing-font boxes.
 
-The rating popup recovery was checked with a constructed fixture and real negative game screenshots; it has not recurred during live testing. Lab Assistant row recognition remains a known issue. Camera reset and separate clan-request/donation processes are unchanged.
+The rating popup recovery was checked with a constructed fixture and real negative game screenshots; it has not recurred during live testing. The Lab Assistant navigation issue noted in 4.7.1 is fixed in 4.7.2. Camera reset and separate clan-request/donation processes are unchanged.
 
 ### Included from 4.7
 
