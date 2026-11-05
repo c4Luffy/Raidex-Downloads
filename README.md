@@ -1,10 +1,18 @@
 # Raidex Downloads
 
-## Latest version — 4.7.3
+## Latest version — 4.7.4
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.3)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.4)
 
 ### What changed
+
+- Automatically reserves Revive Spells and uses them on fallen heroes after normal deployment.
+- Supports multiple Revive Spells, one hero at a time, using the blue pulse or a persistent missing-health-bar fallback.
+- Checks the hero and spell count after each cast; uncertain results pause automatic revival for that attack.
+
+Tests and live bot validation were skipped at the owner's request. See the release notes for the exact validation limits.
+
+### Included from 4.7.3
 
 - Fixes Home upgrade recognition on discounted confirmations, including Hammer Jam prices and fragmented Wall titles. Uses the verified current price; gray or Town Hall-blocked confirmations remain unavailable.
 - Recognizes Spell Tower mode names and the current resource Confirm button while preserving exact name, price, and currency checks.
