@@ -8,6 +8,7 @@
 
 - Fixes Home upgrade recognition on discounted confirmations, including Hammer Jam prices and fragmented Wall titles. Uses the verified current price; gray or Town Hall-blocked confirmations remain unavailable.
 - Recognizes Spell Tower mode names and the current resource Confirm button while preserving exact name, price, and currency checks.
+- Fixes the alternate Lab Assistant prompt and the small Assign Apprentice card, including its direct confirmation. Assignments still require the correct helper and target.
 - Handles verified post-battle overlays, including the captured Gold Pass popup, before a long Builder Base recovery wait.
 - Avoids repeating a confirmed unaffordable hero search in the same maintenance pass when eligibility has not changed.
 - Reuses the freshly verified village state after Builder Base donations instead of checking it twice.
