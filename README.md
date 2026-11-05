@@ -1,10 +1,20 @@
 # Raidex Downloads
 
-## Latest version — 4.7.2
+## Latest version — 4.7.3
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.2)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.3)
 
 ### What changed
+
+- Fixes Home upgrade recognition on discounted confirmations, including Hammer Jam prices and fragmented Wall titles. Uses the verified current price; gray or Town Hall-blocked confirmations remain unavailable.
+- Recognizes Spell Tower mode names and the current resource Confirm button while preserving exact name, price, and currency checks.
+- Handles verified post-battle overlays, including the captured Gold Pass popup, before a long Builder Base recovery wait.
+- Avoids repeating a confirmed unaffordable hero search in the same maintenance pass when eligibility has not changed.
+- Reuses the freshly verified village state after Builder Base donations instead of checking it twice.
+
+Unknown screens, stale results, Stop, dry-run protection, and stable village confirmation retain their safety checks. Popup tests replay the real captured failure screen; savings vary by the screens and actions in each run.
+
+### Included from 4.7.2
 
 - Fixes Lab Assistant failing to find the Laboratory when it is absent from building-upgrade suggestions.
 - Opens the human helper directly from Army Upgrades, checks the active research and matching confirmation, and verifies Job in progress.
