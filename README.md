@@ -1,10 +1,19 @@
 # Raidex Downloads
 
-## Latest version — 4.7.4
+## Latest version — 4.7.5
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.4)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.5)
 
 ### What changed
+
+- Find upgrade timers and the wake setting in **Automation → Upgrades**.
+- Tabs now follow Home Village, Builder Base, Upgrades, Events, Humanization.
+- Wake scheduling follows the next recorded upgrade finish time instead of a repeating five-minute Windows task.
+- See the next local wake time; new scans replan it and failed starts use a bounded retry delay.
+
+Build, profile controls, layout, scheduling and instance safeguards were checked. No new live game upgrade cycle was tested. Keep Windows awake and signed in; boosts or manual changes are recognized on the next scan.
+
+### Included from 4.7.4
 
 - Automatically reserves Revive Spells and uses them on fallen heroes after normal deployment.
 - Supports multiple Revive Spells, one hero at a time, using the blue pulse or a persistent missing-health-bar fallback.
