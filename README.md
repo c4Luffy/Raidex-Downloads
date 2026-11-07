@@ -1,18 +1,22 @@
 # Raidex Downloads
 
-## Latest version — 4.7.5
+## Latest version — 4.7.12
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.5)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.12)
 
 ### What changed
 
-- Find upgrade timers and the wake setting in **Automation → Upgrades**.
-- Tabs now follow Home Village, Builder Base, Upgrades, Events, Humanization.
-- Wake scheduling follows the next recorded upgrade finish time instead of a repeating five-minute Windows task.
-- See the next local wake time; new scans replan it and failed starts use a bounded retry delay.
+- Recognizes the current Revive Spell and reserves it for defeated heroes.
+- Checks for defeated heroes more often and supports consecutive revivals when spells remain.
+- Fixes a packaged upgrade wake scheduling error.
+- Improves recovery from the Multiplayer menu.
 
-Build, profile controls, layout, scheduling and instance safeguards were checked. No new live game upgrade cycle was tested. Keep Windows awake and signed in; boosts or manual changes are recognized on the next scan.
+The faster Revive flow was checked with saved game images and simulated input. Its response speed has not been confirmed in a live battle. Raidex may pause automatic revival if spell use cannot be confirmed.
 
+### Included from 4.7.5
+
+- Upgrade timers and wake settings are in **Automation → Upgrades**. Wake follows the next recorded finish time.
+- Keep Windows awake and signed in. Changes made outside Raidex are picked up on the next scan.
 ### Included from 4.7.4
 
 - Automatically reserves Revive Spells and uses them on fallen heroes after normal deployment.
