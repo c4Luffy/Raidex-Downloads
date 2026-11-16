@@ -1,10 +1,20 @@
 # Raidex Downloads
 
-## Latest version — 4.7.12
+## Latest version — 4.7.14
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.12)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.14)
 
-### What changed
+### What changed in 4.7.14
+
+- Adds the new Home Village buildings and Heroic Spell to upgrade choices.
+- Supports the updated Ranked tournament signup, including **Stay signed up**.
+- Improves checks for Builder’s Apprentice, crafted-defense confirmations, Revive Spell results, and updated game screens.
+- Handles the current Star Bonus Snack Pack with up to four guarded taps. The screens were checked using saved pictures; the full automatic collection has not been tested live and may stop safely if a screen is unclear.
+- Includes the upgrade-wake fix for repeated five-minute wake attempts and improved recovery when the game closes or the emulator disconnects.
+
+Some changes were checked using saved game screens. The new Ranked signup and latest helper actions have not been confirmed in a live Raidex run. New building placement is not automatic.
+
+### Included from 4.7.12
 
 - Recognizes the current Revive Spell and reserves it for defeated heroes.
 - Checks for defeated heroes more often and supports consecutive revivals when spells remain.
