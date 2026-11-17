@@ -1,10 +1,19 @@
 # Raidex Downloads
 
-## Latest version — 4.7.14
+## Latest version — 4.7.15
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.14)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.15)
 
-### What changed in 4.7.14
+### What changed in 4.7.15
+
+- Checks that heroes have landed and tries another saved spot when needed.
+- Taps hero abilities sooner and checks the portrait to confirm they fired. All four abilities and a Revive were confirmed in one live battle on Max.
+- Keeps at least 10,000 gold for matchmaking during Home Village wall upgrades.
+- Recognizes more Lab Assistant and Builder's Apprentice screens and refreshes the upgrade priority icons.
+
+The insufficient-gold offer and Snack Pack flow were checked using saved screens. A new helper assignment was not confirmed live.
+
+### Included from 4.7.14
 
 - Adds the new Home Village buildings and Heroic Spell to upgrade choices.
 - Supports the updated Ranked tournament signup, including **Stay signed up**.
