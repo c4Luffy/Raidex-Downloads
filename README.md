@@ -1,10 +1,20 @@
 # Raidex Downloads
 
-## Latest version — 4.7.18
+## Latest version — 4.7.19
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.18)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.19)
 
-### What changed in 4.7.18
+### What changed in 4.7.19
+
+- Faster Rapid deployment with larger confirmed batches and shorter waits.
+- Checks hero drops and retries another saved spot when a hero has not landed.
+- Skips a verified enemy whose loot readings stay unclear and continues searching.
+
+Three local Max battles averaged 26.2 seconds for full deployment versus 32.6 seconds before, about 20% faster. All 18 troops averaged 10.2 seconds versus 13.5 seconds before. Results vary by battle and emulator load.
+
+The unstable-loot skip passed a replay check. That case did not recur during the live watch. The public package has no additional live game cycle.
+
+### Included from 4.7.18
 
 - Fixes Elixir amount readings when narrow digits are missed.
 - Uses matching old digit-reader results from two crops on a confirmed Home Village screen.
