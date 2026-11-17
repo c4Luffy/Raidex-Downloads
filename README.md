@@ -1,10 +1,18 @@
 # Raidex Downloads
 
-## Latest version — 4.7.17
+## Latest version — 4.7.18
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.17)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.18)
 
-### What changed in 4.7.17
+### What changed in 4.7.18
+
+- Fixes Elixir amount readings when narrow digits are missed.
+- Uses matching old digit-reader results from two crops on a confirmed Home Village screen.
+- Keeps your saved manual storage limits.
+
+The local fix completed three battles on Max without logged errors after the final restart. Saved-screen checks passed. The public package has no additional live game test.
+
+### Included from 4.7.17
 
 - Home Village uses the manual storage limits saved in each profile. Edit them on Home or in Automation.
 - Tries the older balance reader if Raidex cannot read a resource amount on a confirmed Home Village screen.
