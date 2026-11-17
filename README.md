@@ -1,14 +1,16 @@
 # Raidex Downloads
 
-## Latest version — 4.7.16
+## Latest version — 4.7.17
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.16)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.17)
 
-### What changed in 4.7.16
+### What changed in 4.7.17
 
-- Reads Gold, Elixir, and Dark Elixir storage limits when a Home Village run starts.
-- Shows the limits used on Home. Edit backup values in **Automation → Home Village → Home Storage Backup**.
-- Builder Base continues to use manual limits.
+- Home Village uses the manual storage limits saved in each profile. Edit them on Home or in Automation.
+- Tries the older balance reader if Raidex cannot read a resource amount on a confirmed Home Village screen.
+- Closes the recognized Mini Spotlight event-ended notice so Raidex can return to the village.
+
+The popup was checked using a saved game image. There was no new live game test for this release.
 
 ### Included from 4.7.15
 
