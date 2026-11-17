@@ -6,13 +6,15 @@
 
 ### What changed in 4.7.19
 
+- Supports the yellow **Loot Available 2x** label and boosted amounts. Waits up to 60 seconds for an opponent.
+
 - Faster Rapid deployment with larger confirmed batches and shorter waits.
 - Checks hero drops and retries another saved spot when a hero has not landed.
 - Skips a verified enemy whose loot readings stay unclear and continues searching.
 
 Three local Max battles averaged 26.2 seconds for full deployment versus 32.6 seconds before, about 20% faster. All 18 troops averaged 10.2 seconds versus 13.5 seconds before. Results vary by battle and emulator load.
 
-The unstable-loot skip passed a replay check. That case did not recur during the live watch. The public package has no additional live game cycle.
+The unstable-loot skip passed a replay check. That case did not recur during the live watch. The public package has no additional live game cycle. Boosted-label support uses the supplied game picture and has not had an additional game or replay check.
 
 ### Included from 4.7.18
 
