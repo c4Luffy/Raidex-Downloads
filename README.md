@@ -1,10 +1,16 @@
 # Raidex Downloads
 
-## Latest version — 4.7.15
+## Latest version — 4.7.16
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.15)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.16)
 
-### What changed in 4.7.15
+### What changed in 4.7.16
+
+- Reads Gold, Elixir, and Dark Elixir storage limits when a Home Village run starts.
+- Shows the limits used on Home. Edit backup values in **Automation → Home Village → Home Storage Backup**.
+- Builder Base continues to use manual limits.
+
+### Included from 4.7.15
 
 - Checks that heroes have landed and tries another saved spot when needed.
 - Taps hero abilities sooner and checks the portrait to confirm they fired. All four abilities and a Revive were confirmed in one live battle on Max.
