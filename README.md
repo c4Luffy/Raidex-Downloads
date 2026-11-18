@@ -1,20 +1,23 @@
 # Raidex Downloads
 
-## Latest version — 4.7.19
+## Latest version — 4.7.20
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.19)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.20)
 
-### What changed in 4.7.19
+### What changed in 4.7.20
 
-- Supports the yellow **Loot Available 2x** label and boosted amounts. Waits up to 60 seconds for an opponent.
+- Removed Remote Control from Raidex Settings and the account website.
+- Removed the phone dashboard and background polling helper.
+- Opening this update removes the old helper startup entry and remote enrollment.
+- Profiles, saved automation choices, farming, upgrades and license sign-in remain available.
 
-- Faster Rapid deployment with larger confirmed batches and shorter waits.
-- Checks hero drops and retries another saved spot when a hero has not landed.
-- Skips a verified enemy whose loot readings stay unclear and continues searching.
+Older installations need this update to stop their Remote helper requests. The update cannot reset a Cloudflare quota that was already exhausted.
 
-Three local Max battles averaged 26.2 seconds for full deployment versus 32.6 seconds before, about 20% faster. All 18 troops averaged 10.2 seconds versus 13.5 seconds before. Results vary by battle and emulator load.
+Validation: offline package/startup, runtime assets, saved-data compatibility and updater checks. No new live game battle. The separate Builder Base Area 2 deployment issue is not fixed in this release.
 
-The unstable-loot skip passed a replay check. That case did not recur during the live watch. The public package has no additional live game cycle. Boosted-label support uses the supplied game picture and has not had an additional game or replay check.
+### Included from 4.7.19
+
+- Faster Rapid deployment, boosted loot recognition, and retries for unclear enemy loot.
 
 ### Included from 4.7.18
 
