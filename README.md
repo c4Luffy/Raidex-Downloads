@@ -1,10 +1,19 @@
 # Raidex Downloads
 
-## Latest version — 4.7.20
+## Latest version — 4.7.21
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.20)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.21)
 
-### What changed in 4.7.20
+### What changed in 4.7.21
+
+- Faster Home Village deployment with your saved troop spread.
+- Raidex retries missed hero drops and taps each hero’s ability as soon as it confirms the landing.
+- The army bar is checked before 4×. Revive stays available for a fallen hero.
+- Engine Repair checks that the engine matches your app.
+
+In 12 live attacks, all 48 heroes landed before 4×. Typical deployment time on the test account fell from 24.2 to 19.2 seconds.
+
+### Included from 4.7.20
 
 - Removed Remote Control from Raidex Settings and the account website.
 - Removed the phone dashboard and background polling helper.
