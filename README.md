@@ -1,10 +1,16 @@
 # Raidex Downloads
 
-## Latest version — 4.7.21
+## Latest version — 4.7.22
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.21)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.22)
 
-### What changed in 4.7.21
+### What changed in 4.7.22
+
+- Fixed a Home Village gold reading that could add an extra digit and stop a run.
+- When a balance looks wrong, Raidex checks the same resource again and retries on a fresh screen.
+- Fixed the backup Dark Elixir reader picking up the gem count below it.
+
+### Included from 4.7.21
 
 - Faster Home Village deployment with your saved troop spread.
 - Raidex retries missed hero drops and taps each hero’s ability as soon as it confirms the landing.
