@@ -1,10 +1,16 @@
 # Raidex Downloads
 
-## Latest version — 4.7.22
+## Latest version — 4.7.23
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.22)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.23)
 
-### What changed in 4.7.22
+### What changed in 4.7.23
+
+- Raidex now reads gold, elixir and dark elixir on 4× loot bases and checks them against your saved loot limits.
+- The Lab Assistant now recognizes research names such as Baby Dragon when the confirmation text splits across lines.
+- Raidex can close an open Lab Assistant window and return to the village to continue the run.
+
+### Included from 4.7.22
 
 - Fixed a Home Village gold reading that could add an extra digit and stop a run.
 - When a balance looks wrong, Raidex checks the same resource again and retries on a fresh screen.
