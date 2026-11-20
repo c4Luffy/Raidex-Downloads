@@ -1,10 +1,18 @@
 # Raidex Downloads
 
-## Latest version — 4.7.23
+## Latest version — 4.7.24
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.23)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.24)
 
-### What changed in 4.7.23
+### What changed in 4.7.24
+
+- Choose a profile in **Automation → Home Village** to set a separate ability delay for each of the six heroes. The default is 3 seconds. Enter any whole number from 0 to 10. Set 0 for an immediate tap after Raidex confirms the hero has landed.
+- Each timer starts when its hero lands. Raidex keeps deploying with your saved troop spread while the timers run.
+- The app opens in a larger window when the screen has room. All six hero portraits, names and timers fit side by side beneath **Enemy search** and **When storage is full**.
+- **Failures** makes the reason a run stopped and the steps to continue easier to read. **Settings** shows whether Discord is linked and groups public run sharing and private support options.
+- On a new installation, the **Include screenshot with my report** option for private support reports starts on. Automatic reporting starts off. Raidex keeps your saved choices when you update.
+
+### Included from 4.7.23
 
 - Raidex now reads gold, elixir and dark elixir on 4× loot bases and checks them against your saved loot limits.
 - The Lab Assistant now recognizes research names such as Baby Dragon when the confirmation text splits across lines.
