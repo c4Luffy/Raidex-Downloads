@@ -1,10 +1,16 @@
 # Raidex Downloads
 
-## Latest version — 4.7.24
+## Latest version — 4.7.25
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.24)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.25)
 
-### What changed in 4.7.24
+### What changed in 4.7.25
+
+- Raidex skips timer scans for disabled Home Village upgrade categories.
+- When Raidex already opens an enabled upgrade menu, it uses that screen to read the timers.
+- Dedicated timer scans run only when upgrade wake is enabled.
+
+### Included from 4.7.24
 
 - Choose a profile in **Automation → Home Village** to set a separate ability delay for each of the six heroes. The default is 3 seconds. Enter any whole number from 0 to 10. Set 0 for an immediate tap after Raidex confirms the hero has landed.
 - Each timer starts when its hero lands. Raidex keeps deploying with your saved troop spread while the timers run.
