@@ -1,10 +1,16 @@
 # Raidex Downloads
 
-## Latest version — 4.7.26
+## Latest version — 4.7.27
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.26)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.27)
 
-### What changed in 4.7.26
+### What changed in 4.7.27
+
+- The Builder's Apprentice now finds active building upgrades more reliably and checks the selected building before confirming the assignment.
+- During normal Home Village farming, Raidex checks an unclear army bar up to three more times. If it still cannot read the cards, it skips that opponent before deploying and continues farming.
+- If the license server times out, Raidex tries again. Farming resumes only after the server confirms the license is valid.
+
+### Included from 4.7.26
 
 - Check for updates now tries a second route if the release page is slow or unavailable. When GitHub asks you to wait, Settings shows when you can try again.
 - Settings shows the full version number and the time of the last successful check. If a later check fails, the previous Install button stays available and you can open the official downloads page.
