@@ -1,10 +1,17 @@
 # Raidex Downloads
 
-## Latest version — 4.7.27
+## Latest version — 4.7.28
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.27)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.28)
 
-### What changed in 4.7.27
+### What changed in 4.7.28
+
+- In **Automation → Home Village → Battles**, each profile can set a random end time for normal farming attacks. Pick a range from 1 to 180 seconds after the first troop drops. The default range is 60–180 seconds.
+- Beside the timer, **Surrender after** can end a normal farming attack at 1 or 2 stars. It starts off. Use it on its own or with the timer. If you use both, the first target reached ends the battle.
+- Raidex checks the Star Bonus chest after each tap. If the chest is still waiting at the same step after its animation settles, Raidex can tap it again.
+- After a game error it can recover from, Raidex reopens Clash on the affected profile’s emulator, checks the village, and resumes that profile’s enabled work. It allows up to two restarts in ten minutes.
+
+### Included from 4.7.27
 
 - The Builder's Apprentice now finds active building upgrades more reliably and checks the selected building before confirming the assignment.
 - During normal Home Village farming, Raidex checks an unclear army bar up to three more times. If it still cannot read the cards, it skips that opponent before deploying and continues farming.
