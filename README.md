@@ -1,10 +1,15 @@
 # Raidex Downloads
 
-## Latest version — 4.7.28
+## Latest version — 4.7.29
 
-[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.28)
+[Download for Windows x64](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip) · [SHA-256 checksum](https://github.com/c4Luffy/Raidex-Downloads/releases/latest/download/Raidex.CoC.Automation-win-x64.zip.sha256) · [Release notes](https://github.com/c4Luffy/Raidex-Downloads/releases/tag/v4.7.29)
 
-### What changed in 4.7.28
+### What changed in 4.7.29
+
+- With **Auto Donate** on, Raidex no longer taps **Scout** on a friendly challenge in Clan Chat. It now taps only a real **Donate** button.
+- If another player's village opens, Raidex presses **Return Home** and continues instead of stopping the run.
+
+### Included from 4.7.28
 
 - In **Automation → Home Village → Battles**, each profile can set a random end time for normal farming attacks. Pick a range from 1 to 180 seconds after the first troop drops. The default range is 60–180 seconds.
 - Beside the timer, **Surrender after** can end a normal farming attack at 1 or 2 stars. It starts off. Use it on its own or with the timer. If you use both, the first target reached ends the battle.
